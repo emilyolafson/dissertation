@@ -1,0 +1,667 @@
+\begin{thebibliography}{10}
+
+\bibitem{Cornblath2020-nc}
+Eli~J Cornblath, Arian Ashourvan, Jason~Z Kim, Richard~F Betzel, Rastko Ciric,
+  Azeez Adebimpe, Graham~L Baum, Xiaosong He, Kosha Ruparel, Tyler~M Moore,
+  Ruben~C Gur, Raquel~E Gur, Russell~T Shinohara, David~R Roalf, Theodore~D
+  Satterthwaite, and Danielle~S Bassett.
+\newblock Temporal sequences of brain activity at rest are constrained by white
+  matter structure and modulated by cognitive demands.
+\newblock {\em Commun Biol}, 3(1):261, May 2020.
+
+\bibitem{Duncan2000-uj}
+P~W Duncan, S~M Lai, and J~Keighley.
+\newblock Defining post-stroke recovery: implications for design and
+  interpretation of drug trials.
+\newblock {\em Neuropharmacology}, 39(5):835--841, March 2000.
+
+\bibitem{Grefkes2008-bt}
+Christian Grefkes, Dennis~A Nowak, Simon~B Eickhoff, Manuel Dafotakis, Jutta
+  K{\"u}st, Hans Karbe, and Gereon~R Fink.
+\newblock Cortical connectivity after subcortical stroke assessed with
+  functional magnetic resonance imaging.
+\newblock {\em Ann. Neurol.}, 63(2):236--246, February 2008.
+
+\bibitem{Rehme2013-ap}
+Anne~K Rehme and Christian Grefkes.
+\newblock Cerebral network disorders after stroke: evidence from imaging-based
+  connectivity analyses of active and resting brain states in humans.
+\newblock {\em J. Physiol.}, 591(1):17--31, January 2013.
+
+\bibitem{Winship2009-af}
+Ian~R Winship and Timothy~H Murphy.
+\newblock Remapping the somatosensory cortex after stroke: insight from imaging
+  the synapse to network.
+\newblock {\em Neuroscientist}, 15(5):507--524, October 2009.
+
+\bibitem{Adam2020-jk}
+Ramina Adam, Kevin Johnston, Ravi~S Menon, and Stefan Everling.
+\newblock Functional reorganization during the recovery of contralesional
+  target selection deficits after prefrontal cortex lesions in macaque monkeys.
+\newblock {\em Neuroimage}, 207:116339, February 2020.
+
+\bibitem{Murata2015-ss}
+Yumi Murata, Noriyuki Higo, Takuya Hayashi, Yukio Nishimura, Yoko Sugiyama,
+  Takao Oishi, Hideo Tsukada, Tadashi Isa, and Hirotaka Onoe.
+\newblock Temporal plasticity involved in recovery from manual dexterity
+  deficit after motor cortex lesion in macaque monkeys.
+\newblock {\em J. Neurosci.}, 35(1):84--95, January 2015.
+
+\bibitem{Brown2009-jn}
+Craig~E Brown, Khatereh Aminoltejari, Heidi Erb, Ian~R Winship, and Timothy~H
+  Murphy.
+\newblock In vivo voltage-sensitive dye imaging in adult mice reveals that
+  somatosensory maps lost to stroke are replaced over weeks by new structural
+  and functional circuits with prolonged modes of activation within both the
+  peri-infarct zone and distant sites.
+\newblock {\em J. Neurosci.}, 29(6):1719--1734, February 2009.
+
+\bibitem{Ward2003-zd}
+N~S Ward, M~M Brown, A~J Thompson, and R~S~J Frackowiak.
+\newblock Neural correlates of motor recovery after stroke: a longitudinal
+  {fMRI} study.
+\newblock {\em Brain}, 126(Pt 11):2476--2496, November 2003.
+
+\bibitem{Park2011-kx}
+Chang-Hyun Park, Won~Hyuk Chang, Suk~Hoon Ohn, Sung~Tae Kim, Oh~Young Bang,
+  Alvaro Pascual-Leone, and Yun-Hee Kim.
+\newblock Longitudinal changes of resting-state functional connectivity during
+  motor recovery after stroke.
+\newblock {\em Stroke}, 42(5):1357--1362, May 2011.
+
+\bibitem{Lu2011-ow}
+Jie Lu, Hesheng Liu, Miao Zhang, Danhong Wang, Yanxiang Cao, Qingfeng Ma,
+  Dongdong Rong, Xiaoyi Wang, Randy~L Buckner, and Kuncheng Li.
+\newblock Focal pontine lesions provide evidence that intrinsic functional
+  connectivity reflects polysynaptic anatomical pathways.
+\newblock {\em J. Neurosci.}, 31(42):15065--15071, October 2011.
+
+\bibitem{Saia2009-ik}
+V~Saia and L~Pantoni.
+\newblock Progressive stroke in pontine infarction.
+\newblock {\em Acta Neurol. Scand.}, 120(4):213--215, October 2009.
+
+\bibitem{Carrera2014-ah}
+Emmanuel Carrera and Giulio Tononi.
+\newblock Diaschisis: past, present, future.
+\newblock {\em Brain}, 137(Pt 9):2408--2422, September 2014.
+
+\bibitem{Griffis2020-hx}
+Joseph~C Griffis, Nicholas~V Metcalf, Maurizio Corbetta, and Gordon~L Shulman.
+\newblock Damage to the shortest structural paths between brain regions is
+  associated with disruptions of resting-state functional connectivity after
+  stroke.
+\newblock {\em Neuroimage}, 210:116589, April 2020.
+
+\bibitem{Conte2004-ro}
+Donatello Conte, Pasquale Foggia, Carlo Sansone, and Mario Vento.
+\newblock Thirty years of graph matching in pattern recognition.
+\newblock {\em Int. J. Pattern Recognit Artif Intell.}, 18(3):265--298, May
+  2004.
+
+\bibitem{Osmanlioglu2019-ao}
+Yusuf Osmanl{\i}o{\u g}lu, Birkan Tun{\c c}, Drew Parker, Mark~A Elliott,
+  Graham~L Baum, Rastko Ciric, Theodore~D Satterthwaite, Raquel~E Gur, Ruben~C
+  Gur, and Ragini Verma.
+\newblock System-level matching of structural and functional connectomes in the
+  human brain.
+\newblock {\em Neuroimage}, 199:93--104, October 2019.
+
+\bibitem{Whitfield-Gabrieli2012-ox}
+Susan Whitfield-Gabrieli and Alfonso Nieto-Castanon.
+\newblock Conn: a functional connectivity toolbox for correlated and
+  anticorrelated brain networks.
+\newblock {\em Brain Connect.}, 2(3):125--141, July 2012.
+
+\bibitem{Behzadi2007-zt}
+Yashar Behzadi, Khaled Restom, Joy Liau, and Thomas~T Liu.
+\newblock A component based noise correction method ({CompCor}) for {BOLD} and
+  perfusion based {fMRI}.
+\newblock {\em Neuroimage}, 37(1):90--101, August 2007.
+
+\bibitem{Power2012-tq}
+Jonathan~D Power, Kelly~A Barnes, Abraham~Z Snyder, Bradley~L Schlaggar, and
+  Steven~E Petersen.
+\newblock Spurious but systematic correlations in functional connectivity {MRI}
+  networks arise from subject motion.
+\newblock {\em Neuroimage}, 59(3):2142--2154, February 2012.
+
+\bibitem{Shen2013-zn}
+X~Shen, F~Tokoglu, X~Papademetris, and R~T Constable.
+\newblock Groupwise whole-brain parcellation from resting-state {fMRI} data for
+  network node identification.
+\newblock {\em Neuroimage}, 82:403--415, November 2013.
+
+\bibitem{Finn2015-er}
+Emily~S Finn, Xilin Shen, Dustin Scheinost, Monica~D Rosenberg, Jessica Huang,
+  Marvin~M Chun, Xenophon Papademetris, and R~Todd Constable.
+\newblock Functional connectome fingerprinting: identifying individuals using
+  patterns of brain connectivity.
+\newblock {\em Nat. Neurosci.}, 18(11):1664--1671, November 2015.
+
+\bibitem{Wodeyar2020-kz}
+Anirudh Wodeyar, Jessica~M Cassidy, Steven~C Cramer, and Ramesh Srinivasan.
+\newblock Damage to the structural connectome reflected in resting-state {fMRI}
+  functional connectivity.
+\newblock {\em Network Neuroscience}, pages 1--22, July 2020.
+
+\bibitem{Liegeois2020-ua}
+Rapha{\"e}l Li{\'e}geois, Augusto Santos, Vincenzo Matta, Dimitri Van De~Ville,
+  and Ali~H Sayed.
+\newblock Revisiting correlation-based functional connectivity and its
+  relationship with structural connectivity.
+\newblock {\em Network Neuroscience}, pages 1--17, August 2020.
+
+\bibitem{Golub1999-ou}
+Gene~H Golub, Per~Christian Hansen, and Dianne~P O'Leary.
+\newblock Tikhonov regularization and total least squares.
+\newblock {\em SIAM J. Matrix Anal. Appl.}, 21(1):185--194, January 1999.
+
+\bibitem{Hillis2002-dz}
+A~E Hillis, R~J Wityk, P~B Barker, N~J Beauchamp, P~Gailloud, K~Murphy,
+  O~Cooper, and E~J Metter.
+\newblock Subcortical aphasia and neglect in acute stroke: the role of cortical
+  hypoperfusion.
+\newblock {\em Brain}, 125(Pt 5):1094--1104, May 2002.
+
+\bibitem{Corbetta2015-ez}
+Maurizio Corbetta, Lenny Ramsey, Alicia Callejas, Antonello Baldassarre, Carl~D
+  Hacker, Joshua~S Siegel, Serguei~V Astafiev, Jennifer Rengachary, Kristina
+  Zinn, Catherine~E Lang, Lisa~Tabor Connor, Robert Fucetola, Michael Strube,
+  Alex~R Carter, and Gordon~L Shulman.
+\newblock Common behavioral clusters and subcortical anatomy in stroke.
+\newblock {\em Neuron}, 85(5):927--941, March 2015.
+
+\bibitem{Duering2015-iv}
+Marco Duering, Ruthger Righart, Frank~Arne Wollenweber, Vera Zietemann, Benno
+  Gesierich, and Martin Dichgans.
+\newblock Acute infarcts cause focal thinning in remote cortex via degeneration
+  of connecting fiber tracts.
+\newblock {\em Neurology}, 84(16):1685--1692, April 2015.
+
+\bibitem{Cheng2015-jq}
+Bastian Cheng, Robert Schulz, Marlene B{\"o}nstrup, Friedhelm~C Hummel, Jan
+  Sedlacik, Jens Fiehler, Christian Gerloff, and G{\"o}tz Thomalla.
+\newblock Structural plasticity of remote cortical brain regions is determined
+  by connectivity to the primary lesion in subcortical stroke.
+\newblock {\em J. Cereb. Blood Flow Metab.}, 35(9):1507--1514, September 2015.
+
+\bibitem{Kuceyeski2013-nk}
+Amy Kuceyeski, Jun Maruta, Norman Relkin, and Ashish Raj.
+\newblock The network modification ({NeMo}) tool: elucidating the effect of
+  white matter integrity changes on cortical and subcortical structural
+  connectivity.
+\newblock {\em Brain Connect.}, 3(5):451--463, 2013.
+
+\bibitem{Osmanlioglu2020-xz}
+Yusuf Osmanl{\i}o{\u g}lu, Jacob~A Alappatt, Drew Parker, and Ragini Verma.
+\newblock Connectomic consistency: a systematic stability analysis of
+  structural and functional connectivity.
+\newblock {\em J. Neural Eng.}, 17(4):045004, July 2020.
+
+\bibitem{Murphy2009-ez}
+Timothy~H Murphy and Dale Corbett.
+\newblock Plasticity during stroke recovery: from synapse to behaviour.
+\newblock {\em Nat. Rev. Neurosci.}, 10(12):861--872, December 2009.
+
+\bibitem{Lee2015-nn}
+Kyoung~Bo Lee, Seong~Hoon Lim, Kyung~Hoon Kim, Ki~Jeon Kim, Yang~Rae Kim,
+  Woo~Nam Chang, Jun~Woo Yeom, Young~Dong Kim, and Byong~Yong Hwang.
+\newblock Six-month functional recovery of stroke patients: a multi-time-point
+  study.
+\newblock {\em Int. J. Rehabil. Res.}, 38(2):173--180, June 2015.
+
+\bibitem{Kuceyeski2019-gt}
+Amy~F Kuceyeski, Keith~W Jamison, Julia~P Owen, Ashish Raj, and Pratik
+  Mukherjee.
+\newblock Longitudinal increases in structural connectome segregation and
+  functional connectome integration are associated with better recovery after
+  mild {TBI}.
+\newblock {\em Hum. Brain Mapp.}, 40(15):4441--4456, October 2019.
+
+\bibitem{Honey2009-xb}
+C~J Honey, O~Sporns, L~Cammoun, X~Gigandet, J~P Thiran, R~Meuli, and P~Hagmann.
+\newblock Predicting human resting-state functional connectivity from
+  structural connectivity.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 106(6):2035--2040, February
+  2009.
+
+\bibitem{Guggisberg2019-lj}
+Adrian~G Guggisberg, Philipp~J Koch, Friedhelm~C Hummel, and Cathrin~M
+  Buetefisch.
+\newblock Brain networks and their relevance for stroke rehabilitation.
+\newblock {\em Clin. Neurophysiol.}, 130(7):1098--1124, July 2019.
+
+\bibitem{Griffis2019-cy}
+Joseph~C Griffis, Nicholas~V Metcalf, Maurizio Corbetta, and Gordon~L Shulman.
+\newblock Structural disconnections explain brain network dysfunction after
+  stroke.
+\newblock {\em Cell Rep.}, 28(10):2527--2540.e9, September 2019.
+
+\bibitem{Mottolese2013-sd}
+Carmine Mottolese, Nathalie Richard, Sylvain Harquel, Alexandru Szathmari,
+  Angela Sirigu, and Michel Desmurget.
+\newblock Mapping motor representations in the human cerebellum.
+\newblock {\em Brain}, 136(Pt 1):330--342, January 2013.
+
+\bibitem{Zhang2016-vg}
+Ye~Zhang, Hongliang Liu, Li~Wang, Jun Yang, Rubing Yan, Jingna Zhang, Linqiong
+  Sang, Pengyue Li, Jian Wang, and Mingguo Qiu.
+\newblock Relationship between functional connectivity and motor function
+  assessment in stroke patients with hemiplegia: a resting-state functional
+  {MRI} study.
+\newblock {\em Neuroradiology}, 58(5):503--511, May 2016.
+
+\bibitem{Yourganov2021-hd}
+Grigori Yourganov, Brielle Stark, Julius Fridriksson, Leonardo Bonilha, and
+  Chris Rorden.
+\newblock Effect of stroke on contralateral functional connectivity.
+\newblock {\em Brain Connect.}, March 2021.
+
+\bibitem{Krakauer2015-sy}
+J~W Krakauer and R~S Marshall.
+\newblock The proportional recovery rule for stroke revisited.
+\newblock {\em Ann. Neurol.}, 78(6):845--847, December 2015.
+
+\bibitem{Braun2021-iy}
+Urs Braun, Anais Harneit, Giulio Pergola, Tommaso Menara, Axel Sch{\"a}fer,
+  Richard~F Betzel, Zhenxiang Zang, Janina~I Schweiger, Xiaolong Zhang,
+  Kristina Schwarz, Junfang Chen, Giuseppe Blasi, Alessandro Bertolino, Daniel
+  Durstewitz, Fabio Pasqualetti, Emanuel Schwarz, Andreas Meyer-Lindenberg,
+  Danielle~S Bassett, and Heike Tost.
+\newblock Brain network dynamics during working memory are modulated by
+  dopamine and diminished in schizophrenia.
+\newblock {\em Nat. Commun.}, 12(1):3478, June 2021.
+
+\bibitem{Adhikari2020-tk}
+Mohit~H Adhikari, Micha{\"e}l~E Belloy, Annemie Van~der Linden, Georgios~A
+  Keliris, and Marleen Verhoye.
+\newblock {Resting-State} co-activation patterns as promising candidates for
+  prediction of alzheimer's disease in aged mice.
+\newblock {\em Front. Neural Circuits}, 14:612529, 2020.
+
+\bibitem{Kaiser2019-rf}
+Roselinde~H Kaiser, Min~Su Kang, Yechan Lew, Julie Van Der~Feen, Blaise
+  Aguirre, Rachel Clegg, Franziska Goer, Erika Esposito, Randy~P Auerbach,
+  R~Matthew Hutchison, and Diego~A Pizzagalli.
+\newblock Abnormal frontoinsular-default network dynamics in adolescent
+  depression and rumination: a preliminary resting-state co-activation pattern
+  analysis.
+\newblock {\em Neuropsychopharmacology}, 44(9):1604--1612, August 2019.
+
+\bibitem{Parker_Singleton2021-ur}
+S~Parker~Singleton, Andrea~I Luppi, Robin~L Carhart-Harris, Josephine Cruzat,
+  Leor Roseman, Gustavo Deco, Morten~L Kringelbach, Emmanuel~A Stamatakis, and
+  Amy Kuceyeski.
+\newblock {LSD} flattens the brain's energy landscape: evidence from
+  receptor-informed network control theory.
+\newblock May 2021.
+
+\bibitem{Savva2019-hk}
+Antonis~D Savva, Georgios~D Mitsis, and George~K Matsopoulos.
+\newblock Assessment of dynamic functional connectivity in resting-state {fMRI}
+  using the sliding window technique.
+\newblock {\em Brain Behav.}, 9(4):e01255, April 2019.
+
+\bibitem{Bonkhoff2020-bx}
+Anna~K Bonkhoff, Flor~A Espinoza, Harshvardhan Gazula, Victor~M Vergara, Lukas
+  Hensel, Jochen Michely, Theresa Paul, Anne~K Rehme, Lukas~J Volz, Gereon~R
+  Fink, Vince~D Calhoun, and Christian Grefkes.
+\newblock Acute ischaemic stroke alters the brain's preference for distinct
+  dynamic connectivity states.
+\newblock {\em Brain}, 143(5):1525--1540, May 2020.
+
+\bibitem{Bonkhoff2020-de}
+Anna~K Bonkhoff, Markus~D Schirmer, Martin Bretzner, Mark Etherton, Kathleen
+  Donahue, Carissa Tuozzo, Marco Nardin, Anne~K Giese, Ona Wu, Vince Calhoun,
+  Christian Grefkes, and Natalia~S Rost.
+\newblock Dynamic functional connectivity analysis reveals transiently
+  increased segregation in patients with severe stroke.
+\newblock June 2020.
+
+\bibitem{Zamani_Esfahlani2020-dn}
+Farnaz Zamani~Esfahlani, Youngheun Jo, Joshua Faskowitz, Lisa Byrge, Daniel~P
+  Kennedy, Olaf Sporns, and Richard~F Betzel.
+\newblock High-amplitude cofluctuations in cortical activity drive functional
+  connectivity.
+\newblock {\em Proc. Natl. Acad. Sci. U. S. A.}, 117(45):28393--28401, November
+  2020.
+
+\bibitem{Betzel2021-ve}
+Richard~F Betzel, Sarah~A Cutts, Sarah Greenwell, Joshua Faskowitz, and Olaf
+  Sporns.
+\newblock Individualized event structure drives individual differences in
+  whole-brain functional connectivity.
+\newblock November 2021.
+
+\bibitem{Baker2014-zt}
+Adam~P Baker, Matthew~J Brookes, Iead~A Rezek, Stephen~M Smith, Timothy
+  Behrens, Penny~J Probert~Smith, and Mark Woolrich.
+\newblock Fast transient networks in spontaneous human brain activity.
+\newblock {\em Elife}, 3:e01867, March 2014.
+
+\bibitem{Tscherpel2020-oi}
+Caroline Tscherpel, Lukas Hensel, Katharina Lemberg, Mattias Vollmer, Lukas~J
+  Volz, Gereon~R Fink, and Christian Grefkes.
+\newblock The differential roles of contralesional frontoparietal areas in
+  cortical reorganization after stroke.
+\newblock {\em Brain Stimul.}, 13(3):614--624, May 2020.
+
+\bibitem{Hensel2022-sl}
+Lukas Hensel, Fabian Lange, Caroline Tscherpel, Shivakumar Viswanathan, Jana
+  Freytag, Lukas~J Volz, Simon~B Eickhoff, Gereon~R Fink, and Christian
+  Grefkes.
+\newblock Recovered grasping performance after stroke depends on
+  interhemispheric frontoparietal connectivity.
+\newblock {\em Brain}, April 2022.
+
+\bibitem{Hordacre2021-ct}
+Brenton Hordacre, Mart{\'\i}n Lotze, Mark Jenkinson, Alberto Lazari, Christen~D
+  Barras, Lara Boyd, and Susan Hillier.
+\newblock Fronto-parietal involvement in chronic stroke motor performance when
+  corticospinal tract integrity is compromised.
+\newblock {\em Neuroimage Clin}, 29:102558, January 2021.
+
+\bibitem{Fugl-Meyer1975-nh}
+A~R Fugl-Meyer, L~J{\"a}{\"a}sk{\"o}, I~Leyman, S~Olsson, and S~Steglind.
+\newblock The post-stroke hemiplegic patient. 1. a method for evaluation of
+  physical performance.
+\newblock {\em Scand. J. Rehabil. Med.}, 7(1):13--31, 1975.
+
+\bibitem{Olafson2021-qt}
+Emily~R Olafson, Keith~W Jamison, Elizabeth~M Sweeney, Hesheng Liu, Danhong
+  Wang, Joel~E Bruss, Aaron~D Boes, and Amy Kuceyeski.
+\newblock Functional connectome reorganization relates to post-stroke motor
+  recovery and structural and functional disconnection.
+\newblock {\em Neuroimage}, 245:118642, October 2021.
+
+\bibitem{Avants2011-bl}
+Brian~B Avants, Nicholas~J Tustison, Gang Song, Philip~A Cook, Arno Klein, and
+  James~C Gee.
+\newblock A reproducible evaluation of {ANTs} similarity metric performance in
+  brain image registration.
+\newblock {\em Neuroimage}, 54(3):2033--2044, February 2011.
+
+\bibitem{Power2012-zm}
+Jonathan~D Power, Kelly~A Barnes, Abraham~Z Snyder, Bradley~L Schlaggar, and
+  Steven~E Petersen.
+\newblock Spurious but systematic correlations in functional connectivity {MRI}
+  networks arise from subject motion.
+\newblock {\em Neuroimage}, 2012.
+
+\bibitem{Desikan2006-vf}
+Rahul~S Desikan, Florent S{\'e}gonne, Bruce Fischl, Brian~T Quinn, Bradford~C
+  Dickerson, Deborah Blacker, Randy~L Buckner, Anders~M Dale, R~Paul Maguire,
+  Bradley~T Hyman, Marilyn~S Albert, and Ronald~J Killiany.
+\newblock An automated labeling system for subdividing the human cerebral
+  cortex on {MRI} scans into gyral based regions of interest.
+\newblock {\em Neuroimage}, 31(3):968--980, July 2006.
+
+\bibitem{Craddock2012-kl}
+R~Cameron Craddock, G~Andrew James, Paul~E Holtzheimer, 3rd, Xiaoping~P Hu, and
+  Helen~S Mayberg.
+\newblock A whole brain {fMRI} atlas generated via spatially constrained
+  spectral clustering.
+\newblock {\em Hum. Brain Mapp.}, 33(8):1914--1928, August 2012.
+
+\bibitem{Benjamini1995-bb}
+Yoav Benjamini and Yosef Hochberg.
+\newblock Controlling the false discovery rate: A practical and powerful
+  approach to multiple testing.
+\newblock {\em J. R. Stat. Soc. Series B Stat. Methodol.}, 57(1):289--300,
+  1995.
+
+\bibitem{Tang2018-ac}
+Yuchun Tang, Wei Sun, Arthur~W Toga, John~M Ringman, and Yonggang Shi.
+\newblock A probabilistic atlas of human brainstem pathways based on connectome
+  imaging data.
+\newblock {\em Neuroimage}, 169:227--239, April 2018.
+
+\bibitem{De_Leener2017-ev}
+Benjamin De~Leener, Simon L{\'e}vy, Sara~M Dupont, Vladimir~S Fonov, Nikola
+  Stikov, D~Louis~Collins, Virginie Callot, and Julien Cohen-Adad.
+\newblock {SCT}: Spinal cord toolbox, an open-source software for processing
+  spinal cord {MRI} data.
+\newblock {\em Neuroimage}, 145(Pt A):24--43, January 2017.
+
+\bibitem{Kundert2019-ou}
+Robinson Kundert, Jeff Goldsmith, Janne~M Veerbeek, John~W Krakauer, and
+  Andreas~R Luft.
+\newblock What the proportional recovery rule is (and is not): Methodological
+  and statistical considerations.
+\newblock {\em Neurorehabil. Neural Repair}, 33(11):876--887, November 2019.
+
+\bibitem{Hope2019-da}
+Thomas M~H Hope, Karl Friston, Cathy~J Price, Alex~P Leff, Pia Rotshtein, and
+  Howard Bowman.
+\newblock Recovery after stroke: not so proportional after all?
+\newblock {\em Brain}, 142(1):15--22, January 2019.
+
+\bibitem{Olafson2022-ul}
+Emily Olafson.
+\newblock Brain activity states in pontine stroke, August 2022.
+
+\bibitem{Katan2018-qn}
+Mira Katan and Andreas Luft.
+\newblock Global burden of stroke.
+\newblock {\em Semin. Neurol.}, 38(2):208--211, April 2018.
+
+\bibitem{Kelly-Hayes2003-sp}
+Margaret Kelly-Hayes, Alexa Beiser, Carlos~S Kase, Amy Scaramucci, Ralph~B
+  D'Agostino, and Philip~A Wolf.
+\newblock The influence of gender and age on disability following ischemic
+  stroke: the framingham study.
+\newblock {\em J. Stroke Cerebrovasc. Dis.}, 12(3):119--126, 2003.
+
+\bibitem{Bonkhoff2022-op}
+Anna~K Bonkhoff and Christian Grefkes.
+\newblock Precision medicine in stroke: towards personalized outcome
+  predictions using artificial intelligence.
+\newblock {\em Brain}, 145(2):457--475, April 2022.
+
+\bibitem{Boyd2017-gs}
+Lara~A Boyd, Kathryn~S Hayward, Nick~S Ward, Cathy~M Stinear, Charlotte Rosso,
+  Rebecca~J Fisher, Alexandre~R Carter, Alex~P Leff, David~A Copland, Leeanne~M
+  Carey, Leonardo~G Cohen, D~Michele Basso, Jane~M Maguire, and Steven~C
+  Cramer.
+\newblock Biomarkers of stroke recovery: Consensus-based core recommendations
+  from the stroke recovery and rehabilitation roundtable.
+\newblock {\em Int. J. Stroke}, 12(5):480--493, July 2017.
+
+\bibitem{Tozlu2020-qa}
+Ceren Tozlu, Dylan Edwards, Aaron Boes, Douglas Labar, K~Zoe Tsagaris, Joshua
+  Silverstein, Heather Pepper~Lane, Mert~R Sabuncu, Charles Liu, and Amy
+  Kuceyeski.
+\newblock Machine learning methods predict individual {Upper-Limb} motor
+  impairment following therapy in chronic stroke.
+\newblock {\em Neurorehabil. Neural Repair}, 34(5):428--439, May 2020.
+
+\bibitem{Kuceyeski2016-vj}
+Amy Kuceyeski, Babak~B Navi, Hooman Kamel, Ashish Raj, Norman Relkin, Joan
+  Toglia, Costantino Iadecola, and Michael O'Dell.
+\newblock Structural connectome disruption at baseline predicts 6-months
+  post-stroke outcome.
+\newblock {\em Hum. Brain Mapp.}, 37(7):2587--2601, July 2016.
+
+\bibitem{Salvalaggio2020-pe}
+Alessandro Salvalaggio, Michele De~Filippo De~Grazia, Marco Zorzi, Michel
+  Thiebaut~de Schotten, and Maurizio Corbetta.
+\newblock Post-stroke deficit prediction from lesion and indirect structural
+  and functional disconnection.
+\newblock {\em Brain}, June 2020.
+
+\bibitem{Bowren2022-rs}
+Mark Bowren, Joel Bruss, Kenneth Manzel, Dylan Edwards, Charles Liu, Maurizio
+  Corbetta, Daniel Tranel, and Aaron~D Boes.
+\newblock Post-stroke outcomes predicted from multivariate lesion-behaviour and
+  lesion network mapping.
+\newblock {\em Brain}, January 2022.
+
+\bibitem{Zhu2010-qh}
+Lin~L Zhu, Robert Lindenberg, Michael~P Alexander, and Gottfried Schlaug.
+\newblock Lesion load of the corticospinal tract predicts motor impairment in
+  chronic stroke.
+\newblock {\em Stroke}, 41(5):910--915, May 2010.
+
+\bibitem{Feng2015-du}
+Wuwei Feng, Jasmine Wang, Pratik~Y Chhatbar, Christopher Doughty, Douglas
+  Landsittel, Vasileios-Arsenios Lioutas, Steven~A Kautz, and Gottfried
+  Schlaug.
+\newblock Corticospinal tract lesion load: An imaging biomarker for stroke
+  motor outcomes.
+\newblock {\em Ann. Neurol.}, 78(6):860--870, December 2015.
+
+\bibitem{Findlater2019-je}
+Sonja~E Findlater, Rachel~L Hawe, Erin~L Mazerolle, Abdulaziz~S Al~Sultan,
+  Jessica~M Cassidy, Stephen~H Scott, G~Bruce Pike, and Sean~P Dukelow.
+\newblock Comparing {CST} lesion metrics as biomarkers for recovery of motor
+  and proprioceptive impairments after stroke.
+\newblock {\em Neurorehabil. Neural Repair}, 33(10):848--861, October 2019.
+
+\bibitem{Lam2018-xh}
+Timothy~K Lam, Malcolm~A Binns, Kie Honjo, Deirdre~R Dawson, Bernhard Ross,
+  Donald~T Stuss, Sandra~E Black, J~Jean Chen, Takako Fujioka, and Joyce~L
+  Chen.
+\newblock Variability in stroke motor outcome is explained by structural and
+  functional integrity of the motor system.
+\newblock {\em Sci. Rep.}, 8(1):9480, June 2018.
+
+\bibitem{Pineiro2000-dv}
+R~Pineiro, S~T Pendlebury, S~Smith, D~Flitney, A~M Blamire, P~Styles, and P~M
+  Matthews.
+\newblock Relating {MRI} changes to motor deficit after ischemic stroke by
+  segmentation of functional motor pathways.
+\newblock {\em Stroke}, 31(3):672--679, March 2000.
+
+\bibitem{Kim2017-xe}
+Bokkyu Kim and Carolee Winstein.
+\newblock Can neurological biomarkers of brain impairment be used to predict
+  poststroke motor recovery? a systematic review.
+\newblock {\em Neurorehabil. Neural Repair}, 31(1):3--24, January 2017.
+
+\bibitem{Park2016-te}
+Chang-Hyun Park, Nancy Kou, and Nick~S Ward.
+\newblock The contribution of lesion location to upper limb deficit after
+  stroke.
+\newblock {\em J. Neurol. Neurosurg. Psychiatry}, 87(12):1283--1286, December
+  2016.
+
+\bibitem{Ito2022-em}
+Kaori~L Ito, Bokkyu Kim, Jingchun Liu, Surjo~R Soekadar, Carolee Winstein,
+  Chunshui Yu, Steven~C Cramer, Nicolas Schweighofer, and Sook-Lei Liew.
+\newblock Corticospinal tract lesion load originating from both ventral
+  premotor and primary motor cortices are associated with post-stroke motor
+  severity.
+\newblock {\em Neurorehabil. Neural Repair}, 36(3):179--182, March 2022.
+
+\bibitem{Rondina2016-ds}
+Jane~M Rondina, Maurizio Filippone, Mark Girolami, and Nick~S Ward.
+\newblock Decoding post-stroke motor function from structural brain imaging.
+\newblock {\em Neuroimage Clin}, 12:372--380, August 2016.
+
+\bibitem{Rondina2017-ij}
+Jane~M Rondina, Chang-Hyun Park, and Nick~S Ward.
+\newblock Brain regions important for recovery after severe post-stroke upper
+  limb paresis.
+\newblock {\em J. Neurol. Neurosurg. Psychiatry}, 88(9):737--743, September
+  2017.
+
+\bibitem{Schulz2012-yy}
+Robert Schulz, Chang-Hyun Park, Marie-H{\'e}l{\`e}ne Boudrias, Christian
+  Gerloff, Friedhelm~C Hummel, and Nick~S Ward.
+\newblock Assessing the integrity of corticospinal pathways from primary and
+  secondary cortical motor areas after stroke.
+\newblock {\em Stroke}, 43(8):2248--2251, August 2012.
+
+\bibitem{Mah2014-cb}
+Yee-Haur Mah, Masud Husain, Geraint Rees, and Parashkev Nachev.
+\newblock Human brain lesion-deficit inference remapped.
+\newblock {\em Brain}, 137(Pt 9):2522--2531, September 2014.
+
+\bibitem{Bzdok2020-py}
+Danilo Bzdok, Denis Engemann, and Bertrand Thirion.
+\newblock Inference and prediction diverge in biomedicine.
+\newblock {\em Patterns (N Y)}, 1(8):100119, November 2020.
+
+\bibitem{Bates2003-eg}
+Elizabeth Bates, Stephen~M Wilson, Ayse~Pinar Saygin, Frederic Dick, Martin~I
+  Sereno, Robert~T Knight, and Nina~F Dronkers.
+\newblock Voxel-based lesion-symptom mapping.
+\newblock {\em Nat. Neurosci.}, 6(5):448--450, May 2003.
+
+\bibitem{Karnath2020-cg}
+Hans-Otto Karnath, Christoph Sperber, Daniel Wiesen, and Bianca de~Haan.
+\newblock {Lesion-Behavior} mapping in cognitive neuroscience: A practical
+  guide to univariate and multivariate approaches.
+\newblock In Stefan Pollmann, editor, {\em Spatial Learning and Attention
+  Guidance}, pages 209--238. Springer US, New York, NY, 2020.
+
+\bibitem{Ivanova2021-nh}
+Maria~V Ivanova, Timothy~J Herron, Nina~F Dronkers, and Juliana~V Baldo.
+\newblock An empirical comparison of univariate versus multivariate methods for
+  the analysis of brain-behavior mapping.
+\newblock {\em Hum. Brain Mapp.}, 42(4):1070--1101, March 2021.
+
+\bibitem{Zhang2014-jd}
+Yongsheng Zhang, Daniel~Y Kimberg, H~Branch Coslett, Myrna~F Schwartz, and
+  Ze~Wang.
+\newblock Multivariate lesion-symptom mapping using support vector regression.
+\newblock {\em Hum. Brain Mapp.}, 35(12):5861--5876, December 2014.
+
+\bibitem{Sperber2019-tu}
+Christoph Sperber, Daniel Wiesen, and Hans-Otto Karnath.
+\newblock An empirical evaluation of multivariate lesion behaviour mapping
+  using support vector regression.
+\newblock {\em Hum. Brain Mapp.}, 40(5):1381--1390, April 2019.
+
+\bibitem{Sperber2022-oj}
+Christoph Sperber, Joseph Griffis, and Vanessa Kasties.
+\newblock Indirect structural disconnection-symptom mapping.
+\newblock {\em Brain Struct. Funct.}, September 2022.
+
+\bibitem{Sperber2020-kp}
+Christoph Sperber.
+\newblock Rethinking causality and data complexity in brain lesion-behaviour
+  inference and its implications for lesion-behaviour modelling.
+\newblock {\em Cortex}, 126:49--62, May 2020.
+
+\bibitem{Kimberg2007-sk}
+Daniel~Y Kimberg, H~Branch~Coslett, and Myrna~F Schwartz.
+\newblock Power in {VPower} in voxel-based lesion--symptoxel-based
+  lesion--symptom mapping om mapping.
+\newblock 2007.
+
+\bibitem{Rorden2009-ae}
+Chris Rorden, Julius Fridriksson, and Hans-Otto Karnath.
+\newblock An evaluation of traditional and novel tools for lesion behavior
+  mapping.
+\newblock {\em Neuroimage}, 44(4):1355--1362, February 2009.
+
+\bibitem{Kasties2021-rm}
+Vanessa Kasties, Hans-Otto Karnath, and Christoph Sperber.
+\newblock Strategies for feature extraction from structural brain imaging in
+  lesion-deficit modelling.
+\newblock {\em Hum. Brain Mapp.}, 42(16):5409--5422, November 2021.
+
+\bibitem{Liew2020-ps}
+Sook-Lei Liew, Artemis Zavaliangos-Petropulu, Neda Jahanshad, Catherine~E Lang,
+  Kathryn~S Hayward, Keith~R Lohse, Julia~M Juliano, Francesca Assogna, Lee~A
+  Baugh, Anup~K Bhattacharya, Bavrina Bigjahan, Michael~R Borich, Lara~A Boyd,
+  Amy Brodtmann, Cathrin~M Buetefisch, Winston~D Byblow, Jessica~M Cassidy,
+  Adriana~B Conforto, R~Cameron Craddock, Michael~A Dimyan, Adrienne~N Dula,
+  Elsa Ermer, Mark~R Etherton, Kelene~A Fercho, Chris~M Gregory, Shahram
+  Hadidchi, Jess~A Holguin, Darryl~H Hwang, Simon Jung, Steven~A Kautz,
+  Mohamed~Salah Khlif, Nima Khoshab, Bokkyu Kim, Hosung Kim, Amy Kuceyeski,
+  Martin Lotze, Bradley~J MacIntosh, John~L Margetis, Feroze~B Mohamed,
+  Fabrizio Piras, Ander Ramos-Murguialday, Genevi{\`e}ve Richard, Pamela
+  Roberts, Andrew~D Robertson, Jane~M Rondina, Natalia~S Rost, Nerses
+  Sanossian, Nicolas Schweighofer, Na~Jin Seo, Mark~S Shiroishi, Surjo~R
+  Soekadar, Gianfranco Spalletta, Cathy~M Stinear, Anisha Suri, Wai Kwong~W
+  Tang, Gregory~T Thielman, Daniela Vecchio, Arno Villringer, Nick~S Ward,
+  Emilio Werden, Lars~T Westlye, Carolee Winstein, George~F Wittenberg,
+  Kristin~A Wong, Chunshui Yu, Steven~C Cramer, and Paul~M Thompson.
+\newblock The {ENIGMA} stroke recovery working group: Big data neuroimaging to
+  study brain-behavior relationships after stroke.
+\newblock {\em Hum. Brain Mapp.}, April 2020.
+
+\end{thebibliography}
