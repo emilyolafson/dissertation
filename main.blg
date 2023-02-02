@@ -1,51 +1,71 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: unsrt.bst
-Database file #1: bibliography.bib
-Warning--empty note in Parker_Singleton2021-ur
-Warning--empty note in Bonkhoff2020-de
-Warning--empty note in Betzel2021-ve
-Warning--empty journal in Kimberg2007-sk
-You've used 97 entries,
-            1791 wiz_defined-function locations,
-            1062 strings with 29358 characters,
-and the built_in function-call counts, 28229 in all, are:
-= -- 2175
-> -- 2101
-< -- 3
-+ -- 733
-- -- 636
-* -- 2792
-:= -- 4821
-add.period$ -- 291
-call.type$ -- 97
-change.case$ -- 97
-chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 869
-empty$ -- 2226
-format.name$ -- 636
-if$ -- 5743
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 20568 items from 5000.
+Database file #1: main-blx.bib
+Database file #2: bibliography.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Warning--I didn't find a database entry for "Parker_Singleton-ur"
+Biblatex version: 3.13
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 111 entries,
+            6365 wiz_defined-function locations,
+            2031 strings with 202468 characters,
+and the built_in function-call counts, 1366112 in all, are:
+= -- 116504
+> -- 15018
+< -- 2712
++ -- 36529
+- -- 6001
+* -- 110687
+:= -- 169207
+add.period$ -- 0
+call.type$ -- 111
+change.case$ -- 1367
+chr.to.int$ -- 636
+cite$ -- 220
+duplicate$ -- 128205
+empty$ -- 120669
+format.name$ -- 11659
+if$ -- 267568
 int.to.chr$ -- 0
-int.to.str$ -- 97
-missing$ -- 93
-newline$ -- 487
-num.names$ -- 99
-pop$ -- 129
+int.to.str$ -- 338
+missing$ -- 0
+newline$ -- 6729
+num.names$ -- 4908
+pop$ -- 45334
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 2890
 quote$ -- 0
-skip$ -- 319
+skip$ -- 20284
 stack$ -- 0
-substring$ -- 2153
-swap$ -- 112
-text.length$ -- 3
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 4
-while$ -- 259
-width$ -- 99
-write$ -- 1053
-(There were 4 warnings)
+substring$ -- 239432
+swap$ -- 24183
+text.length$ -- 2864
+text.prefix$ -- 27
+top$ -- 1
+type$ -- 3762
+warning$ -- 0
+while$ -- 21647
+width$ -- 0
+write$ -- 6619
+(There was 1 warning)

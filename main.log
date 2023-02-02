@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JAN 2023 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 FEB 2023 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,13 +287,31 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count282
+\LTcapwidth=\dimen178
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count283
+\LT@rows=\count284
+\c@LT@tables=\count285
+\c@LT@chunks=\count286
+\LT@p@ftn=\toks35
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen178
-\epsfysize=\dimen179
+\epsfxsize=\dimen179
+\epsfysize=\dimen180
 )
 (./hangcaption.sty
-\captionwidth=\skip57
+\captionwidth=\skip61
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -373,7 +391,271 @@ LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
 LaTeX Info: Redefining \not on input line 1043.
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/palatino.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count288
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count289
+\c@listtotal=\count290
+\c@listcount=\count291
+\c@liststart=\count292
+\c@liststop=\count293
+\c@citecount=\count294
+\c@citetotal=\count295
+\c@multicitecount=\count296
+\c@multicitetotal=\count297
+\c@instcount=\count298
+\c@maxnames=\count299
+\c@minnames=\count300
+\c@maxitems=\count301
+\c@minitems=\count302
+\c@citecounter=\count303
+\c@maxcitecounter=\count304
+\c@savedcitecounter=\count305
+\c@uniquelist=\count306
+\c@uniquename=\count307
+\c@refsection=\count308
+\c@refsegment=\count309
+\c@maxextratitle=\count310
+\c@maxextratitleyear=\count311
+\c@maxextraname=\count312
+\c@maxextradate=\count313
+\c@maxextraalpha=\count314
+\c@abbrvpenalty=\count315
+\c@highnamepenalty=\count316
+\c@lownamepenalty=\count317
+\c@maxparens=\count318
+\c@parenlevel=\count319
+\blx@tempcnta=\count320
+\blx@tempcntb=\count321
+\blx@tempcntc=\count322
+\blx@maxsection=\count323
+\blx@maxsegment@0=\count324
+\blx@notetype=\count325
+\blx@parenlevel@text=\count326
+\blx@parenlevel@foot=\count327
+\blx@sectionciteorder@0=\count328
+\blx@entrysetcounter=\count329
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language86
+\c@mincomprange=\count330
+\c@maxcomprange=\count331
+\c@mincompwidth=\count332
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count333
+\c@savedafterword=\count334
+\c@annotator=\count335
+\c@savedannotator=\count336
+\c@author=\count337
+\c@savedauthor=\count338
+\c@bookauthor=\count339
+\c@savedbookauthor=\count340
+\c@commentator=\count341
+\c@savedcommentator=\count342
+\c@editor=\count343
+\c@savededitor=\count344
+\c@editora=\count345
+\c@savededitora=\count346
+\c@editorb=\count347
+\c@savededitorb=\count348
+\c@editorc=\count349
+\c@savededitorc=\count350
+\c@foreword=\count351
+\c@savedforeword=\count352
+\c@holder=\count353
+\c@savedholder=\count354
+\c@introduction=\count355
+\c@savedintroduction=\count356
+\c@namea=\count357
+\c@savednamea=\count358
+\c@nameb=\count359
+\c@savednameb=\count360
+\c@namec=\count361
+\c@savednamec=\count362
+\c@translator=\count363
+\c@savedtranslator=\count364
+\c@shortauthor=\count365
+\c@savedshortauthor=\count366
+\c@shorteditor=\count367
+\c@savedshorteditor=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@pageref=\count399
+\c@savedpageref=\count400
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+\locallabelnumberwidth=\skip76
+\locallabelalphawidth=\skip77
+\localshorthandwidth=\skip78
+\localshortjournalwidth=\skip79
+\localshortserieswidth=\skip80
+\localshorttitlewidth=\skip81
+\localshortauthorwidth=\skip82
+\localshorteditorwidth=\skip83
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count401
+\c@textcitetotal=\count402
+\c@textcitemaxnames=\count403
+\c@biburlbigbreakpenalty=\count404
+\c@biburlbreakpenalty=\count405
+\c@biburlnumpenalty=\count406
+\c@biburlucpenalty=\count407
+\c@biburllcpenalty=\count408
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count409
+)
+Package biblatex Info: Trying to load bibliography style 'chicago-authordate'..
+.
+Package biblatex Info: ... file 'chicago-authordate.bbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/chicago-authorda
+te.bbx
+File: chicago-authordate.bbx 2018/01/11 v 3.10 biblatex bibliography style
+\lositemsep=\skip84
+\c@bbx:relatedcount=\count410
+\c@bbx:relatedtotal=\count411
+)
+Package biblatex Info: Trying to load citation style 'chicago-authordate'...
+Package biblatex Info: ... file 'chicago-authordate.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/chicago-authorda
+te.cbx
+File: chicago-authordate.cbx 2018/01/11 v 3.10 biblatex citation style
+Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
+Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chicago/chicago-dates-co
+mmon.cbx
+File: chicago-dates-common.cbx 2018/01/11 v 3.10 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footfullcite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Patching 'autolang=other' option.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/subfiles/subfiles.sty
@@ -393,34 +675,17 @@ LaTeX Info: Redefining \bm on input line 209.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen180
-\ar@mcellbox=\box49
-\extrarowheight=\dimen181
-\NC@list=\toks35
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box50
+\col@sep=\dimen181
+\ar@mcellbox=\box53
+\extrarowheight=\dimen182
+\NC@list=\toks36
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box54
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -436,12 +701,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-)
-\@linkdim=\dimen182
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+\@linkdim=\dimen183
+\Hy@linkcounter=\count412
+\Hy@pagecounter=\count413
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -454,7 +716,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count284
+\Hy@SavedSpaceFactor=\count414
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -462,14 +724,9 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count285
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count415
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen183
+\XeTeXLinkMargin=\dimen184
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -478,9 +735,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
-\Field@Width=\dimen184
-\Fld@charsize=\dimen185
+\Fld@menulength=\count416
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -494,9 +751,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count417
+\c@Item=\count418
+\c@Hfootnote=\count419
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -505,10 +762,9 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count290
-\c@bookmark@seq@number=\count291
+\Fld@listcount=\count420
+\c@bookmark@seq@number=\count421
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -519,17 +775,17 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip60
+\Hy@SectionHShift=\skip87
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks36
-\ex@=\dimen186
+\@emptytoks=\toks37
+\ex@=\dimen187
 )
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen187
+\pmbraise@=\dimen188
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
@@ -537,18 +793,23 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen188
-\captionmargin@=\dimen189
-\captionwidth=\dimen190
-\caption@tempdima=\dimen191
-\caption@indent=\dimen192
-\caption@parindent=\dimen193
-\caption@hangindent=\dimen194
+\captionmargin=\dimen189
+\captionmargin@=\dimen190
+\captionwidth=\dimen191
+\caption@tempdima=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count292
-\c@continuedfloat=\count293
+\c@caption@flags=\count422
+\c@continuedfloat=\count423
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
 Package caption Info: subfigure package is loaded.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
@@ -556,23 +817,23 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen195
-\lightrulewidth=\dimen196
-\cmidrulewidth=\dimen197
-\belowrulesep=\dimen198
-\belowbottomsep=\dimen199
-\aboverulesep=\dimen256
-\abovetopsep=\dimen257
-\cmidrulesep=\dimen258
-\cmidrulekern=\dimen259
-\defaultaddspace=\dimen260
-\@cmidla=\count294
-\@cmidlb=\count295
-\@aboverulesep=\dimen261
-\@belowrulesep=\dimen262
-\@thisruleclass=\count296
-\@lastruleclass=\count297
-\@thisrulewidth=\dimen263
+\heavyrulewidth=\dimen196
+\lightrulewidth=\dimen197
+\cmidrulewidth=\dimen198
+\belowrulesep=\dimen199
+\belowbottomsep=\dimen256
+\aboverulesep=\dimen257
+\abovetopsep=\dimen258
+\cmidrulesep=\dimen259
+\cmidrulekern=\dimen260
+\defaultaddspace=\dimen261
+\@cmidla=\count424
+\@cmidlb=\count425
+\@aboverulesep=\dimen262
+\@belowrulesep=\dimen263
+\@thisruleclass=\count426
+\@lastruleclass=\count427
+\@thisrulewidth=\dimen264
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/nowidow/nowidow.sty
 Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
@@ -584,81 +845,88 @@ Package: expl3 2020-03-06 L3 programming layer (loader)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count298
-\l__pdf_internal_box=\box51
+\l__kernel_color_stack_int=\count428
+\l__pdf_internal_box=\box55
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count299
-\g__xparse_grabber_int=\count300
-\l__xparse_m_args_int=\count301
-\l__xparse_v_nesting_int=\count302
+\l__xparse_current_arg_int=\count429
+\g__xparse_grabber_int=\count430
+\l__xparse_m_args_int=\count431
+\l__xparse_v_nesting_int=\count432
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-(./main.aux)
+\@quotelevel=\count433
+\@quotereset=\count434
+
+(./main.aux
+
+LaTeX Warning: Label `Figure1' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 60.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 82.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-60.
+82.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 82.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-60.
+82.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 82.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-60.
+82.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 6
-0.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 82.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
+2.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 6
-0.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 8
+2.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen264
-\scratchbox=\box52
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen265
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count435
+\scratchdimen=\dimen265
+\scratchbox=\box56
+\nofMPsegments=\count436
+\nofMParguments=\count437
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count438
+\MPscratchDim=\dimen266
+\MPnumerator=\count439
+\makeMPintoPDFobject=\count440
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -668,14 +936,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 82.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 60.
+LaTeX Info: Redefining \showhyphens on input line 82.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -683,12 +951,30 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-\AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 60.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `main-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 82.
+Package biblatex Info: Reference segment=0 on input line 82.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 82.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
 (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
@@ -696,14 +982,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count309
+\c@section@level=\count441
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
  (./main.out) (./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+\@outlinefile=\write4
+\openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -727,8 +1013,8 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Copyleft page
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6
-3.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 8
+5.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [2
@@ -748,7 +1034,7 @@ Vita
 
 
 ] (./main.toc
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/ot1txr.fd
@@ -757,63 +1043,58 @@ File: ot1txr.fd 2000/12/15 v3.1
 (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-))
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [7
+) [7
 
 
-]
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [8]
 (./main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
+\tf@lot=\write6
+\openout6 = `main.lot'.
 
- [8
+ [9
 
 
-] (./main.lof [9
+] (./main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [10
 
 
 ]
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page x undefined on input line 8.
-
-
-)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- [10] [11]
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 	
+l.154 	
         [1
 
 
@@ -821,522 +1102,811 @@ l.130
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 	
-        [2]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 139.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
+l.158 
+       [2]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 
-       [3]
+l.163 \section
+              {Methods} [3]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 143.
+LaTeX Warning: Reference `fig_chaco_lesion' on page 4 undefined on input line 1
+66.
 
-<chapter1/Figure1.png, id=337, 1072.005pt x 717.68124pt>
+
+LaTeX Warning: Reference `fig_chaco_lesion' on page 4 undefined on input line 1
+66.
+
+[4]
+<chapter1/Figure1.png, id=359, 1072.005pt x 717.68124pt>
 File: chapter1/Figure1.png Graphic file (type png)
 <use chapter1/Figure1.png>
-Package pdftex.def Info: chapter1/Figure1.png  used on input line 145.
+Package pdftex.def Info: chapter1/Figure1.png  used on input line 175.
 (pdftex.def)             Requested size: 419.16621pt x 280.61731pt.
-[4] [5 <./chapter1/Figure1.png>] [6] [7]
+ [5
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 172.
+ <./chapter1/Figure1.png>] [6] [7] [8] [9] [10
 
-<chapter1/Figure2.png, id=385, 520.94624pt x 717.68124pt>
+]
+<chapter1/Figure2.png, id=420, 520.94624pt x 717.68124pt>
 File: chapter1/Figure2.png Graphic file (type png)
 <use chapter1/Figure2.png>
-Package pdftex.def Info: chapter1/Figure2.png  used on input line 174.
-(pdftex.def)             Requested size: 318.56401pt x 438.86906pt.
-[8] [9] [10 <./chapter1/Figure2.png>] [11] [12] [13] [14]
-Overfull \hbox (29.3881pt too wide) detected at line 216
-[]\OML/txmi/m/it/12 changeFM[] \OT1/txr/m/n/12 = \OML/txmi/m/it/12 ^^L[] \OT1/t
-xr/m/n/12 + \OML/txmi/m/it/12 ^^L[]remapping[] \OT1/txr/m/n/12 + \OML/txmi/m/it
-/12 ^^L[]scanlength[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12 ^^L[]scanlength[] \OT
-1/txr/m/n/12 + \OML/txmi/m/it/12 ^^L[]age[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12
- ^^L[]sex[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12 b[] \OT1/txr/m/n/12 + \OML/txmi
-/m/it/12 ^^O[][]
- []
+Package pdftex.def Info: chapter1/Figure2.png  used on input line 231.
+(pdftex.def)             Requested size: 419.16621pt x 577.4639pt.
+ [11
+
+ <./chapter1/Figure2.png>]
+
+LaTeX Warning: Reference `graphmatching' on page 12 undefined on input line 240
+.
+
+[12]
+
+LaTeX Warning: Reference `graphmatching' on page 13 undefined on input line 248
+.
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 221--222
+LaTeX Warning: Reference `graphmatching' on page 13 undefined on input line 248
+.
+
+[13] [14] [15] [16]
+Underfull \hbox (badness 7362) in paragraph at lines 284--285
 []\OT1/ppl/m/n/12 (+20) The code for to repli-cate this anal-y-sis is avail-abl
 e on GitHub:
  []
 
-[15] [16]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 237.
-
-<chapter1/Figure3.png, id=448, 1035.87pt x 1003.8303pt>
-File: chapter1/Figure3.png Graphic file (type png)
-<use chapter1/Figure3.png>
-Package pdftex.def Info: chapter1/Figure3.png  used on input line 240.
-(pdftex.def)             Requested size: 419.16621pt x 406.19676pt.
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 247.
-
-<chapter1/Figure4_Oct22.png, id=449, 331.9602pt x 385.44pt>
-File: chapter1/Figure4_Oct22.png Graphic file (type png)
-<use chapter1/Figure4_Oct22.png>
-Package pdftex.def Info: chapter1/Figure4_Oct22.png  used on input line 250.
-(pdftex.def)             Requested size: 419.16621pt x 486.72148pt.
-<chapter1/Figure5.png, id=450, 1782.66pt x 893.2572pt>
-File: chapter1/Figure5.png Graphic file (type png)
-<use chapter1/Figure5.png>
-Package pdftex.def Info: chapter1/Figure5.png  used on input line 259.
-(pdftex.def)             Requested size: 419.16621pt x 210.03813pt.
-[17] [18 <./chapter1/Figure3.png (PNG copy)>] [19 <./chapter1/Figure4_Oct22.png
- (PNG copy)>] [20 <./chapter1/Figure5.png>] [21]
-
-LaTeX Warning: Citation `Osmanlioglu2020-xz' on page 22 undefined on input line
- 273.
-
-
-LaTeX Warning: Citation `Murphy2009-ez' on page 22 undefined on input line 275.
-
-
-
-LaTeX Warning: Citation `Lee2015-nn' on page 22 undefined on input line 275.
-
-
-LaTeX Warning: Citation `Kuceyeski2019-gt' on page 22 undefined on input line 2
-75.
-
-
-LaTeX Warning: Citation `Honey2009-xb' on page 22 undefined on input line 275.
-
-[22]
-
-LaTeX Warning: Citation `Guggisberg2019-lj' on page 23 undefined on input line 
-277.
-
-[23]
-
-LaTeX Warning: Citation `Griffis2019-cy' on page 24 undefined on input line 279
-.
-
-[24]
-
-LaTeX Warning: Citation `Mottolese2013-sd' on page 25 undefined on input line 2
-83.
-
-[25]
-
-LaTeX Warning: Citation `Zhang2016-vg' on page 26 undefined on input line 287.
-
-
-LaTeX Warning: Citation `Yourganov2021-hd' on page 26 undefined on input line 2
-87.
-
-
-LaTeX Warning: Citation `Krakauer2015-sy' on page 26 undefined on input line 29
-1.
-
-[26] [27]
-Chapter 2.
-
-LaTeX Warning: Citation `Braun2021-iy' on page 28 undefined on input line 301.
-
-
-LaTeX Warning: Citation `Adhikari2020-tk' on page 28 undefined on input line 30
-1.
-
-
-LaTeX Warning: Citation `Kaiser2019-rf' on page 28 undefined on input line 301.
-
-
-
-LaTeX Warning: Citation `Parker_Singleton2021-ur' on page 28 undefined on input
- line 301.
-
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page 28 undefined on input line 3
-01.
-
-
-LaTeX Warning: Citation `Savva2019-hk' on page 28 undefined on input line 303.
-
-
-LaTeX Warning: Citation `Bonkhoff2020-bx' on page 28 undefined on input line 30
-3.
-
-
-LaTeX Warning: Citation `Bonkhoff2020-de' on page 28 undefined on input line 30
-3.
-
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page 28 undefined on input line 3
-05.
-
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page 28 undefined on input line 3
-05.
-
-
-LaTeX Warning: Citation `Zamani_Esfahlani2020-dn' on page 28 undefined on input
- line 305.
-
-
-LaTeX Warning: Citation `Betzel2021-ve' on page 28 undefined on input line 305.
-
-
-
-LaTeX Warning: Citation `Baker2014-zt' on page 28 undefined on input line 305.
-
-[28
+[17] [18] [19
 
 ]
+<chapter1/Figure3A.png, id=466, 558.888pt x 446.1468pt>
+File: chapter1/Figure3A.png Graphic file (type png)
+<use chapter1/Figure3A.png>
+Package pdftex.def Info: chapter1/Figure3A.png  used on input line 310.
+(pdftex.def)             Requested size: 419.16621pt x 334.61609pt.
+ [20
 
-LaTeX Warning: Citation `Tscherpel2020-oi' on page 29 undefined on input line 3
-07.
+ <./chapter1/Figure3A.png (PNG copy)>]
+<chapter1/Figure3B.png, id=473, 478.1865pt x 452.892pt>
+File: chapter1/Figure3B.png Graphic file (type png)
+<use chapter1/Figure3B.png>
+Package pdftex.def Info: chapter1/Figure3B.png  used on input line 322.
+(pdftex.def)             Requested size: 419.16621pt x 397.01204pt.
+ [21
 
+ <./chapter1/Figure3B.png (PNG copy)>]
+<chapter1/Figure3C.png, id=479, 568.524pt x 554.3109pt>
+File: chapter1/Figure3C.png Graphic file (type png)
+<use chapter1/Figure3C.png>
+Package pdftex.def Info: chapter1/Figure3C.png  used on input line 334.
+(pdftex.def)             Requested size: 419.16621pt x 408.695pt.
+ [22
 
-LaTeX Warning: Citation `Hensel2022-sl' on page 29 undefined on input line 307.
+ <./chapter1/Figure3C.png (PNG copy)>]
+<chapter1/Figure3D.png, id=485, 495.2904pt x 529.0164pt>
+File: chapter1/Figure3D.png Graphic file (type png)
+<use chapter1/Figure3D.png>
+Package pdftex.def Info: chapter1/Figure3D.png  used on input line 346.
+(pdftex.def)             Requested size: 419.16621pt x 447.7126pt.
+ [23
 
+ <./chapter1/Figure3D.png (PNG copy)>] [24
 
+] [25] [26
 
-LaTeX Warning: Citation `Hordacre2021-ct' on page 29 undefined on input line 30
-7.
+]
+<chapter1/Figure4A.png, id=509, 165.7392pt x 177.5433pt>
+File: chapter1/Figure4A.png Graphic file (type png)
+<use chapter1/Figure4A.png>
+Package pdftex.def Info: chapter1/Figure4A.png  used on input line 381.
+(pdftex.def)             Requested size: 419.16621pt x 449.0721pt.
+ [27
 
-[29]
+ <./chapter1/Figure4A.png (PNG copy)>]
+<chapter1/Figure4B.png, id=515, 165.9801pt x 175.1343pt>
+File: chapter1/Figure4B.png Graphic file (type png)
+<use chapter1/Figure4B.png>
+Package pdftex.def Info: chapter1/Figure4B.png  used on input line 393.
+(pdftex.def)             Requested size: 419.16621pt x 442.3108pt.
+ [28
 
-LaTeX Warning: Citation `Cornblath2020-nc' on page 30 undefined on input line 3
-09.
+ <./chapter1/Figure4B.png (PNG copy)>]
+<chapter1/Figure4C.png, id=521, 180.675pt x 197.2971pt>
+File: chapter1/Figure4C.png Graphic file (type png)
+<use chapter1/Figure4C.png>
+Package pdftex.def Info: chapter1/Figure4C.png  used on input line 405.
+(pdftex.def)             Requested size: 419.16621pt x 457.77475pt.
+ [29
 
-<chapter2/Figure1.png, id=521, 615.2586pt x 607.068pt>
+ <./chapter1/Figure4C.png (PNG copy)>]
+<chapter1/Figure4DE.png, id=527, 148.8762pt x 203.5605pt>
+File: chapter1/Figure4DE.png Graphic file (type png)
+<use chapter1/Figure4DE.png>
+Package pdftex.def Info: chapter1/Figure4DE.png  used on input line 417.
+(pdftex.def)             Requested size: 419.16621pt x 573.1337pt.
+ [30
+
+ <./chapter1/Figure4DE.png (PNG copy)>] [31] [32
+
+] [33
+
+]
+<chapter1/Figure5AB.png, id=550, 779.0706pt x 415.3116pt>
+File: chapter1/Figure5AB.png Graphic file (type png)
+<use chapter1/Figure5AB.png>
+Package pdftex.def Info: chapter1/Figure5AB.png  used on input line 450.
+(pdftex.def)             Requested size: 419.16621pt x 223.44742pt.
+ [34
+
+ <./chapter1/Figure5AB.png (PNG copy)>]
+<chapter1/Figure5C.png, id=556, 773.289pt x 495.2904pt>
+File: chapter1/Figure5C.png Graphic file (type png)
+<use chapter1/Figure5C.png>
+Package pdftex.def Info: chapter1/Figure5C.png  used on input line 462.
+(pdftex.def)             Requested size: 419.16621pt x 268.47308pt.
+ [35
+
+ <./chapter1/Figure5C.png>]
+<chapter1/Figure5D.png, id=564, 1002.144pt x 893.2572pt>
+File: chapter1/Figure5D.png Graphic file (type png)
+<use chapter1/Figure5D.png>
+Package pdftex.def Info: chapter1/Figure5D.png  used on input line 474.
+(pdftex.def)             Requested size: 419.16621pt x 373.62527pt.
+ [36
+
+ <./chapter1/Figure5D.png>] [37
+
+] [38] [39] [40]
+
+LaTeX Warning: Reference `remaps_summary' on page 41 undefined on input line 50
+0.
+
+[41] [42] [43]
+Chapter 2.
+
+LaTeX Warning: Citation 'Parker_Singleton-ur' on page 44 undefined on input lin
+e 514.
+
+[44
+
+] [45]
+<chapter2/Figure1.png, id=667, 615.2586pt x 607.068pt>
 File: chapter2/Figure1.png Graphic file (type png)
 <use chapter2/Figure1.png>
-Package pdftex.def Info: chapter2/Figure1.png  used on input line 313.
+Package pdftex.def Info: chapter2/Figure1.png  used on input line 526.
 (pdftex.def)             Requested size: 419.16621pt x 413.58813pt.
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page 30 undefined on input line 3
-14.
-
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page 30 undefined on input line 3
-14.
-
-
-LaTeX Warning: Citation `Fugl-Meyer1975-nh' on page 30 undefined on input line 
-320.
-
-
-LaTeX Warning: Citation `Olafson2021-qt' on page 30 undefined on input line 320
-.
-
-[30] [31 <./chapter2/Figure1.png (PNG copy)>]
-
-LaTeX Warning: Citation `Avants2011-bl' on page 32 undefined on input line 325.
-
-
-[32]
-
-LaTeX Warning: Citation `Power2012-zm' on page 33 undefined on input line 328.
-
-[33]
-
-LaTeX Warning: Citation `Cornblath2020-nc' on page 34 undefined on input line 3
-31.
-
-[34]
-
-LaTeX Warning: Citation `Desikan2006-vf' on page 35 undefined on input line 333
-.
-
-
-LaTeX Warning: Citation `Craddock2012-kl' on page 35 undefined on input line 33
-3.
-
-[35]
-
-LaTeX Warning: Citation `Benjamini1995-bb' on page 36 undefined on input line 3
-38.
-
-
-LaTeX Warning: Citation `Tang2018-ac' on page 36 undefined on input line 341.
-
-
-LaTeX Warning: Citation `De_Leener2017-ev' on page 36 undefined on input line 3
-41.
-
-[36] [37]
-
-LaTeX Warning: Citation `Kundert2019-ou' on page 38 undefined on input line 374
-.
-
-
-LaTeX Warning: Citation `Hope2019-da' on page 38 undefined on input line 374.
-
-
-LaTeX Warning: Citation `Kundert2019-ou' on page 38 undefined on input line 374
-.
-
-[38] [39]
-
-LaTeX Warning: Citation `Baker2014-zt' on page 40 undefined on input line 383.
-
-[40] [41]
-
-LaTeX Warning: Citation `Olafson2022-ul' on page 42 undefined on input line 392
-.
-
-
-Overfull \hbox (125.13393pt too wide) in paragraph at lines 392--393
+ [46] [47 <./chapter2/Figure1.png (PNG copy)>] [48] [49] [50] [51]
+[52] [53] [54] [55] [56] [57]
+Overfull \hbox (125.13393pt too wide) in paragraph at lines 605--606
 []\OT1/ppl/m/n/12 (-20) The code to repli-cate this anal-y-sis is avail-able on
  GitHub: https://github.com/emilyolafson/dynamic-
  []
 
-[42]
+[58] [59]
 Chapter 3.
+[60
 
-LaTeX Warning: Citation `Katan2018-qn' on page 43 undefined on input line 403.
+] [61] [62] [63]
+
+LaTeX Warning: Reference `table:Demographics' on page 64 undefined on input lin
+e 633.
+
+[64]
+
+LaTeX Warning: Reference `motor_scores' on page 65 undefined on input line 635.
 
 
-LaTeX Warning: Citation `Kelly-Hayes2003-sp' on page 43 undefined on input line
- 403.
+
+LaTeX Warning: Reference `lesiondist' on page 65 undefined on input line 635.
+
+[65] [66] [67] [68] [69]
+
+LaTeX Warning: Reference `lesion_load_dist' on page 70 undefined on input line 
+720.
 
 
-LaTeX Warning: Citation `Bonkhoff2022-op' on page 43 undefined on input line 40
+LaTeX Warning: Reference `smatt_and_chaco' on page 70 undefined on input line 7
+24.
+
+
+LaTeX Warning: Reference `lesion_load_dist' on page 70 undefined on input line 
+724.
+
+[70]
+<chapter3/SMATT.png, id=941, 870.1308pt x 275.3487pt>
+File: chapter3/SMATT.png Graphic file (type png)
+<use chapter3/SMATT.png>
+Package pdftex.def Info: chapter3/SMATT.png  used on input line 726.
+(pdftex.def)             Requested size: 419.16621pt x 132.64063pt.
+<chapter3/Multi-panelML_white_regional.png, id=942, 882.4167pt x 396.2805pt>
+File: chapter3/Multi-panelML_white_regional.png Graphic file (type png)
+<use chapter3/Multi-panelML_white_regional.png>
+Package pdftex.def Info: chapter3/Multi-panelML_white_regional.png  used on inp
+ut line 732.
+(pdftex.def)             Requested size: 419.16621pt x 188.24123pt.
+
+
+LaTeX Warning: Reference `smatt_pairwise_correlations' on page 71 undefined on 
+input line 737.
+
+
+LaTeX Warning: Reference `smatt_pairwise_correlations_bi' on page 71 undefined 
+on input line 737.
+
+[71 <./chapter3/SMATT.png (PNG copy)>]
+
+LaTeX Warning: Reference `slnm_distribution' on page 72 undefined on input line
+ 740.
+
+[72 <./chapter3/Multi-panelML_white_regional.png (PNG copy)>]
+
+LaTeX Warning: Reference `smatt_and_chaco' on page 73 undefined on input line 7
+43.
+
+
+LaTeX Warning: Reference `mean_std_chaco' on page 73 undefined on input line 74
 3.
 
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
+43.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-LaTeX Warning: Citation `Boyd2017-gs' on page 43 undefined on input line 403.
+Underfull \hbox (badness 1331) in paragraph at lines 743--744
+[]\OT1/ppl/m/n/12 (+20) Lesion masks in $\OT1/txr/m/n/12 1\OML/txmi/m/it/12 mm[
+]$ \OT1/ppl/m/n/12 (+20) MNI v6 space were pro-cessed with the Net-
+ []
+
+[73] [74]
+Underfull \hbox (badness 1137) in paragraph at lines 751--752
+\OT1/ppl/m/n/12 (+20) load mod-els sep-a-rately, on the same sub-jects and with
+ the same train-
+ []
+
+[75]
+Overfull \hbox (18.4585pt too wide) in paragraph at lines 760--761
+\OT1/ppl/m/n/12 (-20) ac-ces-si-ble and open for reuse (https://github.com/emil
+yolafson/lesion$[]$predictions).
+ []
+
+[76]
+Appendix A.
+<chapter1/SupplementaryFigure1.png, id=994, 240.9pt x 136.5903pt>
+File: chapter1/SupplementaryFigure1.png Graphic file (type png)
+<use chapter1/SupplementaryFigure1.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure1.png  used on input line 
+772.
+(pdftex.def)             Requested size: 419.16621pt x 237.69019pt.
+[77
+
+ <./chapter1/SupplementaryFigure1.png (PNG copy)>]
+<chapter1/SupplementaryFigure2.png, id=1002, 433.62pt x 433.62pt>
+File: chapter1/SupplementaryFigure2.png Graphic file (type png)
+<use chapter1/SupplementaryFigure2.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure2.png  used on input line 
+787.
+(pdftex.def)             Requested size: 419.16621pt x 419.18835pt.
+ [78
+
+ <./chapter1/SupplementaryFigure2.png>] [79
+
+]
+<chapter1/SupplementaryFigure3_1.png, id=1012, 322.3242pt x 390.0171pt>
+File: chapter1/SupplementaryFigure3_1.png Graphic file (type png)
+<use chapter1/SupplementaryFigure3_1.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure3_1.png  used on input lin
+e 813.
+(pdftex.def)             Requested size: 419.16621pt x 507.2126pt.
+ [80
+
+ <./chapter1/SupplementaryFigure3_1.png (PNG copy)>]
+<chapter1/SupplementaryFigure3_2.png, id=1019, 322.3242pt x 275.1078pt>
+File: chapter1/SupplementaryFigure3_2.png Graphic file (type png)
+<use chapter1/SupplementaryFigure3_2.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure3_2.png  used on input lin
+e 825.
+(pdftex.def)             Requested size: 419.16621pt x 357.77441pt.
+
+[81
+
+ <./chapter1/SupplementaryFigure3_2.png (PNG copy)>]
+<chapter1/SupplementaryFigure4.png, id=1025, 469.0323pt x 277.9986pt>
+File: chapter1/SupplementaryFigure4.png Graphic file (type png)
+<use chapter1/SupplementaryFigure4.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure4.png  used on input line 
+838.
+(pdftex.def)             Requested size: 419.16621pt x 248.45723pt.
+ [82
+
+ <./chapter1/SupplementaryFigure4.png (PNG copy)>]
+<chapter1/SupplementaryFigure5.png, id=1031, 481.8pt x 240.9pt>
+File: chapter1/SupplementaryFigure5.png Graphic file (type png)
+<use chapter1/SupplementaryFigure5.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure5.png  used on input line 
+854.
+(pdftex.def)             Requested size: 419.16621pt x 209.58864pt.
+ [83
+
+ <./chapter1/SupplementaryFigure5.png (PNG copy)>]
+<chapter1/SupplementaryFigure6.png, id=1037, 940.4736pt x 602.25pt>
+File: chapter1/SupplementaryFigure6.png Graphic file (type png)
+<use chapter1/SupplementaryFigure6.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure6.png  used on input line 
+869.
+(pdftex.def)             Requested size: 419.16621pt x 268.41853pt.
+ [84
+
+ <./chapter1/SupplementaryFigure6.png (PNG copy)>]
+<chapter1/SupplementaryFigure7.png, id=1043, 481.8pt x 240.9pt>
+File: chapter1/SupplementaryFigure7.png Graphic file (type png)
+<use chapter1/SupplementaryFigure7.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure7.png  used on input line 
+884.
+(pdftex.def)             Requested size: 419.16621pt x 209.58864pt.
+ [85
+
+ <./chapter1/SupplementaryFigure7.png (PNG copy)>]
+<chapter1/SupplementaryFigure8.png, id=1051, 1435.3625pt x 1157.32375pt>
+File: chapter1/SupplementaryFigure8.png Graphic file (type png)
+<use chapter1/SupplementaryFigure8.png>
+Package pdftex.def Info: chapter1/SupplementaryFigure8.png  used on input line 
+899.
+(pdftex.def)             Requested size: 419.16621pt x 337.96397pt.
+ [86
+
+ <./chapter1/SupplementaryFigure8.png (PNG copy)>]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Duncan2000-uj' on input line 909.
 
 
-LaTeX Warning: Citation `Tozlu2020-qa' on page 43 undefined on input line 403.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Grefkes2008-bt' on input line 909.
 
 
-LaTeX Warning: Citation `Kuceyeski2016-vj' on page 43 undefined on input line 4
-03.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Rehme2013-ap' on input line 909.
 
 
-LaTeX Warning: Citation `Griffis2019-cy' on page 43 undefined on input line 403
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Winship2009-af' on input line 909.
 
 
-LaTeX Warning: Citation `Salvalaggio2020-pe' on page 43 undefined on input line
- 403.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Adam2020-jk' on input line 909.
 
 
-LaTeX Warning: Citation `Bowren2022-rs' on page 43 undefined on input line 403.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Murata2015-ss' on input line 909.
 
 
-
-LaTeX Warning: Citation `Zhu2010-qh' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Feng2015-du' on page 43 undefined on input line 405.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Brown2009-jn' on input line 909.
 
 
-LaTeX Warning: Citation `Findlater2019-je' on page 43 undefined on input line 4
-05.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Ward2003-zd' on input line 909.
 
-
-LaTeX Warning: Citation `Lam2018-xh' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Pineiro2000-dv' on page 43 undefined on input line 405
-.
-
-
-LaTeX Warning: Citation `Boyd2017-gs' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Kim2017-xe' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Park2016-te' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Findlater2019-je' on page 43 undefined on input line 4
-05.
-
-
-LaTeX Warning: Citation `Ito2022-em' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Rondina2016-ds' on page 43 undefined on input line 405
-.
-
-
-LaTeX Warning: Citation `Rondina2017-ij' on page 43 undefined on input line 405
-.
-
-
-LaTeX Warning: Citation `Schulz2012-yy' on page 43 undefined on input line 405.
-
-
-
-LaTeX Warning: Citation `Park2016-te' on page 43 undefined on input line 405.
-
-
-LaTeX Warning: Citation `Ito2022-em' on page 43 undefined on input line 405.
-
-[43
+[87
 
 ]
 
-LaTeX Warning: Citation `Mah2014-cb' on page 44 undefined on input line 407.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Park2011-kx' on input line 909.
 
 
-LaTeX Warning: Citation `Bzdok2020-py' on page 44 undefined on input line 407.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Lu2011-ow' on input line 909.
 
 
-LaTeX Warning: Citation `Bonkhoff2022-op' on page 44 undefined on input line 40
-7.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Saia2009-ik' on input line 909.
 
 
-LaTeX Warning: Citation `Bates2003-eg' on page 44 undefined on input line 409.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Carrera2014-ah' on input line 909.
 
 
-LaTeX Warning: Citation `Karnath2020-cg' on page 44 undefined on input line 409
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Griffis2020-hx' on input line 909.
 
 
-LaTeX Warning: Citation `Ivanova2021-nh' on page 44 undefined on input line 409
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Osmanlioglu2019-ao' on input line 909.
 
 
-LaTeX Warning: Citation `Karnath2020-cg' on page 44 undefined on input line 409
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Whitfield-Gabrieli2012-ox' on input line 90
+9.
 
 
-LaTeX Warning: Citation `Zhang2014-jd' on page 44 undefined on input line 409.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Behzadi2007-zt' on input line 909.
 
+[88]
 
-LaTeX Warning: Citation `Sperber2019-tu' on page 44 undefined on input line 409
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Power2012-tq' on input line 909.
 
 
-LaTeX Warning: Citation `Sperber2022-oj' on page 44 undefined on input line 409
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Shen2013-zn' on input line 909.
 
 
-LaTeX Warning: Citation `Bzdok2020-py' on page 44 undefined on input line 409.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Finn2015-er' on input line 909.
 
 
-LaTeX Warning: Citation `Bzdok2020-py' on page 44 undefined on input line 409.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Hillis2002-dz' on input line 909.
 
 
-LaTeX Warning: Citation `Bowren2022-rs' on page 44 undefined on input line 409.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Corbetta2015-ez' on input line 909.
 
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Duering2015-iv' on input line 909.
 
-LaTeX Warning: Citation `Mah2014-cb' on page 44 undefined on input line 409.
+[89]
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Cheng2015-jq' on input line 909.
 
-LaTeX Warning: Citation `Rondina2017-ij' on page 44 undefined on input line 409
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kuceyeski2013-nk' on input line 909.
 
-LaTeX Warning: Citation `Sperber2020-kp' on page 44 undefined on input line 409
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Osmanlioglu2020-xz' on input line 909.
 
-LaTeX Warning: Citation `Zhang2014-jd' on page 44 undefined on input line 409.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Murphy2009-ez' on input line 909.
 
-LaTeX Warning: Citation `Bowren2022-rs' on page 44 undefined on input line 409.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Lee2015-nn' on input line 909.
 
 
-LaTeX Warning: Citation `Bowren2022-rs' on page 44 undefined on input line 409.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kuceyeski2019-gt' on input line 909.
 
 
-[44]
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Honey2009-xb' on input line 909.
 
-LaTeX Warning: Citation `Bowren2022-rs' on page 45 undefined on input line 411.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Guggisberg2019-lj' on input line 909.
 
 
-LaTeX Warning: Citation `Kimberg2007-sk' on page 45 undefined on input line 411
-.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Griffis2019-cy' on input line 909.
 
+[90]
 
-LaTeX Warning: Citation `Rorden2009-ae' on page 45 undefined on input line 411.
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Mottolese2013-sd' on input line 909.
 
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Zhang2016-vg' on input line 909.
 
-LaTeX Warning: Citation `Sperber2020-kp' on page 45 undefined on input line 411
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Yourganov2021-hd' on input line 909.
 
-LaTeX Warning: Citation `Griffis2019-cy' on page 45 undefined on input line 411
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Krakauer2015-sy' on input line 909.
 
-LaTeX Warning: Citation `Kuceyeski2016-vj' on page 45 undefined on input line 4
-11.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Braun2021-iy' on input line 909.
 
-LaTeX Warning: Citation `Salvalaggio2020-pe' on page 45 undefined on input line
- 411.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Adhikari2020-tk' on input line 909.
 
-LaTeX Warning: Citation `Griffis2019-cy' on page 45 undefined on input line 411
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kaiser2019-rf' on input line 909.
 
-LaTeX Warning: Citation `Sperber2022-oj' on page 45 undefined on input line 411
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Cornblath2020-nc' on input line 909.
 
-LaTeX Warning: Citation `Kasties2021-rm' on page 45 undefined on input line 411
-.
 
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Savva2019-hk' on input line 909.
 
-LaTeX Warning: Citation `Liew2020-ps' on page 45 undefined on input line 411.
+[91]
 
-[45] [46] (./main.bbl [47] [48
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Bonkhoff2020-bx' on input line 909.
 
-] [49] [50] [51] [52] [53] [54] [55] [56]
-[57])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
- [58]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Zamani_Esfahlani2020-dn' on input line 909.
+
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Betzel2021-ve' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Baker2014-zt' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Tscherpel2020-oi' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Hensel2022-sl' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Hordacre2021-ct' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Fugl-Meyer1975-nh' on input line 909.
+
+[92]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Olafson2021-qt' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Avants2011-bl' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Desikan2006-vf' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Craddock2012-kl' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Tang2018-ac' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'De_Leener2017-ev' on input line 909.
+
+[93]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Hope2019-da' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Katan2018-qn' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kelly-Hayes2003-sp' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Bonkhoff2022-op' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Boyd2017-gs' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Tozlu2020-qa' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kuceyeski2016-vj' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Salvalaggio2020-pe' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Bowren2022-rs' on input line 909.
+
+[94]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Zhu2010-qh' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Feng2015-du' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Findlater2019-je' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Lam2018-xh' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Pineiro2000-dv' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kim2017-xe' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Park2016-te' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Ito2022-em' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Rondina2016-ds' on input line 909.
+
+[95]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Rondina2017-ij' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Schulz2012-yy' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Mah2014-cb' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Bzdok2020-py' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Bates2003-eg' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Ivanova2021-nh' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Zhang2014-jd' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Sperber2019-tu' on input line 909.
+
+[96]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Sperber2022-oj' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Sperber2020-kp' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Rorden2009-ae' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Kasties2021-rm' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Liew2020-ps' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Gladstone2002-fw' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Yozbatiran2008-xv' on input line 909.
+
+[97]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Sulter1999-rr' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Lyden2017-za' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Bernhardt2017-av' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Stinear2017-eg' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Archer2018-ti' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Pustina2018-xv' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Smith2015-eb' on input line 909.
+
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Fischl2002-lb' on input line 909.
+
+[98]
+
+Package biblatex Warning: Bibliography string 'inlang' undefined
+(biblatex)                at entry 'Pudjihartono2022-zg' on input line 909.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 910.
+[99]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 910.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 910.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 910.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6BA774D5E007A330D69585FE76178645;2068.
+(rerunfilecheck)             Checksum: 0DD51DE664555C1D5E2F553B1E1E8BD1;2975.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 422.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 18260 strings out of 480608
- 312636 string characters out of 5903631
- 761720 words of memory out of 5000000
- 33296 multiletter control sequences out of 15000+600000
- 601795 words of font info for 336 fonts, out of 8000000 for 9000
+ 26558 strings out of 480608
+ 487902 string characters out of 5903631
+ 1341385 words of memory out of 5000000
+ 41374 multiletter control sequences out of 15000+600000
+ 621779 words of font info for 399 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,96p,2320b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,9n,96p,2351b,1381s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2020/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2020/texmf-di
 st/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
-1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/p
-alatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino
-/uplri8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (70 pages, 10348958 bytes).
+1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/
+uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (110 pages, 20572224 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
- 728 compressed objects within 8 object streams
- 224 named destinations out of 1000 (max. 500000)
- 27903 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1232 PDF objects out of 1440 (max. 8388607)
+ 1065 compressed objects within 11 object streams
+ 319 named destinations out of 1000 (max. 500000)
+ 37822 words of extra memory for PDF output out of 42996 (max. 10000000)
 

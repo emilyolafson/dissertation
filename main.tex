@@ -1,6 +1,6 @@
 \documentclass[phd,tocprelim]{cornell}
 %
-% tocprelim option must be included to put the roman numeral pages in the
+% tocprelim option must be included to put the roman numeral pages\ in the
 % table of contents
 %
 % The cornellheadings option will make headings completely consistent with
@@ -16,11 +16,30 @@
 \usepackage{graphics}
 \usepackage{moreverb}
 \usepackage{subfigure}
+\usepackage{longtable}
 \usepackage{epsfig}
 \usepackage{subfigure}
 \usepackage{hangcaption}
 \usepackage{txfonts}
+\def\Plus{\texttt{+}}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%
+\usepackage[
+    backend=bibtex, 
+    style=chicago-authordate,
+    sorting=none
+]{biblatex}
+
+\addbibresource{bibliography.bib}
 \usepackage{palatino}
+
 % Packages added by Xihe:
 \usepackage{subfiles}
 \usepackage{bm}
@@ -41,7 +60,7 @@
 %the tolerance to 9999
 \tolerance=9999
 
-\bibliographystyle{unsrt}
+%\bibliographystyle{unsrt}
 %\bibliographystyle{IEEEbib}
 
 % Use hangcaption to modify indentations of figure captions
@@ -50,7 +69,10 @@
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\floatpagefraction}{0.75}
 
-\title {Your Title Goes Here}
+\title {MULTIMODAL CONNECTOME MAPPING OF
+SEX DIFFERENCES AND COGNITIVE ABILITIES:
+A MACHINE LEARNING APPROACH}
+\title {Connectivity and Disconnectivity: a multimodal approach to understanding and predicting motor recovery }
 \author {Emily Olafson}
 \conferraldate {May}{2023}
 \degreefield {Ph.D.}
@@ -63,6 +85,8 @@
 \makecopyright
 
 \begin{abstract}
+
+
 Your abstract goes here. Make sure it sits inside the brackets. If not,
 your biosketch page may not be roman numeral iii, as required by the
 graduate school.
@@ -119,9 +143,11 @@ Finally, one last thank you is reserved for my partner, Isaac,  for answering al
 
 % Use subfiles for chapters for better organization
 % Add labels to each chapter so you can reference them in your text with \ref{}
-\chapter{Functional connectome reorganization is associated with structural connectome distruption and motor recovery}
+\chapter{Functional connectome reorganization relates to post-stroke motor recovery and structural and functional disconnection*}
+\blfootnote{* Olafson, E. R., Jamison, K. W., Sweeney, E. M., Liu, H., Wang, D., Bruss, J. E., Boes, A. D., and Kuceyeski, A. (2021). Functional connectome reorganization relates to post-stroke motor recovery and structural and functional disconnection. NeuroImage, 245, 118642.}
+
 %\subfile{../chapter1/introduction}
-\subsection*{Introduction}
+\section{Introduction}
 Motor deficits are among the most common and disruptive symptoms of ischemic stroke. Spontaneous recovery of motor function occurs for most patients (\cite{Duncan2000-uj}), and largely depends on the ability of brain networks to functionally reorganize and compensate for lost function (\cite{Grefkes2008-bt, Rehme2013-ap}). As demonstrated by animal models, the functionality of damaged motor regions may be remapped to surviving tissue around the lesion (\cite{Winship2009-af}). However, brain areas distant to the lesion that have similar function and/or connectivity as the damaged area have also been shown to compensate for lost function (\cite{Winship2009-af, Adam2020-jk, Murata2015-ss, Brown2009-jn}).
 	
 	In humans, functional reorganization has been studied with functional magnetic resonance imaging (fMRI). Task fMRI studies have demonstrated that cortical reorganization related to motor recovery can be characterized by task-based activation of surviving ipsilesional cortex, contralesional areas, and even regions not classically activated by motor tasks in healthy subjects (\cite{Ward2003-zd}). Recently, resting-state fMRI has emerged as a means to study connectivity changes after stroke in subjects who are severely impaired and cannot perform motor tasks. Resting-state fMRI has been used to identify recovery-related changes in functional connectivity between specific brain regions, reflecting network-level changes (\cite{Park2011-kx}). However, few studies to date have attempted to capture longitudinal network-level reorganization after stroke using resting-state fMRI. 
@@ -134,20 +160,35 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 	
 	As far as we know, no work has attempted to detect connectivity network-level functional reorganization in post-stroke recovery with longitudinal MRI, much less correlate it with measures of recovery or patterns of structural connectome damage. We hypothesize that 1) brain regions with more structural and functional damage due to the stroke  will more frequently functionally reorganize, 2) more impaired subjects will have more early functional reorganization in the sub-acute stages, 3) the amount or early reorganization will be correlated with long-term recovery, and 4) the amount of functional reorganization over time will correlate with the change in motor impairment between subsequent sessions.	
 	
-\subsection*{Methods}
+\section{Methods}
 
 	\subsection{Data description}
 	 The data consist of 23 first-episode stroke patients (34-74 years old; mean age 57 years; 8 female) with isolated pontine infarcts and 24 healthy age- and sex-matched controls (33-65 years old; mean age 52 years; 10 female). A subset of the data (11 stroke subjects and 11 healthy control subjects) used here has been previously described in Lu et al., 2011; this study includes an additional 12 stroke subjects and 13 control subjects. Of the twenty-three stroke subjects, fourteen  had right brainstem infarcts and nine had left brainstem infarcts (Figure \ref{fig_chaco_lesion}A). Patients were scanned five times over a period of 6 months. Specifically, MRIs were obtained at 7, 14, 30, 90 and 180 days after stroke onset on a 3T TimTrio Siemens using a 12-channel phase-array head coil. Fugl-Meyer motor scores were obtained twice at each session, and later averaged and normalized to a range of 0-100 (Figure \ref{fig_chaco_lesion}B). Anatomical images were acquired using a sagittal MP-RAGE three-dimensional T1-weighed sequence (TR, 1600ms; TE 2.15ms; flip angle, 9°, 1.0 mm isotropic voxels, FOV 256 x 256). Each MRI session involved between two and four runs of resting-state fMRI at 6 minutes each. Subjects were instructed to stay awake with their eyes open; no other task instruction was provided. Images were acquired using the gradient-echo echo-planar pulse sequence (TR, 3000ms; TE, 30ms; flip angle, 90°, 3 mm isotropic voxels).
 
 
-	\begin{figure}[]
-	   	\begin{center}
-			\includegraphics[width=1\textwidth]{chapter1/Figure1.png}
-			\caption{Overview of individuals' stroke lesions, resulting structural disconnection and Fugl-Meyer score trajectories. \textbf{A.} Distribution of lesions across the brain. Colors indicate the number of subjects with a lesion in that voxel. \textbf{B.} Normalized Fugl-Meyer scores for all subjects over the five post-stroke sessions. Boxes colored white indicate missing motor scores and diagonal lines within the box indicate missing MRI data for the corresponding time point.  \textbf{C.} Group median structural disconnection scores for each brain region calculated as the number of streamlines connected to each region that intersect with the lesion, normalized by the total number of streamlines connecting to that region (only displaying regions with disconnection scores $>$ 0.003). Cortical areas with non-zero median ChaCo scores reflect motor regions at the end of disrupted corticospinal tracts. Top row of each subject inset shows a lateral view of the brain, bottom row of each inset shows a medial view.}
-			\centering
-			\label{fig_chaco_lesion}
-		\end{center}
-	\end{figure}
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure1.png}
+       \caption{Overview of individuals' stroke lesions, resulting structural disconnection and Fugl-Meyer score trajectories. }
+  \caption*{\textbf{A.} Distribution of lesions across the brain. Colors indicate the number of subjects with a lesion in that voxel. \textbf{B.} Normalized Fugl-Meyer scores for all subjects over the five post-stroke sessions. Boxes colored white indicate missing motor scores and diagonal lines within the box indicate missing MRI data for the corresponding time point.  \textbf{C.} Group median structural disconnection scores for each brain region calculated as the number of streamlines connected to each region that intersect with the lesion, normalized by the total number of streamlines connecting to that region (only displaying regions with ChaCo scores $>$ 0.003 corresponding approximately to log(ChaCo)$<$-6). Cortical areas with non-zero median ChaCo scores reflect motor regions at the end of disrupted corticospinal tracts. Top row of each subject inset shows a lateral view of the brain, bottom row of each inset shows a medial view.}
+      \label{Figure1}
+\end{figure}
+\null
+\vfill
+
+
+
+
+
+%\subfloat[fig 2]{\includegraphics[width = 3in]{something}}\\
+%\subfloat[fig 3]{\includegraphics[width = 3in]{something}}
+%\subfloat[fig 4]{\includegraphics[width = 3in]{something}} 
+%\caption{Add your own figures before compiling}
+
 
 	\subsection{Structural data processing}
 	Preprocessing of the longitudinal structural data included affine registration of each subject’s T1 scans to the baseline T1 scan, collapsing co-registered files to an average T1 and creation of a skull-stripped brain mask followed by manual editing and binarization of the hand-edited mask. The brain mask was then transformed back to each of the follow-up T1s in native space using the inverse registration acquired from the first step. This was followed by bias field correction of all the T1 scans, transformation of native-space bias field-corrected data back to baseline space, and the creation of an average bias field-corrected scan for each subject. Stroke lesion masks were hand-drawn on these transformed T1 scans by ADB and JEB. Structural normalization was performed with the CONN toolbox (\cite{Whitfield-Gabrieli2012-ox}). 
@@ -156,35 +197,53 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 	Preprocessing of the longitudinal functional data was performed using the CONN toolbox (\cite{Whitfield-Gabrieli2012-ox}), including functional realignment of volumes to the baseline volume, slice timing correction for alternating acquisition, segmentation and normalization, and smoothing with a 4mm FWHM kernel. The WM and CSF probability maps used to derive WM and CSF BOLD signal were first thresholded above 50\% for each subject, and a one-voxel binary erosion step was applied to these thresholded maps (\cite{Whitfield-Gabrieli2012-ox}). This was followed by a denoising protocol (CompCor) (\cite{Behzadi2007-zt}) which regressed out the cerebrospinal fluid and white matter signal, as well as 24 realignment parameters (added first-order derivatives and quadratic effects). Temporal band pass filtering (0.008 - 0.09Hz), despiking and global signal removal regression were also performed. The first four frames of each BOLD run were removed. Frame censoring was applied to scans with a framewise displacement threshold of 0.5 mm along with its preceding scan (\cite{Power2012-tq}). Regional time series were acquired by parcellating the scans into 268 non-overlapping brain regions using a functional atlas derived from healthy controls (\cite{Shen2013-zn}) and averaging the time course of all voxels within a given region. Voxels identified as lesioned were excluded from regional timeseries calculations. Regions were assigned to one of 8 functional networks (Figure S1), identified by (\cite{Finn2015-er}) using spectral clustering in healthy subjects.
 	
 	\subsection{Functional connectivity calculation}
-	 Functional connectivity (FC) matrices were calculated as the regularized inverse of correlation matrices. Calculating FC using precision minimizes the effect of indirect connections and has been shown to result in connectomes that are more similar to structural connectivity (\cite{Wodeyar2020-kz, Liegeois2020-ua}). To compute the precision FC, we first calculated the full Pearson correlation-based FC ($\Sigma_i$) for each individual $i$ by correlating region-pair time series. We then took the unregularized inverse of $\Sigma_i$, denoted $P_i$, and averaged them over the $i$ subjects to obtain the population-level precision FC matrix $P_{avg}$. We then calculated the individual precision FC matrices using Tikhonov regularization, which adds a full-rank regularization term (scaled identity) to the correlation matrix before inversion (\cite{Liegeois2020-ua}).
+	 Functional connectivity (FC) matrices were calculated as the regularized inverse of correlation matrices. Calculating FC using precision minimizes the effect of indirect connections and has been shown to result in connectomes that are more similar to structural connectivity (\cite{Wodeyar2020-kz, Liegeois2020-ua}). To compute the precision FC, we first calculated the full Pearson correlation-based FC ( \begin{Large}$\Sigma_i$ \end{Large}) for each individual $i$ by correlating region-pair time series. We then took the unregularized inverse of \begin{Large}$\Sigma_i$\end{Large}, denoted \begin{Large}$P_i$\end{Large}, and averaged them over the $i$ subjects to obtain the population-level precision FC matrix  \begin{Large}$P_{avg}$\end{Large}. We then calculated the individual precision FC matrices using Tikhonov regularization, which adds a full-rank regularization term (scaled identity) to the correlation matrix before inversion (\cite{Liegeois2020-ua}).
 	 
+\begin{Large}
 \begin{center}
 
-        $P_i^{reg} = (\Sigma_i + \lambda \cdot I)^{-1}$
+       $ P_i^{reg} = (\Sigma_i + \lambda \cdot I)^{-1}$
 
 \end{center}
+\end{Large}
 
-    where $I$ is the identity matrix and $\lambda \in [0,1]$ is the regularization parameter. The regularization parameter $\lambda$ was chosen via a grid search to be the value that minimized the root mean squared error of the Frobenius norm of the difference in regularized subject precision matrices $P_i^{reg}$ and the population-level unregularized precision matrix $P_{avg}$, which was found to be $\lambda = 0.71$ (Figure S2). Partial correlation (precision) involves the inversion of the correlation matrix, and to stably invert this matrix, regularization is needed. Tikhonov regularization (a.k.a. L2 ridge regression), employed here, involves addition of an identity term scaled by a constant $\lambda$. The group average unregularized precision matrix is only used for the optimization of this $\lambda$ term, not in the matrix inversion, and is performed as previously described (\cite{Liegeois2020-ua, Golub1999-ou}). The unregularized group average precision matrix is used as a benchmark for tuning this hyperparameter, as some of the inversion noise has been smoothed out in the calculation of the average. The values along the diagonal were set to 0 prior to graph matching; this is a form of regularization that penalizes off-diagonal swaps, which we employ to control the effect of regions with low SNR; a noisy region will be more likely to be assigned to itself because the zeroes are aligned. For completeness, the main analyses have been replicated with Pearson correlation-based FC, and results are provided in the supplementary material (Figure S13, S14, S15), with few differences to the overall findings with the precision FC.
+
+    where $I$ is the identity matrix and $\lambda \in [0,1]$ is the regularization parameter. The regularization parameter $\lambda$ was chosen via a grid search to be the value that minimized the root mean squared error of the Frobenius norm of the difference in regularized subject precision matrices \begin{Large}$P_i^{reg}$\end{Large} and the population-level unregularized precision matrix \begin{Large}$P_{avg}$,\end{Large} which was found to be $\lambda = 0.71$ (Figure S2). Partial correlation (precision) involves the inversion of the correlation matrix, and to stably invert this matrix, regularization is needed. Tikhonov regularization (a.k.a. L2 ridge regression), employed here, involves addition of an identity term scaled by a constant $\lambda$. The group average unregularized precision matrix is only used for the optimization of this $\lambda$ term, not in the matrix inversion, and is performed as previously described (\cite{Liegeois2020-ua, Golub1999-ou}). The unregularized group average precision matrix is used as a benchmark for tuning this hyperparameter, as some of the inversion noise has been smoothed out in the calculation of the average. The values along the diagonal were set to 0 prior to graph matching; this is a form of regularization that penalizes off-diagonal swaps, which we employ to control the effect of regions with low SNR; a noisy region will be more likely to be assigned to itself because the zeroes are aligned. For completeness, the main analyses have been replicated with Pearson correlation-based FC, and results are provided in the supplementary material (Figure S13, S14, S15), with few differences to the overall findings with the precision FC.
     
-	\subsection*{Estimated structural disconnection}
-	Deficits from subcortical stroke may be related to functional alterations at distant sites via metabolic diaschisis (\cite{Hillis2002-dz, Corbetta2015-ez}) or remote degeneration that spreads along the white matter connectivity network (\cite{Duering2015-iv, Cheng2015-jq}). In order to account for the impact of lesions on the structural connectome, the extent of regional structural connectivity (SC) disruption due to the lesion was assessed for each stroke subject with the Network Modification (NeMo) Tool (\cite{Kuceyeski2013-nk}). The NeMo Tool v2 requires only an individual’s lesion mask in MNI space, which was obtained as described above, to produce an estimate of structural disconnection to each brain voxel, or to each region in a user-defined atlas. The newest version of the NeMo Tool, originally published in 2013, includes a reference database of SC from 420 unrelated individuals from the Human Connectome Project’s (HCP) 1200 release (50 percent female, aged 25-35). The NeMo Tool begins by mapping the lesion mask into this healthy database’s collection of tractography streamlines that quantify likely white matter pathways. It then identifies streamlines that pass through the lesion mask and records the gray matter voxels/regions that are at the ends of that streamline. The NeMo Tool produces the regional structural disconnection vector (ChaCo score, Change in Connectivity) that is an estimate of the percent of damaged streamlines at each voxel or region in the atlas. ChaCo scores were calculated for each stroke subject and the median was taken across the sample to create a group-level structural disconnection map (Figure \ref{fig_chaco_lesion}C).
-	
-	\begin{figure}[]
-    	\begin{center}
-    	   	\includegraphics[width=0.76\textwidth]{chapter1/Figure2.png}
-    	\end{center}
-		\caption{Overview of the graph matching procedure used to identify brain regions whose FC is more similar to a different region's FC in the subsequent imaging session, i.e. regions that "remap" functional profiles.  \textbf{A.} Example of a pair of regions that remap. Region $i$ at 1 week post-stroke and  region $j$ at 2 weeks post-stroke have highly similar FC with the rest of the brain (moreso than region $i$ at 1 week to region $i$ at 2 weeks). The cost to remap $i$ to $j$ is low, and these regions would likely be remapped in the graph matching algorithm. \textbf{B.} The cost of remapping each region pair is used as input to the graph matching algorithm; the output of graph matching is the assignment of each region in one imaging session to a single corresponding region in the subsequent imaging session. If this assignment is to a different region, then it said to have "remapped". \textbf{C.} Three examples of permutation matrices of three subjects with varying amounts of remapping; black entries represent the assignment of a source node (y-axis) to its target node (x-axis).}
-		\label{graphmatching}
-		\centering
-	\end{figure}
-	
-	\subsection*{Estimated functional disconnection}
+	\subsection{Estimated structural disconnection}
+	Deficits from subcortical stroke may be related to functional alterations at distant sites via metabolic diaschisis (\cite{Hillis2002-dz, Corbetta2015-ez}) or remote degeneration that spreads along the white matter connectivity network (\cite{Duering2015-iv, Cheng2015-jq}). In order to account for the impact of lesions on the structural connectome, the extent of regional structural connectivity (SC) disruption due to the lesion was assessed for each stroke subject with the Network Modification (NeMo) Tool (\cite{Kuceyeski2013-nk}). The NeMo Tool v2 requires only an individual’s lesion mask in MNI space, which was obtained as described above, to produce an estimate of structural disconnection to each brain voxel, or to each region in a user-defined atlas. The newest version of the NeMo Tool, originally published in 2013, includes a reference database of SC from 420 unrelated individuals from the Human Connectome Project’s (HCP) 1200 release (50 percent female, aged 25-35). The NeMo Tool begins by mapping the lesion mask into this healthy database’s collection of tractography streamlines that quantify likely white matter pathways. It then identifies streamlines that pass through the lesion mask and records the gray matter voxels/regions that are at the ends of that streamline. The NeMo Tool produces the regional structural disconnection vector (ChaCo score, Change in Connectivity) that is an estimate of the percent of damaged streamlines at each voxel or region in the atlas. ChaCo scores were calculated for each stroke subject and the median was taken across the sample to create a group-level structural disconnection map (Figure \ref{Figure1}C).
+
+\clearpage
+\null
+\vfill
+\begin{figure}[!hp]
+\caption{Overview of the graph matching procedure.}
+\caption*{\textbf{A.} Example of a pair of regions that remap. Region $i$ at 1 week post-stroke and  region $j$ at 2 weeks post-stroke have highly similar FC with the rest of the brain (moreso than region $i$ at 1 week to region $i$ at 2 weeks). The cost to remap $i$ to $j$ is low, and these regions would likely be remapped in the graph matching algorithm. \textbf{B.} The cost of remapping each region pair is used as input to the graph matching algorithm; the output of graph matching is the assignment of each region in one imaging session to a single corresponding region in the subsequent imaging session. If this assignment is to a different region, then it said to have "remapped". \textbf{C.} Three examples of permutation matrices of three subjects with varying amounts of remapping; black entries represent the assignment of a source node (y-axis) to its target node (x-axis).}
+    \label{Figure2}
+\end{figure}
+\null
+\vfill
+\clearpage
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure2.png}
+    \caption[]{}
+\end{figure}
+
+
+	\subsection{Estimated functional disconnection}
 	For each subject, we use FC matrices derived as described above to calculate the node strength, which quantifies the overall strength of all connections to and from a node, calculated the sum of all FC connection to the node (excluding a node's connection weight to itself). Then, for each time point, we performed an unpaired two-sided t-test at each node to determine whether its node strength was significantly different between stroke subjects and controls. The 268 p-values were corrected for multiple comparisons using Benjamini-Hochberg FDR correction at a corrected alpha of 0.05. We observed node strength disruptions in the stroke subjects at 1 week, 2 weeks, and 6 months post stroke, where stroke subjects had lower node strength in the brainstem, cerebellum, and temporal lobes compared to controls, and increased node strength in the lateral and medial frontal cortex (Figure S3).
 	
 	\subsection{Graph matching}
 	We used a graph matching algorithm to capture FC network reorganization over time (Figure \ref{graphmatching}). Graph matching is an algorithmic process that maximizes the similarity between two networks by identifying an optimal mapping between nodes in the networks. One approach to identifying this optimal mapping is with a combinatorial optimization problem known as linear assignment. 
 	
-	Take two $n \times n $ networks $A$ and $B$ and a cost function $c: A \times B \rightarrow  \mathbb{R}$  that determines the cost of assigning each node in $A$ to each node in $B$. Entries in the cost matrix $C = \big(c_{i j}\big)$ are defined by the Euclidean distance between row $i$ in $A$ and row $j$ in $B$, i.e. $c_{ij}(A,B)=|| A_{i\bullet}-B_{j \bullet} ||^2_2$. In our application, the rows $A_{i\bullet}$ and $B_{j \bullet}$ represent region $i$ and region $j$'s FC to the rest of the brain, or FC profile, respectively. The linear assignment problem aims to construct the permutation matrix $P = \big(p_{i j}\big)$ that minimizes the sum of the elements in cost matrix, i.e. $min_P\sum^n_{i=1}\sum^n_{j=1}c_{ij}p_{ij}$. The matrix $P$ is a permutation matrix with exactly one entry equal to 1 in each row and column, the rest being zero. Ones in the diagonal of $P$ indicate the same node in the two networks were mapped to one another, while ones in the off-diagonal indicate a node was “remapped” to another node.
+	Take two $n \times n $ networks $A$ and $B$ and a cost function $c: A \times B \rightarrow  \mathbb{R}$  that determines the cost of assigning each node in $A$ to each node in $B$. Entries in the cost matrix 
+	\begin{Large}
+	$C = (c_{i j})$
+	\end{Large}
+	 are defined by the Euclidean distance between row $i$ in $A$ and row $j$ in $B$, i.e. \begin{Large}$c_{ij}(A,B)=|| A_{i\bullet}-B_{j \bullet} ||^2_2$\end{Large}. In our application, the rows \begin{Large}$A_{i\bullet}$\end{Large} and \begin{Large}$B_{j \bullet}$\end{Large} represent region $i$ and region $j$'s FC to the rest of the brain, or FC profile, respectively. The linear assignment problem aims to construct the permutation matrix \begin{Large}$P = \big(p_{i j}\big)$\end{Large} that minimizes the sum of the elements in cost matrix, i.e. \begin{Large}$min_P\sum^n_{i=1}\sum^n_{j=1}c_{ij}p_{ij}$\end{Large} . The matrix $P$ is a permutation matrix with exactly one entry equal to 1 in each row and column, the rest being zero. Ones in the diagonal of $P$ indicate the same node in the two networks were mapped to one another, while ones in the off-diagonal indicate a node was “remapped” to another node.
 	
 	Here, we use the Hungarian algorithm to solve this minimization problem and find the corresponding optimal permutation matrix $P$. Figure \ref{graphmatching} illustrates how the graph matching is applied to subsequent longitudinal FC networks in the same individual (either post-stroke or control) and depicts an instance of remapping in a single subject.  In Figure \ref{graphmatching}A, the FC profile of brain region i (green region) at 1 week post-stroke is more closely matched by the FC profile of region j (blue region) at 2 weeks post-stroke than it is to itself at 2 weeks post-stroke. Example permutation matrices for three stroke subjects (one with high amount of remapping, one with an average amount of remapping and one with a low amount of remapping) are also provided. 
 	
@@ -209,65 +268,219 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 	
 	To test the hypothesis that individuals with more baseline remapping would have greater initial motor impairment, we calculated the Pearson correlation between Fugl-Meyer motor scores at 1 week post-stroke and subject-level remapping from 1 week to 2 weeks post-stroke. To test the hypothesis that individuals with more baseline remapping would have greater motor recovery at 6 months, we calculated the Pearson correlation between the change in Fugl-Meyer motor scores from 1 week to 6 months post-stroke and subject-level remapping from 1 week to 2 weeks post-stroke. 
 	
-	To test the hypothesis that individuals with more remapping from one time point to another have better motor improvement, we calculated the Pearson correlation between change in Fugl-Meyer motor scores and subject-level remapping from one time point to the next for all four pairs of subsequent time points.This analysis enables us to identify whether remapping within a particular time point interval is more or less associated with motor improvement. In order to leverage the repeated subject measurements, a linear mixed effects regression model was employed to determine the relationship between the amount of remapping between sessions and the change Fugl-Meyer score between sessions, including age, sex, and scan length as covariates.  Let $i$ index a subject, $t_{ab}$ index a time point interval ($t_a$ = first time point, $t_b$ = second time point, and  $t_{ab}$ = the time point interval). Our model is then: 
+	To test the hypothesis that individuals with more remapping from one time point to another have better motor improvement, we calculated the Pearson correlation between change in Fugl-Meyer motor scores and subject-level remapping from one time point to the next for all four pairs of subsequent time points.This analysis enables us to identify whether remapping within a particular time point interval is more or less associated with motor improvement. In order to leverage the repeated subject measurements, a linear mixed effects regression model was employed to determine the relationship between the amount of remapping between sessions and the change Fugl-Meyer score between sessions, including age, sex, and scan length as covariates.  Let $i$ index a subject, \begin{Large}$t_{ab}$\end{Large} index a time point interval (\begin{Large}$t_a$\end{Large} = first time point, \begin{Large}$t_b$\end{Large} = second time point, and  \begin{Large}$t_{ab}$\end{Large} = the time point interval). Our model is then (split across 2 lines): 
+	
+	\begin{Large}
 	\begin{center}
-	\begin{equation}
-	changeFM_{it_{ab}} =  \beta_0 + \beta_1 remapping_{it_{ab}} + \beta_2 scan length_{it_a} +\beta_3 scan length_{it_b} + \beta_4 age_i + \beta_5 sex_i + b_i + \epsilon_{it_{ab}}
-	\end{equation}
-	\end{center}
-	\noindent where $b_i \sim N(0, \sigma_1^2)$ and $\epsilon_{it_{ab}} \sim N(0, \sigma_2^2)$.  We include the random effect $b_i$ to account for correlation within a subject at different time points. 
 
-	\subsubsection{Code availability}
+	$changeFM_{it_{ab}} =  \beta_0 + \beta_1 remapping_{it_{ab}} + $
+	$ \beta_2 scan length_{it_a} +\beta_3 scan length_{it_b} + \beta_4 age_i + \beta_5 sex_i + b_i + \epsilon_{it_{ab}}$
+
+	\end{center}
+	\end{Large}
+	\noindent where \begin{Large}$b_i \sim N(0, \sigma_1^2)$ \end{Large} and \begin{Large}$\epsilon_{it_{ab}} \sim N(0, \sigma_2^2)$.\end{Large}  We include the random effect \begin{Large}$b_i$\end{Large} to account for correlation within a subject at different time points. 
+
+	\subsection{Code availability}
 	 The code for to replicate this analysis is available on GitHub: https://github.com/emilyolafson/stroke-graph-matching
 	
 	
-\subsection*{Results}
+\section{Results}
 	\subsection{Functional reorganization is primarily observed in the brainstem and cerebellum}
-	At the node level, remapping occurred most often in the brainstem and cerebellum (Figure \ref{remaps_summary}A,B), similar to the spatial distribution of median ChaCo scores (amount of structural disconnection) across the stroke sample, which were also highest in the brainstem and cerebellum (Figure \ref{fig_chaco_lesion}C). We also calculated group-level structural connectivity disruption in an approach more analogous to node remapping, by binarizing ChaCo scores into 'disrupted' and 'nondisrupted' nodes and calculating frequency of disrupted nodes over the population, with similar results (Figure S5). For this paper, regional ChaCo scores were chosen over disconnection frequencies in order to preserve information about the magnitude of the disconnection. We hypothesize that the magnitude of disconnection influences whether a region is remapped or not.
+	At the node level, remapping occurred most often in the brainstem and cerebellum (Figure \ref{Figure3}A,B), similar to the spatial distribution of median ChaCo scores (amount of structural disconnection) across the stroke sample, which were also highest in the brainstem and cerebellum (Figure \ref{Figure2}C). We also calculated group-level structural connectivity disruption in an approach more analogous to node remapping, by binarizing ChaCo scores into 'disrupted' and 'nondisrupted' nodes and calculating frequency of disrupted nodes over the population, with similar results (Figure S5). For this paper, regional ChaCo scores were chosen over disconnection frequencies in order to preserve information about the magnitude of the disconnection. We hypothesize that the magnitude of disconnection influences whether a region is remapped or not.
 	
-	Next, we assessed network-level remapping within 8 functional networks. The most remaps were observed in the subcortical-cerebellum network (Figure \ref{remaps_summary}C,D) and in particular between contralesional nodes in the subcortical/cerebellum network (Figure S6).
+	Next, we assessed network-level remapping within 8 functional networks. The most remaps were observed in the subcortical-cerebellum network (Figure \ref{Figure3}C,D) and in particular between contralesional nodes in the subcortical/cerebellum network (Figure S6).
 	
-	\subsection{Regions with greater structural and functional disconnection  have more functional reorganization over time}
-	There was a significant, positive correlation between node remapping frequency and median regional ChaCo scores from 1 to 2 weeks post-stroke ($r$ = 0.22, p = 3.05e-4), such that those regions with more structural connectivity disruption across the stroke subjects also had more remapping over time (Figure \ref{tstat_remap_chaco}A). This relationship was observed across all time points (Figure S7A), and furthermore, across subjects, the brain regions that remap have significantly higher ChaCo scores compared to those that do not remap (assessed with permutation testing with 10000 permutations) (Figure S7B).
-	
-	On the other hand, node remapping frequency at 1-2 weeks post stroke was negatively correlated with node strength relative to healthy controls at 1 week post-stroke ($r$  = -0.44, p = 2.62e-14) (Figure \ref{tstat_remap_chaco}B), where regions with lower node strength relative to controls at 1 week underwent the most remapping between 1-2 weeks post-stroke. This relationship was present across all time points (Figure S10, S11, S12) and the correlation is very similar when using the first or second node strength measurement (Figure S9).
-	
-	The nodes that underwent the most remapping were the most structurally and functionally disconnected, but the relationship between structural and functional disconnection is non-linear (Figure \ref{tstat_remap_chaco}C). Instead, the relationship between SC and FC disruption is impacted by the magnitude of the structural disruption. As seen in Figure S8, there is a clear cutoff for regions consistently structurally disrupted across subjects, corresponding to a ChaCo score of 0.003 (log(ChaCo) of -6). For regions exceeding a ChaCo score of 0.003 (i.e., with high structural connectivity disruption), there was a significant negative correlation between relative node strength and ChaCo scores ($r$  = -0.50, p = 2.1e-6)(Figure \ref{tstat_remap_chaco}D) and for regions below a ChaCo score of 0.003 (i.e., with little/no structural connectivity disruption), there was a significant positive correlation between relative node strength and ChaCo scores ($r$  = 0.49, p = 4.78e-13)(Figure \ref{tstat_remap_chaco}E). 
-
-    \begin{figure}[] %remaps summary
-		\centering
-		% include first image
-		\includegraphics[width=1\linewidth]{chapter1/Figure3.png}
-		\caption{Node-level remapping frequencies are related to group-level structural connectivity disruptions due to the lesion. \textbf{A.} Node remap frequencies are plotted on a glass brain  averaged across 4 time point comparisons (only displaying values above 0.1, for clarity). Inset figures display a lateral view (top row) and medial view (bottom row). \textbf{B.} Node remap frequencies $>0.1$ plotted on a glass brain, displayed separately for each time point comparison. \textbf{C.} Network-level sum of remaps. Remaps are separated based on their position relative to the lesion (contralesional vs. ipsilesional). \textbf{D.} Network-level sum of remaps, displayed separately for each time point comparison. Ipsilesional = same hemisphere as the lesion, contralesional = opposite hemisphere as the lesion.}
-		\label{remaps_summary}
-    \end{figure}
-    
-
-    
-    \begin{figure}[] %remaps summary
-		\centering
-		% include first image
-		\includegraphics[width=1\linewidth]{chapter1/Figure4_Oct22.png}
-		\caption{Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 1 week - 2 week time interval post-stroke. Nodes are colored by network assignment (legend on top).
-		\textbf{A.} Correlation between node remapping frequency and t-statistic of node strength. A jitter of 0.01 was added to data points along the x-axis to increase visibility. \textbf{B.} Correlation between node remapping frequency and ChaCo scores. A jitter of 0.01 was added to data points along the x-axis to increase visibility. \textbf{C.} Correlation between t-statistic of node strength and ChaCo scores. Dashed horizontal line at y = -6 represents the cut off point of log(ChaCo) -6, representing more SC disruption shown in \textbf{D}, below -6 representing minimal SC disruption is shown in \textbf{E}.} 
-		\label{tstat_remap_chaco}
-    \end{figure}
-    
-
-\begin{figure} %corr with baseline impairment and recovery
-	\centering
-	\includegraphics[width=1\linewidth]{chapter1/Figure5.png}
-	\caption{Subject-level remapping is related to baseline motor impairment and eventual motor recovery. \textbf{A.} Pearson correlation between subject-level remaps between 1 week and 2 weeks post stroke and change in Fugl-Meyer scores between 1 week and 6 months post-stroke. \textbf{B.} Pearson correlation between subject-level remaps between 1 week FC and 2 week FC and 1 week Fugl-Meyer scores, controlling for scan lengths at 1 week post-stroke at 2 weeks post stroke. \textbf{C.} Results from linear mixed effects analysis; each color indicates a different individuals' longitudinal time point. \textbf{D.} Pearson correlation subject-level remaps for each pair of time points and the change in Fugl-Meyer scores between time points, controlling for the scan length of the 2 scans in the remapping calculation.}
-	\label{remaps_6monthrecovery}
+\clearpage
+\null
+\vfill
+\begin{figure}[!hp]
+\caption{Visualization of node-level remapping frequencies and group-level structural connectivity disruptions due to the lesion.}
+\caption*{ \textbf{A.} Node remap frequencies are plotted on a glass brain  averaged across 4 time point comparisons (only displaying values above 0.1, for clarity). Inset figures display a lateral view (top row) and medial view (bottom row). \textbf{B.} Node remap frequencies $>0.1$ plotted on a glass brain, displayed separately for each time point comparison. \textbf{C.} Network-level sum of remaps. Remaps are separated based on their position relative to the lesion (contralesional vs. ipsilesional). \textbf{D.} Network-level sum of remaps, displayed separately for each time point comparison. Ipsilesional = same hemisphere as the lesion, contralesional = opposite hemisphere as the lesion}
+    \label{Figure3}
 \end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure3A.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure3B.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure3C.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure3D.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+
+	\subsection{Regions with greater structural and functional disconnection  have more functional reorganization over time}
+	There was a significant, positive correlation between node remapping frequency and median regional ChaCo scores from 1 to 2 weeks post-stroke ($r$ = 0.22, p = 3.05e-4), such that those regions with more structural connectivity disruption across the stroke subjects also had more remapping over time (Figure \ref{Figure4}A). This relationship was observed across all time points (Figure S7A), and furthermore, across subjects, the brain regions that remap have significantly higher ChaCo scores compared to those that do not remap (assessed with permutation testing with 10000 permutations) (Figure S7B).
+	
+	On the other hand, node remapping frequency at 1-2 weeks post stroke was negatively correlated with node strength relative to healthy controls at 1 week post-stroke ($r$  = -0.44, p = 2.62e-14) (Figure \ref{Figure4}B), where regions with lower node strength relative to controls at 1 week underwent the most remapping between 1-2 weeks post-stroke. This relationship was present across all time points (Figure S10, S11, S12) and the correlation is very similar when using the first or second node strength measurement (Figure S9).
+	
+	The nodes that underwent the most remapping were the most structurally and functionally disconnected, but the relationship between structural and functional disconnection is non-linear (Figure \ref{Figure4}C). Instead, the relationship between SC and FC disruption is impacted by the magnitude of the structural disruption. As seen in Figure S8, there is a clear cutoff for regions consistently structurally disrupted across subjects, corresponding to a ChaCo score of 0.003 (log(ChaCo) of -6). For regions exceeding a ChaCo score of 0.003 (i.e., with high structural connectivity disruption), there was a significant negative correlation between relative node strength and ChaCo scores ($r$  = -0.50, p = 2.1e-6)(Figure \ref{Figure4}D) and for regions below a ChaCo score of 0.003 (i.e., with little/no structural connectivity disruption), there was a significant positive correlation between relative node strength and ChaCo scores ($r$  = 0.49, p = 4.78e-13)(Figure \ref{Figure4}E). 
+
+
+
+    
+
+\clearpage
+\null
+\vfill
+\begin{figure}[!hp]
+\caption{Relationships between FC disruption, SC disruption, and remapping over the 1 week - 2 week time interval post-stroke. }
+\caption*{\textbf{A.} Correlation between node remapping frequency and t-statistic of node strength. A jitter of 0.01 was added to data points along the x-axis to increase visibility. \textbf{B.} Correlation between node remapping frequency and ChaCo scores. A jitter of 0.01 was added to data points along the x-axis to increase visibility. \textbf{C.} Correlation between t-statistic of node strength and ChaCo scores. Dashed horizontal line at y = -6 represents the cut off point of log(ChaCo) -6, representing more SC disruption shown in \textbf{D}, below -6 representing minimal SC disruption is shown in \textbf{E}.}
+    \label{Figure4}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure4A.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure4B.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure4C.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure4DE.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+
+    
+    
+    
 
 	\subsection{Functional reorganization is related to impairment and recovery}
-	We observed a significant positive correlation between subject-level early post-stroke remaps (between 1 weeks and 2 weeks post-stroke) and the 6 month improvement in motor scores, as measured by the difference in Fugl-Meyer scores at 6 months and 1 week post stroke (controlling for scan lengths). This result indicates that individuals with more early functional remapping had better long-term recovery (Figure \ref{remaps_6monthrecovery}A). There was also a significant negative relationship between the number of early post-stroke remaps (between 1 week and 2 weeks) and baseline Fugl-Meyer scores, such that more impaired subjects had more remapping at baseline (Figure \ref{remaps_6monthrecovery}B). The linear mixed effects model demonstrated a statistically significant relationship between 'remapping' and change in Fugl-Meyer score. For every one unit increase in 'remapping', there is an average increase of 0.15 units in the change in Fugl-Meyer scores, holding all other factors constant (p = 0.006) (Figure \ref{remaps_6monthrecovery}C). The amount of recovery between subsequent sessions was  positively associated with the number of remaps between sessions for the two comparisons between 1 week and 2 weeks post-stroke (Figure \ref{remaps_6monthrecovery}D), but only a trend for significance existed at the 2 weeks to 1 month time points and there was no significant correlation for the 3 and 6 months comparison.
+	We observed a significant positive correlation between subject-level early post-stroke remaps (between 1 weeks and 2 weeks post-stroke) and the 6 month improvement in motor scores, as measured by the difference in Fugl-Meyer scores at 6 months and 1 week post stroke (controlling for scan lengths). This result indicates that individuals with more early functional remapping had better long-term recovery (Figure \ref{Figure5}A). There was also a significant negative relationship between the number of early post-stroke remaps (between 1 week and 2 weeks) and baseline Fugl-Meyer scores, such that more impaired subjects had more remapping at baseline (Figure \ref{Figure5}B). The linear mixed effects model demonstrated a statistically significant relationship between 'remapping' and change in Fugl-Meyer score. For every one unit increase in 'remapping', there is an average increase of 0.15 units in the change in Fugl-Meyer scores, holding all other factors constant (p = 0.006) (Figure \ref{Figure5}C). The amount of recovery between subsequent sessions was  positively associated with the number of remaps between sessions for the two comparisons between 1 week and 2 weeks post-stroke (Figure \ref{Figure5}D), but only a trend for significance existed at the 2 weeks to 1 month time points and there was no significant correlation for the 3 and 6 months comparison.
 	
-	\subsection*{Robustness of results}
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[!hp]
+\caption{Relationship between subject-level remapping, baseline motor impairment, eventual motor recovery.  }
+\caption*{Subject-level remapping is related to baseline motor impairment and eventual motor recovery. \textbf{A.} Pearson correlation between subject-level remaps between 1 week and 2 weeks post stroke and change in Fugl-Meyer scores between 1 week and 6 months post-stroke. \textbf{B.} Pearson correlation between subject-level remaps between 1 week FC and 2 week FC and 1 week Fugl-Meyer scores, controlling for scan lengths at 1 week post-stroke at 2 weeks post stroke. \textbf{C.} Results from linear mixed effects analysis; each color indicates a different individuals' longitudinal time point. \textbf{D.} Pearson correlation subject-level remaps for each pair of time points and the change in Fugl-Meyer scores between time points, controlling for the scan length of the 2 scans in the remapping calculation.}
+    \label{Figure5}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure5AB.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure5C.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/Figure5D.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+	\subsection{Robustness of results}
 	The maximum overlap of lesions with each ROI is no more than 30 percent (Figure S19) and, importantly, lesioned voxels were excluded from FC calculations. We also found that the number of remaps was not related to differences in in-scanner motion between scans, as measured by framewise displacement (Fig S20).
 
-\subsection*{Discussion}
+\section{Discussion}
 	In this paper we proposed a measure of functional connectome reorganization based on graph matching and evaluated its relationship to structural $\&$ functional disconnection and motor impairment/recovery in a set of 23 individuals with pontine stroke. We observed instances of functional reorganization over the 1 week to 6 months post-stroke period and demonstrated that the areas that undergo functional reorganization most frequently are in cerebellar/subcortical and motor networks. Furthermore, regions more impacted by stroke via disruption to their structural and functional connections had more functional remapping over time. Finally, we show that functional reorganization one week post-stroke is highly related to both baseline impairment and the extent of motor recovery at 6 months, and, finally, that the extent of functional reorganization between 1 week and 2 weeks post-stroke is correlated with the extent of motor recovery observed in this same subacute time period.
 	
 	We first note that remaps, defined in this paper as instances where a node is assigned to a different node longitudinally in the linear assignment algorithm, were observed in the control population. This ‘noise’ may be related to inherent variability in subject-level functional connectivity, acquisition-related noise, or a combination of both. Graph matching has recently been used to develop a measure of connectome similarity within healthy controls (\cite{Osmanlioglu2020-xz}). Consistent with our findings, Osmanlioglu and colleagues observe that graph matching using the same subject’s functional connectomes acquired during different scans is imperfect, i.e., on average there are several remaps in a single subject’s functional connectomes, suggesting that functional network structure in the same individual over time is variable. To discern the difference between natural individual variability in functional connectivity and signal, we removed all remaps that were observed in more than 5 control subjects. Almost certainly, we have not completely isolated the influence of natural individual variability; this methodology can likely be improved with future studies investigating graph matching patterns within larger populations of healthy individuals. Scan duration also influences functional connectome similarity in healthy controls, driven by the lower SNR of shorter scans. Accordingly, we observed a relationship between subject-level remaps and scan length, such that subjects with shorter scans had more remaps. To account for this influence, we included scan duration - first and second scan length - as covariates in all longitudinal analyses, but future studies should attempt to obtain consistent scan durations for all subjects.
@@ -295,10 +508,10 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 	
 \label{chap:1}
 
-\chapter{Chapter 2}
-
+\chapter{Frontoparietal network activation is associated with motor recovery in ischemic stroke patients*}
+\blfootnote{* Olafson, E., Russello, G., Jamison, K. W., Liu, H., Wang, D., Bruss, J. E., Boes, A. D.,  Kuceyeski, A. (2022). Frontoparietal network activation is associated with motor recovery in ischemic stroke patients. Communications Biology, 5(1), 993.}
 \section{Introduction}
-	The ability to perform motor functions after stroke depends on the coordinated reconfiguration of distinct global brain activity patterns (\cite{Park2011-kx}). Novel data-driven techniques to characterize whole-brain activity in functional magnetic resonance imaging (fMRI) scans at single-frame resolutions have illuminated the dynamic nature of brain activity in several brain disorders (\cite{ Braun2021-iy, Adhikari2020-tk, Kaiser2019-rf,  Parker_Singleton2021-ur}), but methods assigning each time point to a discrete state have not yet been applied to examine altered brain dynamics in stroke patients. These methods provide information about brain function complementary to and beyond traditional static measures of functional connectivity (\cite{Cornblath2020-nc}), and thus may provide new insights regarding the process of recovery following stroke.
+	The ability to perform motor functions after stroke depends on the coordinated reconfiguration of distinct global brain activity patterns (\cite{Park2011-kx}). Novel data-driven techniques to characterize whole-brain activity in functional magnetic resonance imaging (fMRI) scans at single-frame resolutions have illuminated the dynamic nature of brain activity in several brain disorders (\cite{ Braun2021-iy, Adhikari2020-tk, Kaiser2019-rf,  Parker_Singleton-ur}), but methods assigning each time point to a discrete state have not yet been applied to examine altered brain dynamics in stroke patients. These methods provide information about brain function complementary to and beyond traditional static measures of functional connectivity (\cite{Cornblath2020-nc}), and thus may provide new insights regarding the process of recovery following stroke.
 	
 	Prior work characterizing spatiotemporal brain dynamics after stroke has focused on identifying altered functional connectivity states, which reflect time-varying patterns of functional connectivity (FC). Dynamic FC analyses identify recurrent connectivity patterns using a sliding window approach, in which FC is repeatedly calculated over consecutive windowed segments of the fMRI scan. This approach yields FC networks that fluctuate over time, with a temporal resolution proportional to the size of the window; about 30-60 seconds (\cite{Savva2019-hk}). In stroke populations, dynamic FC studies have demonstrated stroke-related differences in temporal configurations of motor networks (\cite{Bonkhoff2020-bx}) and participation in connectivity states that varies with severity (\cite{Bonkhoff2020-de}). 
 	
@@ -422,60 +635,68 @@ A subset of cross‐sectional data from the Enhancing Neuroimaging Genomics thro
 ENIGMA Stroke Recovery participants with the following data were included: (1) high‐resolution (1‐mm isotropic) T1‐weighted brain MRI (T1w) acquired with a 3T MRI scanner; (2) information about time since stroke at time of imaging (3) age, (4), sex, and (5) measurem of motor function from one of the following assessments: Fugl Meyer Assessment of Upper Extremities (FMA‐UE), a performance-based measure of paretic upper extremity impairment (\cite{Gladstone2002-fw}); the Action Research Arm test (ARAT) which tests arm function through assessment of the timing and difficulty of motor task completion (\cite{Yozbatiran2008-xv}); the Barthel index, which measures the extent to which a person can function independently and has mobility in their activities of daily living (\cite{Sulter1999-rr}); National Institutes of Health Stroke Score (NIHSS), a broad measure of stroke severity that includes assessment of non-motor and motor functions (\cite{Lyden2017-za}). Motor scores were normalized to the range [0, 1] by dividing by the raw score by the maximum possible score on the assessment. For a majority of the chronic stroke subjects (76$\%$), motor deficits are normalized FMA‐UE scores, whereas  normalized FMA‐UE scores were available for only $12\%$ of the acute stroke subjects (for full breakdown of type of test used for each site in the dataset, see Supplementary Table \ref{motor_scores}). behavioural data were collected within approximately 72 hours of the MRI. Subjects were considered in the chronic phase of stroke if their time since stroke at the time of assessment was greater than 180 days, and considered in the acute phase if their time since stroke at the time of assessment was less than 180 days (\cite{Bernhardt2017-av}). Subjects with cortical and subcortical lesions were included in the study; lesions were not flipped (see Supplementary Figure \ref{lesiondist} for lesion distribution in MNI space). 
 
 \newpage
-\begin{table}[h]
-\centering
-\caption{Demographic information of the ENIGMA dataset, broken down by chronicity (acute/chronic) and by site within each chronicity group. Total sample size (N), number of females (F) and males (M), and information about age (years), normalized motor scores, time since stroke at the time of assessment (months), and lesion volume ($cm^3$). IQR, interquartile range}
 
-\label{table:Demographics}
-\begin{tabular}{llllll}
-\toprule
-Site ID & Total N. & Median age & Median motor  & Median time    & Median lesion vol. \\
-& (F/M) & in years (IQR) & score (IQR) &  since stroke  & in $cm^3$ (IQR) \\
- \textbf{Acute}  & & & & in mos. (IQR) & \\
-\arrayrulecolor{black!30}\midrule
-r005 & 1 (0/1) & 50.0 (0.0) & 0.29 (0.00) & 5.1 (0.0) & 1.69 (0.00) \\
-r009 & 50 (13/37) & 70.0 (18.5) & 1.00 (0.05) & 0.2 (0.1) & 1.65 (6.96) \\
-r025 & 9 (4/5) & 70.0 (19.0) & 1.00 (0.09) & 3.0 (1.0) & 0.52 (1.44) \\
-r028 & 1 (0/1) & 63.0 (0.0) & 0.74 (0.00) & 5.5 (0.0) & 23.87 (0.00) \\
-r031 & 36 (10/26) & 58.5 (13.2) & 0.52 (0.38) & 4.5 (1.7) & 10.83 (38.77) \\
-r038 & 72 (30/42) & 66.5 (21.2) & 0.78 (0.66) & 2.9 (2.3) & 11.53 (41.64) \\
-r040 & 57 (32/25) & 64.0 (22.0) & 0.40 (0.50) & 1.8 (1.5) & 14.72 (58.63) \\
-r047 & 2 (1/1) & 71.0 (2.0) & 0.59 (0.26) & 4.4 (0.2) & 23.78 (19.19) \\
-r049 & 21 (12/9) & 65.0 (16.0) & 0.95 (0.00) & 0.0 (0.0) & 1.30 (2.18) \\
-r050 & 14 (7/7) & 68.0 (16.8) & 0.92 (0.10) & 0.0 (0.0) & 0.33 (0.40) \\
-r053 & 52 (20/32) & 63.5 (20.5) & 0.92 (0.17) & 3.0 (3.0) & 13.50 (28.27) \\
-r054 & 12 (5/7) & 65.5 (11.8) & 0.67 (0.83) & 0.4 (0.2) & 4.06 (14.15) \\
- & & & & &\\
-\textbf{Chronic}  & & & & &\\
-\arrayrulecolor{black!30}\midrule
-r001 & 39 (10/29) & 61.0 (17.0) & 0.65 (0.23) & 23.5 (40.0) & 6.27 (18.06) \\
-r002 & 12 (6/6) & 69.5 (11.5) & 0.50 (0.41) & 73.2 (51.9) & 28.24 (31.71) \\
-r003 & 15 (6/9) & 61.0 (16.5) & 0.24 (0.20) & 48.8 (67.6) & 20.28 (76.88) \\
-r004 & 19 (7/12) & 44.0 (14.5) & 0.17 (0.16) & 50.4 (81.9) & 36.85 (44.29) \\
-r005 & 27 (12/15) & 66.0 (16.5) & 0.79 (0.45) & 31.4 (27.8) & 1.61 (40.27) \\
-r009 & 60 (17/43) & 71.0 (7.2) & 0.96 (0.12) & 27.4 (9.3) & 1.43 (4.65) \\
-r025 & 16 (3/13) & 64.5 (13.2) & 0.98 (0.58) & 14.2 (10.2) & 5.92 (14.26) \\
-r027 & 28 (8/20) & 57.0 (10.2) & 0.30 (0.16) & 19.3 (24.7) & 12.30 (62.13) \\
-r028 & 21 (6/15) & 63.0 (9.0) & 0.82 (0.24) & 26.5 (37.5) & 5.25 (41.28) \\
-r031 & 1 (0/1) & 52.0 (0.0) & 0.68 (0.00) & 6.1 (0.0) & 1.54 (0.00) \\
-r034 & 15 (6/9) & 58.4 (11.1) & 0.82 (0.20) & 61.3 (68.3) & 6.68 (34.99) \\
-r035 & 15 (6/9) & 64.0 (18.0) & 0.64 (0.52) & 33.5 (22.9) & 3.89 (31.56) \\
-r038 & 18 (7/11) & 67.0 (10.0) & 1.00 (0.12) & 15.1 (10.1) & 1.98 (1.63) \\
-r040 & 14 (7/7) & 63.5 (9.8) & 0.68 (0.47) & 14.1 (17.5) & 8.65 (82.65) \\
-r042 & 22 (11/11) & 48.5 (15.5) & 0.64 (0.19) & 29.6 (36.4) & 14.16 (49.53) \\
-r044 & 4 (0/4) & 68.0 (9.2) & 0.52 (0.25) & 43.7 (52.9) & 23.65 (67.00) \\
-r045 & 4 (1/3) & 62.0 (5.2) & 0.49 (0.24) & 96.1 (59.0) & 7.97 (6.66) \\
-r046 & 11 (3/8) & 62.0 (10.5) & 0.50 (0.29) & 86.3 (83.4) & 4.62 (19.82) \\
-r047 & 44 (14/30) & 65.5 (12.0) & 0.65 (0.44) & 38.1 (53.7) & 12.72 (41.33) \\
-r048 & 43 (16/27) & 68.0 (12.5) & 0.79 (0.44) & 46.2 (49.8) & 7.93 (43.45) \\
-r052 & 32 (12/20) & 63.0 (13.5) & 0.41 (0.09) & 39.1 (42.2) & 6.98 (51.55) \\
- & & & & &\\
-\textbf{All}  & & & & &\\
-\arrayrulecolor{black!30}\midrule
-& 789 (293/496) & 64.0 (18.0) & 0.7 (0.5) & 12.2 (0.2) & 6.45 (32.48) \\
+
+
+\singlespacing
+\begin{longtable}{c|c|c|c|c|c}
+\caption[]{Demographic information of the acute subjects in the ENIGMA dataset, broken down by chronicity (acute/chronic) and by site within each chronicity group. Total sample size (N), number of females (F) and males (M), and information about age (years), normalized motor scores, time since stroke at the time of assessment (months), and lesion volume ($cm^3$). IQR, interquartile range\label{long}}\\
+
+Site ID & Total N.  & Median age & Median   & Median   & Median  \\
+& (F/M) & in years & motor score&  time since  & lesion vol,  \\
+& &(IQR)  &  (IQR) & stroke (IQR)  & $cm^3$ (IQR)  \\
+Acute & & & & & \\
+
+\hline\hline
+r005 & 1 (0/1) & 50.0 (0.0) & 0.29 (0.00) & 5.1 (0.0) & 1.7 (0.0) \\
+r009 & 50 (13/37) & 70.0 (18.5) & 1.00 (0.05) & 0.2 (0.1) & 1.7 (7.0) \\
+r025 & 9 (4/5) & 70.0 (19.0) & 1.00 (0.09) & 3.0 (1.0) & 0.5 (1.4) \\
+r028 & 1 (0/1) & 63.0 (0.0) & 0.74 (0.00) & 5.5 (0.0) & 23.9 (0.0) \\
+r031 & 36 (10/26) & 58.5 (13.2) & 0.52 (0.38) & 4.5 (1.7) & 10.8 (38.8)  \\
+r038 & 72 (30/42) & 66.5 (21.2) & 0.78 (0.66) & 2.9 (2.3) & 11.5 (41.6)  \\
+r040 & 57 (32/25) & 64.0 (22.0) & 0.40 (0.50) & 1.8 (1.5) & 14.7 (58.6)  \\
+r047 & 2 (1/1) & 71.0 (2.0) & 0.59 (0.26) & 4.4 (0.2) & 23.8 (19.2)  \\
+r049 & 21 (12/9) & 65.0 (16.0) & 0.95 (0.00) & 0.0 (0.0) & 1.3 (2.2)  \\
+r050 & 14 (7/7) & 68.0 (16.8) & 0.92 (0.10) & 0.0 (0.0) & 0.3 (0.4)  \\
+r053 & 52 (20/32) & 63.5 (20.5) & 0.92 (0.17) & 3.0 (3.0) & 13.5 (28.3)  \\
+r054 & 12 (5/7) & 65.5 (11.8) & 0.67 (0.83) & 0.4 (0.2) & 4.1 (14.1)  \\
+ & & & & & \\
+Chronic & & & & & \\
+\hline\hline
+r001 & 39 (10/29) & 61.0 (17.0) & 0.65 (0.23) & 23.5 (40.0) & 6.3 (18.1)  \\
+r002 & 12 (6/6) & 69.5 (11.5) & 0.50 (0.41) & 73.2 (51.9) & 28.2 (31.7)  \\
+r003 & 15 (6/9) & 61.0 (16.5) & 0.24 (0.20) & 48.8 (67.6) & 20.3 (76.9)  \\
+r004 & 19 (7/12) & 44.0 (14.5) & 0.17 (0.16) & 50.4 (81.9) & 36.9 (44.3)  \\
+r005 & 27 (12/15) & 66.0 (16.5) & 0.79 (0.45) & 31.4 (27.8) & 1.6 (40.3)  \\
+r009 & 60 (17/43) & 71.0 (7.2) & 0.96 (0.12) & 27.4 (9.3) & 1.4 (4.7) \\
+r025 & 16 (3/13) & 64.5 (13.2) & 0.98 (0.58) & 14.2 (10.2) & 5.9 (14.3)  \\
+r027 & 28 (8/20) & 57.0 (10.2) & 0.30 (0.16) & 19.3 (24.7) & 12.3 (62.1)  \\
+r028 & 21 (6/15) & 63.0 (9.0) & 0.82 (0.24) & 26.5 (37.5) & 5.2 (41.3)  \\
+r031 & 1 (0/1) & 52.0 (0.0) & 0.68 (0.00) & 6.1 (0.0) & 1.5 (0.0)  \\
+r034 & 15 (6/9) & 58.4 (11.1) & 0.82 (0.20) & 61.3 (68.3) & 6.7 (35.0)  \\
+r035 & 15 (6/9) & 64.0 (18.0) & 0.64 (0.52) & 33.5 (22.9) & 3.9 (31.6)  \\
+r038 & 18 (7/11) & 67.0 (10.0) & 1.00 (0.12) & 15.1 (10.1) & 2.0 (1.6)  \\
+r040 & 14 (7/7) & 63.5 (9.8) & 0.68 (0.47) & 14.1 (17.5) & 8.6 (82.7)  \\
+r042 & 22 (11/11) & 48.5 (15.5) & 0.64 (0.19) & 29.6 (36.4) & 14.1 (49.5)  \\
+r044 & 4 (0/4) & 68.0 (9.2) & 0.52 (0.25) & 43.7 (52.9) & 23.7 (67.0)  \\
+r045 & 4 (1/3) & 62.0 (5.2) & 0.49 (0.24) & 96.1 (59.0) & 8.0 (6.7)  \\
+r046 & 11 (3/8) & 62.0 (10.5) & 0.50 (0.29) & 86.3 (83.4) & 4.6 (19.8)  \\
+r047 & 44 (14/30) & 65.5 (12.0) & 0.65 (0.44) & 38.1 (53.7) & 12.7 (41.3)  \\
+r048 & 43 (16/27) & 68.0 (12.5) & 0.79 (0.44) & 46.2 (49.8) & 7.9 (43.4)  \\
+ \caption[]{(continued)}\\
+
+r052 & 32 (12/20) & 63.0 (13.5) & 0.41 (0.09) & 39.1 (42.2) & 7.0 (51.5)  \\
+
+   & & & & & \\
+ All  & & & & & \\
+\hline\hline
+& 789  & 64.0 & 0.7 & 12.2 & 6.5 \\
+&(293/496) &(18.0) & (0.5) &(0.2) &  (32.5)  \\
+
 \bottomrule
-\end{tabular}
-\end{table}
+\end{longtable}
+
+\doublespacing
 
 \subsection{General overview}
 
@@ -502,20 +723,15 @@ Linear regression was used to model the relationship between ipsilesional M1-CST
 \subsubsection*{Sensorimotor tract lesion load (SMATT-LL) models}
 Sensorimotor tract segmentations were obtained from the sensorimotor area tract template (SMATT) (\cite{Archer2018-ti}), a set of 12 tracts derived from probabilistic tractography seeded in the left and right primary motor cortex (M1), dorsal and ventral premotor cortex (PMd and PMv, respectively), supplementary motor area (SMA), pre-supplementary motor area (pre-SMA), and primary somatosensory cortex (S1) of healthy controls (Figure \ref{smatt_and_chaco}A). Lesion load was calculated as above, for all 12 tracts, i.e., separately for left and right hemispheres, referred to as L/R SMATT-LL, and for the 6 ipsilesional tracts, referred to as Ipsilesional SMATT-LL. L/R SMATT-LL was calculated in order to assess whether preserving hemispheric information improved predictions. For subjects with brainstem, cerebellar, and/or bilateral cerebral strokes (N=30 chronic, N=43 acute), ipsilesional lesion load was calculated as the average lesion load of the left and right hemisphere tracts. Lesion loads also had a heavy-tailed distribution (Supplementary Figure \ref{lesion_load_dist}B,C). 
 
-\begin{figure}
-\begin{subfigure}{1\textwidth}
-   \includegraphics[width=1\linewidth]{figures/SMATT.png}
+\begin{figure}\includegraphics[width=1\linewidth]{chapter3/SMATT.png}
+   
     \caption{Sensorimotor tract template atlas (SMATT), displaying only right hemisphere tracts relative to an MNI template. Includes supplementary motor area (SMA), dorsal premotor cortex (PMd), ventral premotor cortex (PMv), pre-supplementary motor area (pre-SMA), primary sensory cortex (S1),  and primary motor cortex (M1). Pre-SMA is the most anterior tract, S1 is the most posterior tract.}
     \label{smatt}
-  \label{fig:sfig1}
-\end{subfigure}
-\begin{subfigure}{1\textwidth}
-  \includegraphics[width=1\linewidth]{figures/Multi-panelML_white_regional.png}
+\end{figure}
+
+\begin{figure}\includegraphics[width=1\linewidth]{chapter3/Multi-panelML_white_regional.png}
   \caption{Overview of the Network Modification tool. Binary lesion masks in MNI space representing the presence of a stroke lesion (turquoise) in a given voxel are provided by the user. Each lesion mask is embedded into 420 unrelated healthy structural connectomes (separately for each healthy subject) and the regional or pairwise change in connectivity (ChaCo) scores are calculated and averaged across healthy subjects (parcellation shown here is the Shen 268-region atlas). }
-  \label{fig:sfig2}
-\end{subfigure}
-\caption{Overview of SMATT tracts and procedure for generating regional Change in Connectivity (ChaCo) scores using the Network Modification tool}
-\label{smatt_and_chaco}
+\label{chaco}
 \end{figure}
 
 Ridge regression models were used to predict chronic motor deficits from ipsilesional SMATT-LL (6 features) and from L/R-SMATT-LL (12 features). Ridge regression was used to account for multicollinearity of lesion load values between tracts (Supplementary Figure \ref{smatt_pairwise_correlations}, \ref{smatt_pairwise_correlations_bi}). Lesion load values were normalized (after train/test split) by subtracting the mean across subjects and dividing by the l2-norm prior to model fitting. In the inner loop, the degree of regularization on regression coefficients ($\lambda$) was determined via. grid-search, searching over 30 values ranging [$10^-2$ to $10^2$]. The training data was fit with the selected $\lambda$ and this model was used to predict motor scores for new subjects in the test folds.
@@ -543,10 +759,176 @@ The stability of the beta coefficients for the best-performing models was assess
 \subsubsection*{Code availability}
 All analysis scripts that generated the results of the present study are readily accessible and open for reuse (https://github.com/emilyolafson/lesion$\_$predictions). The script can be easily modified to predict any outcome score from ChaCo scores/lesion load data.
 
-
 \label{chap:3}
+\appendix
+\chapter{Supplementary material for Chapter 1}
+\label{chap:4}
+
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure1.png}
+       \caption{Functional network visualizations.}
+  \caption*{8 functtional networks identified by (\cite{Finn2015-er}) by clustering healthy functional connectivity matrices.}
+      \label{SupplementaryFigure1}
+\end{figure}
+\null
+\vfill
+
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure2.png}
+       \caption{Results of optimization procedure to choose the best regularization parameter, lambda ($\lambda$).}
+  \caption*{ The lambda that is chosen is the one that minimizes the root mean squared error of the Frobenius norm of the difference in regularized subject precision matrices $P_i^{reg}$ and the group average unregularized precision matrix $P_{avg}$, which was found to be $\lambda = 0.71$. }
+      \label{SupplementaryFigure2}
+\end{figure}
+\null
+\vfill
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[!hp]
+\caption{Functional connectivity (node strength) differences between stroke and control subjects. }
+\caption*{Significant differences and node strength (for a single node, node strength is the sum of connectivity weights to all other nodes), assessed with mass-univariate t-tests at each node  and corrected with Benjamini-Hochberg FDR correction. Left hemisphere is the leftmost brain; right hemisphere is the rightmost brain. Top row shows the lateral view, bottom row shows a medial view.}
+    \label{SupplementaryFigure3}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure3_1.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure3_2.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[!hp]
+       \caption{Correlation between scan length (number of TRs after motion scrubbing) and remapping.}
+  \caption*{Top row: correlation between the total number of remaps observed between time points (column) and the average scan length of the two time points. Middle row: correlation between the total number of remaps observed between the number of remaps and the scan length of the first time point (chronologically). Bottom row: correlation between the total number of remaps observed between the number of remaps and the scan length of the second time point (chronologically)..}
+    \label{SupplementaryFigure4}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure4A.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure4B.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+
+
+
+
+
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure5.png}
+       \caption{Relationship between disconnection frequency and remapping frequency. }
+  \caption*{Remapping preferentially occurs in regions with greater structural connectivity disruption \textbf{A.} Correlations between average ChaCo scores and regional remap frequencies across all 23 stroke subjects. Regions are colored by network assignment. \textbf{B.} Nodes that remap have a higher proportion of disconnected nodes than nodes that do not remap, for all time points.}
+      \label{SupplementaryFigure5}
+\end{figure}
+\null
+\vfill
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure6.png}
+       \caption{Number of remaps in}
+  \caption*{Left: Number of remaps over 4 time point intervals split into whether the source and target network were in the contralesional or ipsilesional hemisphere. Left: number of remaps organized by hemisphere in only the subcortical/cerebellum network.}
+      \label{SupplementaryFigure6}
+\end{figure}
+\null
+\vfill
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure7.png}
+       \caption{Functional network visualizations.}
+  \caption*{8 functtional networks identified by (\cite{Finn2015-er}) by clustering healthy functional connectivity matrices.}
+      \label{SupplementaryFigure7}
+\end{figure}
+\null
+\vfill
+
+
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter1/SupplementaryFigure8.png}
+       \caption{Functional network visualizations.}
+  \caption*{8 functtional networks identified by (\cite{Finn2015-er}) by clustering healthy functional connectivity matrices.}
+      \label{SupplementaryFigure8}
+\end{figure}
+\null
+\vfill
+
 
 % Loads from References.bib file in the same directory and creates references page
-\bibliography{bibliography}
-
+\printbibliography
 \end{document}

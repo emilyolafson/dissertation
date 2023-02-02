@@ -1,29 +1,81 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{Biographical Sketch}{iii}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{Dedication}{v}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{Acknowledgements}{vi}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{Table of Contents}{vii}{chapter*.2}%
-\contentsline {section}{List of Tables}{viii}{chapter*.3}%
-\contentsline {section}{List of Figures}{ix}{chapter*.4}%
-\contentsline {chapter}{\numberline {1}Functional connectome reorganization is associated with structural connectome distruption and motor recovery}{1}{chapter.1}%
-\contentsline {subsection}{\numberline {1.0.1}Data description}{3}{subsection.1.0.1}%
-\contentsline {subsection}{\numberline {1.0.2}Structural data processing}{4}{subsection.1.0.2}%
-\contentsline {subsection}{\numberline {1.0.3}Functional data processing}{6}{subsection.1.0.3}%
-\contentsline {subsection}{\numberline {1.0.4}Functional connectivity calculation}{6}{subsection.1.0.4}%
-\contentsline {subsection}{\numberline {1.0.5}Graph matching}{9}{subsection.1.0.5}%
-\contentsline {subsection}{\numberline {1.0.6}Quantification of functional reorganization}{12}{subsection.1.0.6}%
-\contentsline {subsection}{\numberline {1.0.7}Statistical analyses}{13}{subsection.1.0.7}%
-\contentsline {subsubsection}{Code availability}{15}{section*.12}%
-\contentsline {subsection}{\numberline {1.0.8}Functional reorganization is primarily observed in the brainstem and cerebellum}{15}{subsection.1.0.8}%
-\contentsline {subsection}{\numberline {1.0.9}Regions with greater structural and functional disconnection have more functional reorganization over time}{16}{subsection.1.0.9}%
-\contentsline {subsection}{\numberline {1.0.10}Functional reorganization is related to impairment and recovery}{17}{subsection.1.0.10}%
-\contentsline {subsection}{\numberline {1.0.11}Limitations}{26}{subsection.1.0.11}%
-\contentsline {section}{\numberline {1.1}Conclusion}{27}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Chapter 2}{28}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{28}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Methods}{30}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Results}{42}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Discussion}{42}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Conclusions}{42}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Chapter 3}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{43}{section.3.1}%
-\contentsline {chapter}{Bibliography}{48}{chapter*.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Tables}{ix}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{List of Figures}{x}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Functional connectome reorganization relates to post-stroke motor recovery and structural and functional disconnection*}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Methods}{4}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Data description}{4}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Structural data processing}{6}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Functional data processing}{6}{subsection.1.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Functional connectivity calculation}{7}{subsection.1.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Estimated structural disconnection}{9}{subsection.1.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.6}Estimated functional disconnection}{12}{subsection.1.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.7}Graph matching}{12}{subsection.1.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.8}Quantification of functional reorganization}{13}{subsection.1.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.9}Statistical analyses}{15}{subsection.1.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.10}Code availability}{17}{subsection.1.2.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Results}{17}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Functional reorganization is primarily observed in the brainstem and cerebellum}{17}{subsection.1.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Regions with greater structural and functional disconnection have more functional reorganization over time}{24}{subsection.1.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Functional reorganization is related to impairment and recovery}{32}{subsection.1.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}Robustness of results}{37}{subsection.1.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Discussion}{37}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Limitations}{42}{subsection.1.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Conclusion}{43}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Frontoparietal network activation is associated with motor recovery in ischemic stroke patients*}{44}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introduction}{44}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Methods}{48}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Results}{59}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Discussion}{59}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Conclusions}{59}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Chapter 3}{60}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{60}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Methods}{64}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Sample demographics}{64}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}General overview}{68}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Description of models and their inputs}{70}{subsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Supplementary material for Chapter 1}{77}{appendix.A}%
