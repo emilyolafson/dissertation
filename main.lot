@@ -4,6 +4,14 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Demographic and clinical characteristics of sample. *Differences between groups. For age: unpaired two-tail t-test; t-statistic (p-value), for sex: Fisher's exact test: odds ratio (p-value). Motor scores: FM1 = Fugl-Meyer score at 1-week post stroke, FM2 = Fugl-Meyer score at 2 weeks post stroke, FM3 = Fugl-Meyer score at 1 month post stroke, FM4 = Fugl-Meyer score at 3 months post stroke, FM5 = Fugl-Meyer score at 6 months post stroke. Displayed as: mean (standard deviation).\relax }}{58}{table.2.1}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Test performance of all models evaluated, displaying median $R^2$ and median correlation of average hold-out performances (i.e. average across 5 outer folds) across 100 permutations. Demog. = demographics, Ipsi. = Ipsilesional, SMATT LL = sensorimotor tract template lesion load, L/R SMATT LL = left and right sensorimotor tract template lesion load, M1 CST LL = M1 corticospinal tract lesion load, ChaCo = Change in Connectivity, fs86 = FreeSurfer 86-region atlas, feat. select. = feature selection\relax }}{122}{table.caption.70}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.1}{\ignorespaces * Overlap with L and R CST tracts. Breakdown of subjects according to lesion side, handedness, and dominant-hemisphere CST damage. Blue subjects indicate those that were included in the linear model as having "Dominant CST damage" assessing the effect of CST damage on FPN+ recruitment in recovery. Note that SUB12 has damage to their dominant CST but does not have motor scores for the chronic period, and was not included in the model. L;left, R; right, B; both\relax }}{191}{table.caption.147}%
