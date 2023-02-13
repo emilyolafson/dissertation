@@ -17,55 +17,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 20568 items from 5000.
+Reallocated field_info (elt_size=4) to 24460 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-Warning--I didn't find a database entry for "Parker_Singleton-ur"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 111 entries,
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+You've used 140 entries,
             6365 wiz_defined-function locations,
-            2031 strings with 202468 characters,
-and the built_in function-call counts, 1366112 in all, are:
-= -- 116504
-> -- 15018
-< -- 2712
-+ -- 36529
-- -- 6001
-* -- 110687
-:= -- 169207
+            2232 strings with 255447 characters,
+and the built_in function-call counts, 1694397 in all, are:
+= -- 144018
+> -- 18659
+< -- 3325
++ -- 45425
+- -- 7417
+* -- 136970
+:= -- 209740
 add.period$ -- 0
-call.type$ -- 111
-change.case$ -- 1367
-chr.to.int$ -- 636
-cite$ -- 220
-duplicate$ -- 128205
-empty$ -- 120669
-format.name$ -- 11659
-if$ -- 267568
+call.type$ -- 140
+change.case$ -- 1686
+chr.to.int$ -- 804
+cite$ -- 278
+duplicate$ -- 160300
+empty$ -- 149780
+format.name$ -- 14530
+if$ -- 331596
 int.to.chr$ -- 0
-int.to.str$ -- 338
+int.to.str$ -- 429
 missing$ -- 0
-newline$ -- 6729
-num.names$ -- 4908
-pop$ -- 45334
+newline$ -- 8444
+num.names$ -- 6164
+pop$ -- 57061
 preamble$ -- 1
-purify$ -- 2890
+purify$ -- 3578
 quote$ -- 0
-skip$ -- 20284
+skip$ -- 25272
 stack$ -- 0
-substring$ -- 239432
-swap$ -- 24183
-text.length$ -- 2864
-text.prefix$ -- 27
+substring$ -- 294741
+swap$ -- 30374
+text.length$ -- 3547
+text.prefix$ -- 42
 top$ -- 1
-type$ -- 3762
+type$ -- 4748
 warning$ -- 0
-while$ -- 21647
+while$ -- 27022
 width$ -- 0
-write$ -- 6619
-(There was 1 warning)
+write$ -- 8305

@@ -17,6 +17,87 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{Kelly-Hayes2003-sp}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KHM}{%
+         family={Kelly-Hayes},
+         familyi={K\bibinithyphendelim H\bibinitperiod},
+         given={Margaret},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Beiser},
+         familyi={B\bibinitperiod},
+         given={Alexa},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KCS}{%
+         family={Kase},
+         familyi={K\bibinitperiod},
+         given={Carlos\bibnamedelima S},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Scaramucci},
+         familyi={S\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DRB}{%
+         family={D'Agostino},
+         familyi={D\bibinitperiod},
+         given={Ralph\bibnamedelima B},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WPA}{%
+         family={Wolf},
+         familyi={W\bibinitperiod},
+         given={Philip\bibnamedelima A},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{KHM+1}
+    \strng{fullhash}{KHMBAKCSSADRBWPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The magnitude of disability among elderly stroke survivors is substantial.
+  There have been few community-based estimates of the contribution gender and
+  older age make to stroke-related disability and outcome. Using the original
+  Framingham Study cohort, we documented gender-specific neurological deficits
+  and disability differences in stroke survivors at six months post-stroke.
+  Logistic regression analyses were performed to estimate odds ratios,
+  comparing men and women, and adjusting for age, and age and stroke subtype.
+  Age and gender-matched controls were then compared to distinguish
+  stroke-related disability from disability associated with general aging.
+  Results showed that almost half (43\%) of all elderly stroke survivors in the
+  cohort had moderate to severe neurological deficits. In the crude analyses,
+  women were more dependent in ADLs (33.9\% vs 15.6\%), less likely to walk
+  unassisted (40.3\% vs 17.8\%), and living in nursing homes (34.9 \% vs
+  13.3\%). After adjusting for age and stroke subtype, it was older age that
+  accounted for the severity of disability. When compared to age and
+  gender-matched controls, stroke cases were significantly more disabled in all
+  domains studied. In this elderly cohort, more women experienced initial
+  strokes and were more disabled at 6 months post-stroke than men. However,
+  older age at stroke onset, not gender or stroke subtype, was associated with
+  greater disability. Health care providers need to understand that strokes
+  occur later in life for women and that because of age, women are at greater
+  risk for disability and institutionalization.%
+    }
+    \field{number}{3}
+    \field{pages}{119\bibrangedash 126}
+    \field{title}{The influence of gender and age on disability following
+  ischemic stroke: the Framingham study}
+    \field{volume}{12}
+    \field{journaltitle}{J. Stroke Cerebrovasc. Dis.}
+    \field{year}{2003}
+  \endentry
+
   \entry{Duncan2000-uj}{article}{}
     \name{author}{3}{}{%
       {{hash=DPW}{%
@@ -300,80 +381,85 @@
     \field{year}{2009}
   \endentry
 
-  \entry{Adam2020-jk}{article}{}
-    \name{author}{4}{}{%
-      {{hash=AR}{%
-         family={Adam},
-         familyi={A\bibinitperiod},
-         given={Ramina},
-         giveni={R\bibinitperiod},
+  \entry{Brown2009-jn}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BCE}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Craig\bibnamedelima E},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
-      {{hash=JK}{%
-         family={Johnston},
-         familyi={J\bibinitperiod},
-         given={Kevin},
+      {{hash=AK}{%
+         family={Aminoltejari},
+         familyi={A\bibinitperiod},
+         given={Khatereh},
          giveni={K\bibinitperiod},
       }}%
-      {{hash=MRS}{%
-         family={Menon},
-         familyi={M\bibinitperiod},
-         given={Ravi\bibnamedelima S},
-         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=ES}{%
-         family={Everling},
+      {{hash=EH}{%
+         family={Erb},
          familyi={E\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
+         given={Heidi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WIR}{%
+         family={Winship},
+         familyi={W\bibinitperiod},
+         given={Ian\bibnamedelima R},
+         giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MTH}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Timothy\bibnamedelima H},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
     \list{language}{1}{%
       {en}%
     }
-    \keyw{Endothelin-1; Functional connectivity; Monkeys; Resting-state fMRI;
-  Visual extinction}
-    \strng{namehash}{AR+1}
-    \strng{fullhash}{ARJKMRSES1}
+    \strng{namehash}{BCE+1}
+    \strng{fullhash}{BCEAKEHWIRMTH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2020}
+    \field{labelyear}{2009}
     \field{labeldatesource}{}
     \field{abstract}{%
-    Visual extinction has been characterized by the failure to respond to a
-  visual stimulus in the contralesional hemifield when presented simultaneously
-  with an ipsilesional stimulus (Corbetta and Shulman, 2011). Unilateral damage
-  to the macaque frontoparietal cortex commonly leads to deficits in
-  contralesional target selection that resemble visual extinction. Recently, we
-  showed that macaque monkeys with unilateral lesions in the caudal prefrontal
-  cortex (PFC) exhibited contralesional target selection deficits that
-  recovered over 2-4 months (Adam et al., 2019). Here, we investigated the
-  longitudinal changes in functional connectivity (FC) of the frontoparietal
-  network after a small or large right caudal PFC lesion in four macaque
-  monkeys. We collected ultra-high field resting-state fMRI at 7-T before the
-  lesion and at weeks 1-16 post-lesion and compared the functional data with
-  behavioural performance on a free-choice saccade task. We found that the
-  pattern of frontoparietal network FC changes depended on lesion size, such
-  that the recovery of contralesional extinction was associated with an initial
-  increase in network FC that returned to baseline in the two small lesion
-  monkeys, whereas FC continued to increase throughout recovery in the two
-  monkeys with a larger lesion. We also found that the FC between
-  contralesional dorsolateral PFC and ipsilesional parietal cortex correlated
-  with behavioural recovery and that the contralesional dorsolateral PFC showed
-  increasing degree centrality with the frontoparietal network. These findings
-  suggest that both the contralesional and ipsilesional hemispheres play an
-  important role in the recovery of function. Importantly, optimal compensation
-  after large PFC lesions may require greater recruitment of distant and intact
-  areas of the frontoparietal network, whereas recovery from smaller lesions
-  was supported by a normalization of the functional network.%
+    After brain damage such as stroke, topographically organized sensory and
+  motor cortical representations remap onto adjacent surviving tissues. It is
+  conceivable that cortical remapping is accomplished by changes in the
+  temporal precision of sensory processing and regional connectivity in the
+  cortex. To understand how the adult cortex remaps and processes sensory
+  signals during stroke recovery, we performed in vivo imaging of
+  sensory-evoked changes in membrane potential, as well as multiphoton imaging
+  of dendrite structure and tract tracing. In control mice, forelimb
+  stimulation evoked a brief depolarization in forelimb cortex that quickly
+  propagated to, and dissipated within, adjacent motor/hindlimb areas (<100
+  ms). One week after forelimb cortex stroke, the cortex was virtually
+  unresponsive to tactile forelimb stimulation. After 8 weeks recovery,
+  forelimb-evoked depolarizations reemerged with a characteristic pattern in
+  which responses began within surviving portions of forelimb cortex (<20 ms
+  after stimulation) and then spread horizontally into neighboring peri-infarct
+  motor/hindlimb areas in which depolarization persisted 300-400\% longer than
+  controls. These uncharacteristically prolonged responses were not limited to
+  the remapped peri-infarct zone and included distant posteromedial
+  retrosplenial cortex, millimeters from the stroke. Structurally, the remapped
+  peri-infarct area selectively exhibited high levels of dendritic spine
+  turnover, shared more connections with retrosplenial cortex and striatum, and
+  lost inputs from lateral somatosensory cortical regions. Our findings
+  demonstrate that sensory remapping during stroke recovery is accompanied by
+  the development of prolonged sensory responses and new structural circuits in
+  both the peri-infarct zone as well as more distant sites.%
     }
-    \field{pages}{116339}
-    \field{title}{Functional reorganization during the recovery of
-  contralesional target selection deficits after prefrontal cortex lesions in
-  macaque monkeys}
-    \field{volume}{207}
-    \field{journaltitle}{Neuroimage}
+    \field{number}{6}
+    \field{pages}{1719\bibrangedash 1734}
+    \field{title}{In vivo voltage-sensitive dye imaging in adult mice reveals
+  that somatosensory maps lost to stroke are replaced over weeks by new
+  structural and functional circuits with prolonged modes of activation within
+  both the peri-infarct zone and distant sites}
+    \field{volume}{29}
+    \field{journaltitle}{J. Neurosci.}
     \field{month}{02}
-    \field{year}{2020}
+    \field{year}{2009}
   \endentry
 
   \entry{Murata2015-ss}{article}{}
@@ -477,87 +563,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{Brown2009-jn}{article}{}
-    \name{author}{5}{}{%
-      {{hash=BCE}{%
-         family={Brown},
-         familyi={B\bibinitperiod},
-         given={Craig\bibnamedelima E},
-         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=AK}{%
-         family={Aminoltejari},
-         familyi={A\bibinitperiod},
-         given={Khatereh},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=EH}{%
-         family={Erb},
-         familyi={E\bibinitperiod},
-         given={Heidi},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=WIR}{%
-         family={Winship},
-         familyi={W\bibinitperiod},
-         given={Ian\bibnamedelima R},
-         giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=MTH}{%
-         family={Murphy},
-         familyi={M\bibinitperiod},
-         given={Timothy\bibnamedelima H},
-         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \strng{namehash}{BCE+1}
-    \strng{fullhash}{BCEAKEHWIRMTH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2009}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    After brain damage such as stroke, topographically organized sensory and
-  motor cortical representations remap onto adjacent surviving tissues. It is
-  conceivable that cortical remapping is accomplished by changes in the
-  temporal precision of sensory processing and regional connectivity in the
-  cortex. To understand how the adult cortex remaps and processes sensory
-  signals during stroke recovery, we performed in vivo imaging of
-  sensory-evoked changes in membrane potential, as well as multiphoton imaging
-  of dendrite structure and tract tracing. In control mice, forelimb
-  stimulation evoked a brief depolarization in forelimb cortex that quickly
-  propagated to, and dissipated within, adjacent motor/hindlimb areas (<100
-  ms). One week after forelimb cortex stroke, the cortex was virtually
-  unresponsive to tactile forelimb stimulation. After 8 weeks recovery,
-  forelimb-evoked depolarizations reemerged with a characteristic pattern in
-  which responses began within surviving portions of forelimb cortex (<20 ms
-  after stimulation) and then spread horizontally into neighboring peri-infarct
-  motor/hindlimb areas in which depolarization persisted 300-400\% longer than
-  controls. These uncharacteristically prolonged responses were not limited to
-  the remapped peri-infarct zone and included distant posteromedial
-  retrosplenial cortex, millimeters from the stroke. Structurally, the remapped
-  peri-infarct area selectively exhibited high levels of dendritic spine
-  turnover, shared more connections with retrosplenial cortex and striatum, and
-  lost inputs from lateral somatosensory cortical regions. Our findings
-  demonstrate that sensory remapping during stroke recovery is accompanied by
-  the development of prolonged sensory responses and new structural circuits in
-  both the peri-infarct zone as well as more distant sites.%
-    }
-    \field{number}{6}
-    \field{pages}{1719\bibrangedash 1734}
-    \field{title}{In vivo voltage-sensitive dye imaging in adult mice reveals
-  that somatosensory maps lost to stroke are replaced over weeks by new
-  structural and functional circuits with prolonged modes of activation within
-  both the peri-infarct zone and distant sites}
-    \field{volume}{29}
-    \field{journaltitle}{J. Neurosci.}
-    \field{month}{02}
-    \field{year}{2009}
-  \endentry
-
   \entry{Ward2003-zd}{article}{}
     \name{author}{4}{}{%
       {{hash=WNS}{%
@@ -627,6 +632,192 @@
     \field{journaltitle}{Brain}
     \field{month}{11}
     \field{year}{2003}
+  \endentry
+
+  \entry{Cramer1997-ko}{article}{}
+    \name{author}{9}{}{%
+      {{hash=CSC}{%
+         family={Cramer},
+         familyi={C\bibinitperiod},
+         given={S\bibnamedelima C},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nelles},
+         familyi={N\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=BRR}{%
+         family={Benson},
+         familyi={B\bibinitperiod},
+         given={R\bibnamedelima R},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KJD}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={J\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PRA}{%
+         family={Parker},
+         familyi={P\bibinitperiod},
+         given={R\bibnamedelima A},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KKK}{%
+         family={Kwong},
+         familyi={K\bibinitperiod},
+         given={K\bibnamedelima K},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KDN}{%
+         family={Kennedy},
+         familyi={K\bibinitperiod},
+         given={D\bibnamedelima N},
+         giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=FSP}{%
+         family={Finklestein},
+         familyi={F\bibinitperiod},
+         given={S\bibnamedelima P},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RBR}{%
+         family={Rosen},
+         familyi={R\bibinitperiod},
+         given={B\bibnamedelima R},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{CSC+1}
+    \strng{fullhash}{CSCNGBRRKJDPRAKKKKDNFSPRBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND AND PURPOSE: Stroke recovery mechanisms remain incompletely
+  understood, particularly for subjects with cortical stroke, in whom limited
+  data are available. We used functional magnetic resonance imaging to compare
+  brain activations in normal controls and subjects who recovered from
+  hemiparetic stroke. METHODS: Functional magnetic resonance imaging was
+  performed in ten stroke subjects with good recovery, five with deep, and five
+  with cortical infarcts. Brain activation was achieved by index
+  finger-tapping. Statistical parametric activation maps were obtained using a
+  t test and a threshold of P < .001. In five bilateral motor regions, the
+  volume of activated brain for each stroke subject was compared with the
+  distribution of activation volumes among nine controls. RESULTS: Control
+  subjects activated several motor regions. During recovered hand
+  finger-tapping, stroke subjects activated the same regions as controls, often
+  in a larger brain volume. In the unaffected hemisphere, sensorimotor cortex
+  activation was increased in six of nine stroke subjects compared with
+  controls. Cerebellar hemisphere contralateral and premotor cortex ipsilateral
+  to this region, as well as supplementary motor areas, also had increased
+  activation. In the stroke hemisphere, activation exceeding controls was
+  uncommon, except that three of five cortical strokes showed peri-infarct
+  activation foci. During unaffected hand finger-tapping, increased activation
+  by stroke subjects compared with controls was uncommon; however, decreased
+  activation was seen in unaffected sensorimotor cortex, suggesting that this
+  region's responsiveness increased to the ipsilateral hand and decreased to
+  contralateral hand movements. Use of a different threshold for defining
+  activation (P < .01) did not change the overall findings (kappa = .75).
+  CONCLUSIONS: Recovered finger-tapping by stroke subjects activated the same
+  motor regions as controls but to a larger extent, particularly in the
+  unaffected hemisphere. Increased reliance on these motor areas may represent
+  an important component of motor recovery. Functional magnetic resonance
+  imaging studies of subjects who recovered from stroke provide evidence for
+  several processes that may be related to restoration of neurologic function.%
+    }
+    \field{number}{12}
+    \field{pages}{2518\bibrangedash 2527}
+    \field{title}{A functional {MRI} study of subjects recovered from
+  hemiparetic stroke}
+    \field{volume}{28}
+    \field{journaltitle}{Stroke}
+    \field{month}{12}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Cao1998-iq}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CY}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=DL}{%
+         family={D'Olhaberriague},
+         familyi={D\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=VEM}{%
+         family={Vikingstad},
+         familyi={V\bibinitperiod},
+         given={E\bibnamedelima M},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LSR}{%
+         family={Levine},
+         familyi={L\bibinitperiod},
+         given={S\bibnamedelima R},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WKM}{%
+         family={Welch},
+         familyi={W\bibinitperiod},
+         given={K\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{CY+1}
+    \strng{fullhash}{CYDLVEMLSRWKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND AND PURPOSE: Studies of cerebral activation of motor function
+  after ischemic stroke may enhance our understanding of the underlying
+  mechanisms of motor functional recovery, including the role of the
+  noninfarcted hemisphere. METHODS: Eight right-handed recovering hemiparetic
+  or hemiplegic patients were studied using functional MRI. Results were
+  evaluated for each patient to consider individual variability in original
+  functional organization, neuroanatomy, infarct size and extent, treatment,
+  age, and sex. The results were also pooled as a group for comparison with a
+  control group of eight right-handed normal subjects. RESULTS: In six of eight
+  stroke patients, extended activation in ipsilateral sensorimotor cortex was
+  observed during paretic hand movements. Bilateral activation of the primary
+  sensorimotor cortex was recorded in three of these six patients; ipsilateral
+  activation alone was recorded in the remaining three patients. Only two
+  patients had mild synkinesia. Furthermore, in two male patients, the paretic
+  hand movements activated extended areas of ipsilateral premotor and
+  dorsolateral prefrontal cortex, when compared with normal subjects. In two
+  patients with left frontal infarction, profound activation in the right
+  supramarginal gyrus and in the right premotor cortex was observed during the
+  ipsilateral paretic hand movements. CONCLUSIONS: Synkinesia alone cannot
+  explain the extent of ipsilateral activation in primary sensorimotor cortex.
+  The explanation offered for our findings is that preexisting uncrossed motor
+  neural pathways may be accessed or recruited to compensate for damage to the
+  crossed motor pathways after ischemic stroke.%
+    }
+    \field{number}{1}
+    \field{pages}{112\bibrangedash 122}
+    \field{title}{Pilot study of functional {MRI} to assess cerebral activation
+  of motor function after poststroke hemiparesis}
+    \field{volume}{29}
+    \field{journaltitle}{Stroke}
+    \field{month}{01}
+    \field{year}{1998}
   \endentry
 
   \entry{Park2011-kx}{article}{}
@@ -717,6 +908,213 @@
     \field{volume}{42}
     \field{journaltitle}{Stroke}
     \field{month}{05}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Griffis2019-cy}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GJC}{%
+         family={Griffis},
+         familyi={G\bibinitperiod},
+         given={Joseph\bibnamedelima C},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MNV}{%
+         family={Metcalf},
+         familyi={M\bibinitperiod},
+         given={Nicholas\bibnamedelima V},
+         giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Corbetta},
+         familyi={C\bibinitperiod},
+         given={Maurizio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SGL}{%
+         family={Shulman},
+         familyi={S\bibinitperiod},
+         given={Gordon\bibnamedelima L},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{brain networks; diffusion MRI; functional MRI; functional
+  connectivity; lesion; resting state; stroke; structural connectivity;
+  structural disconnection; structure-function}
+    \strng{namehash}{GJC+1}
+    \strng{fullhash}{GJCMNVCMSGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Stroke causes focal brain lesions that disrupt functional connectivity
+  (FC), a measure of activity synchronization, throughout distributed brain
+  networks. It is often assumed that FC disruptions reflect damage to specific
+  cortical regions. However, an alternative explanation is that they reflect
+  the structural disconnection (SDC) of white matter pathways. Here, we compare
+  these explanations using data from 114 stroke patients. Across multiple
+  analyses, we find that SDC measures outperform focal damage measures,
+  including damage to putative critical cortical regions, for explaining FC
+  disruptions associated with stroke. We also identify a core mode of
+  structure-function covariation that links the severity of interhemispheric
+  SDCs to widespread FC disruptions across patients and that correlates with
+  deficits in multiple behavioral domains. We conclude that a lesion's impact
+  on the structural connectome is what determines its impact on FC and that
+  interhemispheric SDCs may play a particularly important role in mediating FC
+  disruptions after stroke.%
+    }
+    \field{number}{10}
+    \field{pages}{2527\bibrangedash 2540.e9}
+    \field{title}{Structural Disconnections Explain Brain Network Dysfunction
+  after Stroke}
+    \field{volume}{28}
+    \field{journaltitle}{Cell Rep.}
+    \field{month}{09}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Carrera2014-ah}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CE}{%
+         family={Carrera},
+         familyi={C\bibinitperiod},
+         given={Emmanuel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tononi},
+         familyi={T\bibinitperiod},
+         given={Giulio},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{brain function; brain organization; diaschisis; stroke}
+    \strng{namehash}{CETG1}
+    \strng{fullhash}{CETG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    After a century of false hopes, recent studies have placed the concept of
+  diaschisis at the centre of the understanding of brain function. Originally,
+  the term 'diaschisis' was coined by von Monakow in 1914 to describe the
+  neurophysiological changes that occur distant to a focal brain lesion. In the
+  following decades, this concept triggered widespread clinical interest in an
+  attempt to describe symptoms and signs that the lesion could not fully
+  explain. However, the first imaging studies, in the late 1970s, only
+  partially confirmed the clinical significance of diaschisis. Focal cortical
+  areas of diaschisis (i.e. focal diaschisis) contributed to the clinical
+  deficits after subcortical but only rarely after cortical lesions. For this
+  reason, the concept of diaschisis progressively disappeared from the
+  mainstream of research in clinical neurosciences. Recent evidence has
+  unexpectedly revitalized the notion. The development of new imaging
+  techniques allows a better understanding of the complexity of brain
+  organization. It is now possible to reliably investigate a new type of
+  diaschisis defined as the changes of structural and functional connectivity
+  between brain areas distant to the lesion (i.e. connectional diaschisis). As
+  opposed to focal diaschisis, connectional diaschisis, focusing on determined
+  networks, seems to relate more consistently to the clinical findings. This is
+  particularly true after stroke in the motor and attentional networks.
+  Furthermore, normalization of remote connectivity changes in these networks
+  relates to a better recovery. In the future, to investigate the clinical role
+  of diaschisis, a systematic approach has to be considered. First, emerging
+  imaging and electrophysiological techniques should be used to precisely map
+  and selectively model brain lesions in human and animals studies. Second, the
+  concept of diaschisis must be applied to determine the impact of a focal
+  lesion on new representations of the complexity of brain organization. As an
+  example, the evaluation of remote changes in the structure of the connectome
+  has so far mainly been tested by modelization of focal brain lesions. These
+  changes could now be assessed in patients suffering from focal brain lesions
+  (i.e. connectomal diaschisis). Finally, and of major significance, focal and
+  non-focal neurophysiological changes distant to the lesion should be the
+  target of therapeutic strategies. Neuromodulation using transcranial magnetic
+  stimulation is one of the most promising techniques. It is when this last
+  step will be successful that the concept of diaschisis will gain all the
+  clinical respectability that could not be obtained in decades of research.%
+    }
+    \field{number}{Pt 9}
+    \field{pages}{2408\bibrangedash 2422}
+    \field{title}{Diaschisis: past, present, future}
+    \field{volume}{137}
+    \field{journaltitle}{Brain}
+    \field{month}{09}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Lekic2011-pt}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LT}{%
+         family={Lekic},
+         familyi={L\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KPR}{%
+         family={Krafft},
+         familyi={K\bibinitperiod},
+         given={Paul\bibnamedelima R},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=CJS}{%
+         family={Coats},
+         familyi={C\bibinitperiod},
+         given={Jacqueline\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Obenaus},
+         familyi={O\bibinitperiod},
+         given={Andre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Jiping},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZJH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={John\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{LT+1}
+    \strng{fullhash}{LTKPRCJSOATJZJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Approximately 20 percent of all strokes will occur in the Infratentorial
+  brain. This is within the vascular territory of the posterior vascular
+  circulation. Very few clinical specifics are known about the therapeutic
+  needs of this patient sub-population. Most evidence-based practices are
+  founded from research about the treatment of anterior circulatory stroke. As
+  a consequence, little is known about how stroke in the Infratentorial brain
+  region would require a different approach. We characterized the neurovascular
+  features of Infratentorial stroke, pathophysiological responses, and
+  experimental models for further translational study.%
+    }
+    \field{number}{2}
+    \field{pages}{144\bibrangedash 151}
+    \field{title}{Infratentorial strokes for posterior circulation folks:
+  clinical correlations for current translational therapeutics}
+    \field{volume}{2}
+    \field{journaltitle}{Transl. Stroke Res.}
+    \field{month}{06}
     \field{year}{2011}
   \endentry
 
@@ -819,125 +1217,305 @@
     \field{year}{2011}
   \endentry
 
-  \entry{Saia2009-ik}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SV}{%
-         family={Saia},
-         familyi={S\bibinitperiod},
-         given={V},
-         giveni={V},
+  \entry{Yamamoto2019-ru}{article}{}
+    \name{author}{5}{}{%
+      {{hash=YT}{%
+         family={Yamamoto},
+         familyi={Y\bibinitperiod},
+         given={Tatsuya},
+         giveni={T\bibinitperiod},
       }}%
-      {{hash=PL}{%
-         family={Pantoni},
-         familyi={P\bibinitperiod},
-         given={L},
-         giveni={L},
+      {{hash=HT}{%
+         family={Hayashi},
+         familyi={H\bibinitperiod},
+         given={Takuya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Murata},
+         familyi={M\bibinitperiod},
+         given={Yumi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=OT}{%
+         family={Ose},
+         familyi={O\bibinitperiod},
+         given={Takayuki},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Higo},
+         familyi={H\bibinitperiod},
+         given={Noriyuki},
+         giveni={N\bibinitperiod},
       }}%
     }
     \list{language}{1}{%
       {en}%
     }
-    \strng{namehash}{SVPL1}
-    \strng{fullhash}{SVPL1}
+    \keyw{biotin dextran amine; cerebellar compartmentalization; fastigial
+  nucleus; monkey; neural circuits; plasticity}
+    \strng{namehash}{YT+1}
+    \strng{fullhash}{YTHTMYOTHN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2009}
+    \field{labelyear}{2019}
     \field{labeldatesource}{}
     \field{abstract}{%
-    OBJECTIVE: The pathogenesis of isolated pontine infarctions is still
-  unclear, being attributed both to small or large vessel disease. The
-  extension of infarcted tissue to the pons surface has been indicated as a
-  possible marker of basilar branch atheromatous disease and some neuroimaging
-  evidence confirms this finding. METHODS: On the basis of Kim's et al., study,
-  we performed a revision of the literature addressing this topic. RESULTS:
-  Several authors confirm an association between basilar artery branch disease
-  and isolated pontine infarction; moreover, the enlargement of pontine lesion
-  seems to be associated with neurological worsening. We therefore performed a
-  brief analysis of possible mechanisms of progression. CONCLUSIONS:
-  Prospective studies could be useful to evaluate predictors of neurological
-  worsening in pontine stroke. Improvement of neuroimaging techniques is needed
-  for a deeper comprehension of the etiopathogenesis of isolated pontine
-  infarction.%
+    Neuromotor systems have the capacity for functional recovery following
+  local damage. The literature suggests a possible role for the premotor cortex
+  and cerebellum in motor recovery. However, the specific changes to
+  interactions between these areas following damage remain unclear. Here, we
+  demonstrate potential rewiring of connections from the ipsilesional ventral
+  premotor cortex (ip-PMv) to cerebellar structures in a nonhuman primate model
+  of primary motor cortex (M1) lesion and motor recovery. Cerebellar
+  connections arising from the ip-PMv were investigated by comparing
+  biotinylated dextran amine (BDA) between two groups of male Macaca mulatta:
+  M1-lesion/motor recovery group and intact group. There were more BDA-labeled
+  boutons and axons in all ipsilesional deep cerebellar nuclei (fastigial,
+  interposed, and dentate) in the M1-lesion/recovery group than in the intact
+  group. The difference was evident in the ipsilesional fastigial nucleus
+  (ip-FN), and particularly observed in its middle, a putative somatosensory
+  region of the ip-FN, which was characterized by absent or little expression
+  of aldolase C. Some of the altered projections from the ip-PMv to ip-FN
+  neurons were confirmed as functional because the synaptic markers,
+  synaptophysin and vesicular glutamate transporter 1, were colocalized with
+  BDA-labeled boutons. These results suggest that the adult primate brain after
+  motor lesions can reorganize large-scale networks to enable motor recovery by
+  enhancing sensorimotor coupling and motor commands via rewired
+  fronto-cerebellar connections.SIGNIFICANCE STATEMENT Damaging the motor
+  cortex causes motor deficits, which can be recovered over time. Such motor
+  recovery may result from functional compensation in remaining neuromotor
+  areas, including the ventral premotor cortex. We investigated compensatory
+  changes in neural axonal outputs from ventral premotor to deep cerebellar
+  nuclei in a monkey model of primary motor cortical lesion and motor recovery.
+  The results showed an increase in premotor projections and synaptic
+  formations in deep cerebellar nuclei, especially the sensorimotor region of
+  the fastigial nucleus. Our results provide the first evidence that
+  large-scale reorganization of fronto-cerebellar circuits may underlie
+  functional recovery after motor cortical lesions.%
     }
-    \field{number}{4}
-    \field{pages}{213\bibrangedash 215}
-    \field{title}{Progressive stroke in pontine infarction}
-    \field{volume}{120}
-    \field{journaltitle}{Acta Neurol. Scand.}
+    \field{number}{43}
+    \field{pages}{8484\bibrangedash 8496}
+    \field{title}{Premotor {Cortical-Cerebellar} Reorganization in a Macaque
+  Model of Primary Motor Cortical Lesion and Recovery}
+    \field{volume}{39}
+    \field{journaltitle}{J. Neurosci.}
     \field{month}{10}
-    \field{year}{2009}
+    \field{year}{2019}
   \endentry
 
-  \entry{Carrera2014-ah}{article}{}
-    \name{author}{2}{}{%
-      {{hash=CE}{%
-         family={Carrera},
-         familyi={C\bibinitperiod},
-         given={Emmanuel},
-         giveni={E\bibinitperiod},
+  \entry{Wang2010-or}{article}{}
+    \name{author}{12}{}{%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Liang},
+         giveni={L\bibinitperiod},
       }}%
-      {{hash=TG}{%
-         family={Tononi},
-         familyi={T\bibinitperiod},
-         given={Giulio},
-         giveni={G\bibinitperiod},
+      {{hash=YC}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Chunshui},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Hai},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=QW}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Wen},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Fengmei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yujin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Moli},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Kuncheng},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zang},
+         familyi={Z\bibinitperiod},
+         given={Yufeng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WTS}{%
+         family={Woodward},
+         familyi={W\bibinitperiod},
+         given={Todd\bibnamedelima S},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Chaozhe},
+         giveni={C\bibinitperiod},
       }}%
     }
     \list{language}{1}{%
       {en}%
     }
-    \keyw{brain function; brain organization; diaschisis; stroke}
-    \strng{namehash}{CETG1}
-    \strng{fullhash}{CETG1}
+    \strng{namehash}{WL+1}
+    \strng{fullhash}{WLYCCHQWHYFFZYWMLKZYWTSZC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2014}
+    \field{labelyear}{2010}
     \field{labeldatesource}{}
     \field{abstract}{%
-    After a century of false hopes, recent studies have placed the concept of
-  diaschisis at the centre of the understanding of brain function. Originally,
-  the term 'diaschisis' was coined by von Monakow in 1914 to describe the
-  neurophysiological changes that occur distant to a focal brain lesion. In the
-  following decades, this concept triggered widespread clinical interest in an
-  attempt to describe symptoms and signs that the lesion could not fully
-  explain. However, the first imaging studies, in the late 1970s, only
-  partially confirmed the clinical significance of diaschisis. Focal cortical
-  areas of diaschisis (i.e. focal diaschisis) contributed to the clinical
-  deficits after subcortical but only rarely after cortical lesions. For this
-  reason, the concept of diaschisis progressively disappeared from the
-  mainstream of research in clinical neurosciences. Recent evidence has
-  unexpectedly revitalized the notion. The development of new imaging
-  techniques allows a better understanding of the complexity of brain
-  organization. It is now possible to reliably investigate a new type of
-  diaschisis defined as the changes of structural and functional connectivity
-  between brain areas distant to the lesion (i.e. connectional diaschisis). As
-  opposed to focal diaschisis, connectional diaschisis, focusing on determined
-  networks, seems to relate more consistently to the clinical findings. This is
-  particularly true after stroke in the motor and attentional networks.
-  Furthermore, normalization of remote connectivity changes in these networks
-  relates to a better recovery. In the future, to investigate the clinical role
-  of diaschisis, a systematic approach has to be considered. First, emerging
-  imaging and electrophysiological techniques should be used to precisely map
-  and selectively model brain lesions in human and animals studies. Second, the
-  concept of diaschisis must be applied to determine the impact of a focal
-  lesion on new representations of the complexity of brain organization. As an
-  example, the evaluation of remote changes in the structure of the connectome
-  has so far mainly been tested by modelization of focal brain lesions. These
-  changes could now be assessed in patients suffering from focal brain lesions
-  (i.e. connectomal diaschisis). Finally, and of major significance, focal and
-  non-focal neurophysiological changes distant to the lesion should be the
-  target of therapeutic strategies. Neuromodulation using transcranial magnetic
-  stimulation is one of the most promising techniques. It is when this last
-  step will be successful that the concept of diaschisis will gain all the
-  clinical respectability that could not be obtained in decades of research.%
+    Numerous studies argue that cortical reorganization may contribute to the
+  restoration of motor function following stroke. However, the evolution of
+  changes during the post-stroke reorganization has been little studied. This
+  study sought to identify dynamic changes in the functional organization,
+  particularly topological characteristics, of the motor execution network
+  during the stroke recovery process. Ten patients (nine male and one female)
+  with subcortical infarctions were assessed by neurological examination and
+  scanned with resting-state functional magnetic resonance imaging across five
+  consecutive time points in a single year. The motor execution network of each
+  subject was constructed using a functional connectivity matrix between 21
+  brain regions and subsequently analysed using graph theoretical approaches.
+  Dynamic changes in topological configuration of the network during the
+  process of recovery were evaluated by a mixed model. We found that the motor
+  execution network gradually shifted towards a random mode during the recovery
+  process, which suggests that a less optimized reorganization is involved in
+  regaining function in the affected limbs. Significantly increased regional
+  centralities within the network were observed in the ipsilesional primary
+  motor area and contralesional cerebellum, whereas the ipsilesional cerebellum
+  showed decreased regional centrality. Functional connectivity to these brain
+  regions demonstrated consistent alterations over time. Notably, these
+  measures correlated with different clinical variables, which provided support
+  that the findings may reflect the adaptive reorganization of the motor
+  execution network in stroke patients. In conclusion, the study expands our
+  understanding of the spectrum of changes occurring in the brain after stroke
+  and provides a new avenue for investigating lesion-induced network
+  plasticity.%
     }
-    \field{number}{Pt 9}
-    \field{pages}{2408\bibrangedash 2422}
-    \field{title}{Diaschisis: past, present, future}
-    \field{volume}{137}
+    \field{number}{Pt 4}
+    \field{pages}{1224\bibrangedash 1238}
+    \field{title}{Dynamic functional reorganization of the motor execution
+  network after stroke}
+    \field{volume}{133}
     \field{journaltitle}{Brain}
-    \field{month}{09}
-    \field{year}{2014}
+    \field{month}{04}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Liu2019-mj}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LG}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=TS}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=PK}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=DC}{%
+         family={Dang},
+         familyi={D\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=XS}{%
+         family={Xing},
+         familyi={X\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=XC}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=ZJ}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Fugl-Meyer assessment; degree centrality; magnetic resonance imaging;
+  motor recovery; pontine infarction}
+    \strng{namehash}{LG+1}
+    \strng{fullhash}{LGTSPKDCXSXCZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND AND PURPOSE: Patients with acute pontine infarcts generally have
+  good short-term motor outcomes; however, the mechanisms underlying this
+  recovery of function remain unclear. METHODS: Twenty well-recovered patients
+  with acute pontine infarcts and 20 well-recovered patients with acute
+  striato-capsular infarcts were recruited. Fugl-Meyer assessment and
+  resting-state functional magnetic resonance imaging were performed 1, 4 and
+  12 weeks after onset. Patients were further assigned to better and worse
+  recovery subgroups according to the degree of motor recovery at the twelfth
+  week after stroke. Voxel-wise degree centrality (DC)-behavior correlation
+  analysis was used to identify brain regions related to changes in motor
+  function within 12 weeks after stroke. RESULTS: A significant correlation was
+  found between DC and Fugl-Meyer scores within 12 weeks in the ipsilesional
+  cerebellar crus I and crus II in patients with pontine infarction and in the
+  ipsilesional middle temporal gyrus in patients with striato-capsular
+  infarction (all P < 0.001, AlphaSim corrected). The mean DC in these areas
+  was higher both in the better and worse recovery subgroups at the fourth than
+  at the first week (all P < 0.05). In addition, the mean DC values in these
+  areas were higher in patients with better recovery at the twelfth than at the
+  first week (P < 0.05), but such change was not found in patients with worse
+  recovery. CONCLUSIONS: These results indicate that network changes in the
+  ipsilesional cerebellum are correlated with motor recovery following pontine
+  infarction. Motor recovery mechanisms may vary between pontine and
+  striato-capsular infarcts, according to lesion location.%
+    }
+    \field{number}{10}
+    \field{pages}{1266\bibrangedash 1273}
+    \field{title}{Network change in the ipsilesional cerebellum is correlated
+  with motor recovery following unilateral pontine infarction}
+    \field{volume}{26}
+    \field{journaltitle}{Eur. J. Neurol.}
+    \field{month}{10}
+    \field{year}{2019}
   \endentry
 
   \entry{Griffis2020-hx}{article}{}
@@ -2670,72 +3248,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{Griffis2019-cy}{article}{}
-    \name{author}{4}{}{%
-      {{hash=GJC}{%
-         family={Griffis},
-         familyi={G\bibinitperiod},
-         given={Joseph\bibnamedelima C},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=MNV}{%
-         family={Metcalf},
-         familyi={M\bibinitperiod},
-         given={Nicholas\bibnamedelima V},
-         giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-      {{hash=CM}{%
-         family={Corbetta},
-         familyi={C\bibinitperiod},
-         given={Maurizio},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SGL}{%
-         family={Shulman},
-         familyi={S\bibinitperiod},
-         given={Gordon\bibnamedelima L},
-         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \keyw{brain networks; diffusion MRI; functional MRI; functional
-  connectivity; lesion; resting state; stroke; structural connectivity;
-  structural disconnection; structure-function}
-    \strng{namehash}{GJC+1}
-    \strng{fullhash}{GJCMNVCMSGL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    Stroke causes focal brain lesions that disrupt functional connectivity
-  (FC), a measure of activity synchronization, throughout distributed brain
-  networks. It is often assumed that FC disruptions reflect damage to specific
-  cortical regions. However, an alternative explanation is that they reflect
-  the structural disconnection (SDC) of white matter pathways. Here, we compare
-  these explanations using data from 114 stroke patients. Across multiple
-  analyses, we find that SDC measures outperform focal damage measures,
-  including damage to putative critical cortical regions, for explaining FC
-  disruptions associated with stroke. We also identify a core mode of
-  structure-function covariation that links the severity of interhemispheric
-  SDCs to widespread FC disruptions across patients and that correlates with
-  deficits in multiple behavioral domains. We conclude that a lesion's impact
-  on the structural connectome is what determines its impact on FC and that
-  interhemispheric SDCs may play a particularly important role in mediating FC
-  disruptions after stroke.%
-    }
-    \field{number}{10}
-    \field{pages}{2527\bibrangedash 2540.e9}
-    \field{title}{Structural Disconnections Explain Brain Network Dysfunction
-  after Stroke}
-    \field{volume}{28}
-    \field{journaltitle}{Cell Rep.}
-    \field{month}{09}
-    \field{year}{2019}
-  \endentry
-
   \entry{Mottolese2013-sd}{article}{}
     \name{author}{6}{}{%
       {{hash=MC}{%
@@ -4351,6 +4863,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
+    \field{extradate}{2}
     \field{labeldatesource}{}
     \field{abstract}{%
     BACKGROUND: Preserved integrity of the corticospinal tract (CST) is a
@@ -5308,6 +5821,1334 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Singleton2022-jq}{article}{}
+    \name{author}{10}{}{%
+      {{hash=SSP}{%
+         family={Singleton},
+         familyi={S\bibinitperiod},
+         given={S\bibnamedelima Parker},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LAI}{%
+         family={Luppi},
+         familyi={L\bibinitperiod},
+         given={Andrea\bibnamedelima I},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=CHRL}{%
+         family={Carhart-Harris},
+         familyi={C\bibinithyphendelim H\bibinitperiod},
+         given={Robin\bibnamedelima L},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cruzat},
+         familyi={C\bibinitperiod},
+         given={Josephine},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Roseman},
+         familyi={R\bibinitperiod},
+         given={Leor},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=NDJ}{%
+         family={Nutt},
+         familyi={N\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Deco},
+         familyi={D\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KML}{%
+         family={Kringelbach},
+         familyi={K\bibinitperiod},
+         given={Morten\bibnamedelima L},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SEA}{%
+         family={Stamatakis},
+         familyi={S\bibinitperiod},
+         given={Emmanuel\bibnamedelima A},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kuceyeski},
+         familyi={K\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SSP+1}
+    \strng{fullhash}{SSPLAICHRLCJRLNDJDGKMLSEAKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Psychedelics including lysergic acid diethylamide (LSD) and psilocybin
+  temporarily alter subjective experience through their neurochemical effects.
+  Serotonin 2a (5-HT2a) receptor agonism by these compounds is associated with
+  more diverse (entropic) brain activity. We postulate that this increase in
+  entropy may arise in part from a flattening of the brain's control energy
+  landscape, which can be observed using network control theory to quantify the
+  energy required to transition between recurrent brain states. Using brain
+  states derived from existing functional magnetic resonance imaging (fMRI)
+  datasets, we show that LSD and psilocybin reduce control energy required for
+  brain state transitions compared to placebo. Furthermore, across individuals,
+  reduction in control energy correlates with more frequent state transitions
+  and increased entropy of brain state dynamics. Through network control
+  analysis that incorporates the spatial distribution of 5-HT2a receptors
+  (obtained from publicly available positron emission tomography (PET) data
+  under non-drug conditions), we demonstrate an association between the 5-HT2a
+  receptor and reduced control energy. Our findings provide evidence that
+  5-HT2a receptor agonist compounds allow for more facile state transitions and
+  more temporally diverse brain activity. More broadly, we demonstrate that
+  receptor-informed network control theory can model the impact of
+  neuropharmacological manipulation on brain activity dynamics.%
+    }
+    \field{number}{1}
+    \field{pages}{5812}
+    \field{title}{Receptor-informed network control theory links {LSD} and
+  psilocybin to a flattening of the brain's control energy landscape}
+    \field{volume}{13}
+    \field{journaltitle}{Nat. Commun.}
+    \field{month}{10}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Marek2018-ql}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MS}{%
+         family={Marek},
+         familyi={M\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DNUF}{%
+         family={Dosenbach},
+         familyi={D\bibinitperiod},
+         given={Nico U\bibnamedelima F},
+         giveni={N\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{cognitive control; cognitive flexibility; frontoparietal;
+  intraparietal sulcus; lateral prefrontal cortex; psychopathology}
+    \strng{namehash}{MSDNUF1}
+    \strng{fullhash}{MSDNUF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The frontoparietal network is critical for our ability to coordinate
+  behavior in a rapid, accurate, and flexible goal-driven manner. In this
+  review, we outline support for the framing of the frontoparietal network as a
+  distinct control network, in part functioning to flexibly interact with and
+  alter other functional brain networks. This network coordination likely
+  occurs in a 4 Hz to 73 Hz $\vartheta$/$\alpha$ rhythm, both during resting
+  state and task state. Precision mapping of individual human brains has
+  revealed that the functional topography of the frontoparietal network is
+  variable between individuals, underscoring the notion that group-average
+  studies of the frontoparietal network may be obscuring important typical and
+  atypical features. Many forms of psychopathology implicate the frontoparietal
+  network, such as schizophrenia and attention-deficit/hyperactivity disorder.
+  Given the interindividual variability in frontoparietal network organization,
+  clinical studies will likely benefit greatly from acquiring more individual
+  subject data to accurately characterize resting-state networks compromised in
+  psychopathology.%
+    }
+    \field{number}{2}
+    \field{pages}{133\bibrangedash 140}
+    \field{title}{The frontoparietal network: function, electrophysiology, and
+  importance of individual precision mapping}
+    \field{volume}{20}
+    \field{journaltitle}{Dialogues Clin. Neurosci.}
+    \field{month}{06}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Oostra2016-ki}{article}{}
+    \name{author}{4}{}{%
+      {{hash=OKM}{%
+         family={Oostra},
+         familyi={O\bibinitperiod},
+         given={Kristine\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VBA}{%
+         family={Van\bibnamedelima Bladel},
+         familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Anke},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VACL}{%
+         family={Vanhoonacker},
+         familyi={V\bibinitperiod},
+         given={Ann C\bibnamedelima L},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Vingerhoets},
+         familyi={V\bibinitperiod},
+         given={Guy},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{basal ganglia; lesion symptom mapping; motor imagery; stroke; white
+  matter}
+    \strng{namehash}{OKM+1}
+    \strng{fullhash}{OKMVBAVACLVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND: Mental practice with motor imagery has been shown to promote
+  motor skill acquisition in healthy subjects and patients. Although lesions of
+  the common motor imagery and motor execution neural network are expected to
+  impair motor imagery ability, functional equivalence appears to be at least
+  partially preserved in stroke patients. AIM: To identify brain regions that
+  are mandatory for preserved motor imagery ability after stroke. METHOD:
+  Thirty-seven patients with hemiplegia after a first time stroke participated.
+  Motor imagery ability was measured using a Motor Imagery questionnaire and
+  temporal congruence test. A voxelwise lesion symptom mapping approach was
+  used to identify neural correlates of motor imagery in this cohort within the
+  first year post-stroke. RESULTS: Poor motor imagery vividness was associated
+  with lesions in the left putamen, left ventral premotor cortex and long
+  association fibers linking parieto-occipital regions with the dorsolateral
+  premotor and prefrontal areas. Poor temporal congruence was otherwise linked
+  to lesions in the more rostrally located white matter of the superior corona
+  radiata. CONCLUSION: This voxel-based lesion symptom mapping study confirms
+  the association between white matter tract lesions and impaired motor imagery
+  ability, thus emphasizing the importance of an intact fronto-parietal network
+  for motor imagery. Our results further highlight the crucial role of the
+  basal ganglia and premotor cortex when performing motor imagery tasks.%
+    }
+    \field{pages}{5}
+    \field{title}{Damage to {Fronto-Parietal} Networks Impairs Motor Imagery
+  Ability after Stroke: A {Voxel-Based} Lesion Symptom Mapping Study}
+    \field{volume}{10}
+    \field{journaltitle}{Front. Behav. Neurosci.}
+    \field{month}{02}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Geers2021-pz}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GL}{%
+         family={Geers},
+         familyi={G\bibinitperiod},
+         given={Laurie},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pesenti},
+         familyi={P\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Derosiere},
+         familyi={D\bibinitperiod},
+         given={Gerard},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Duque},
+         familyi={D\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dricot},
+         familyi={D\bibinitperiod},
+         given={Laurence},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Andres},
+         familyi={A\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{GL+1}
+    \strng{fullhash}{GLPMDGDJDLAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Prospective judgments about one's capability to perform an action are
+  assumed to involve mental simulation of the action. Previous studies of motor
+  imagery suggest this simulation is supported by a large fronto-parietal
+  network including the motor system. Experiment 1 used fMRI to assess the
+  contribution of this fronto-parietal network to judgments about one's
+  capacity to grasp objects of different sizes between index and thumb. The
+  neural network underlying prospective graspability judgments overlapped the
+  fronto-parietal network involved in explicit motor imagery of grasping.
+  However, shared areas were located in the right hemisphere, outside the motor
+  cortex, and were also activated during perceptual length judgments,
+  suggesting a contribution to object size estimate rather than motor
+  simulation. Experiment 2 used TMS over the motor cortex to probe transient
+  excitability changes undetected with fMRI. Results show that graspability
+  judgments elicited a selective increase of excitability in the thumb and
+  index muscles, which was maximal before the object display and intermediate
+  during the judgment. Together, these findings suggest that prospective action
+  judgments do not rely on the motor system to simulate the action per se but
+  to refresh the memory of one's maximal grip aperture and facilitate its
+  comparison with object size in right fronto-parietal areas.%
+    }
+    \field{number}{1}
+    \field{pages}{7454}
+    \field{title}{Role of the fronto-parietal cortex in prospective action
+  judgments}
+    \field{volume}{11}
+    \field{journaltitle}{Sci. Rep.}
+    \field{month}{04}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Borra2017-aj}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BE}{%
+         family={Borra},
+         familyi={B\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gerbella},
+         familyi={G\bibinitperiod},
+         given={Marzio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rozzi},
+         familyi={R\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Luppino},
+         familyi={L\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{Affordances extraction; Executive functions; Hand-object
+  interactions; Motor control; Parieto-frontal circuits; Prefrontal cortex;
+  Sensorimotor transformations; Ventral visual stream}
+    \strng{namehash}{BE+2}
+    \strng{fullhash}{BEGMRSLG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In primates, neural mechanisms for controlling skilled hand actions
+  primarily rely on sensorimotor transformations. These transformations are
+  mediated by circuits linking specific inferior parietal with ventral premotor
+  areas in which sensory coding of objects' features automatically triggers
+  appropriate hand motor programs. Recently, connectional studies in macaques
+  showed that these parietal and premotor areas are nodes of a large-scale
+  cortical network, designated as ``lateral grasping network,'' including
+  specific temporal and prefrontal sectors involved in object recognition and
+  executive functions, respectively. These data extend grasping models so far
+  proposed in providing a possible substrate for interfacing perceptual,
+  cognitive, and hand-related sensorimotor processes for controlling hand
+  actions based on object identity, goals, and memory-based or contextual
+  information and for the contribution of motor signals to cognitive motor
+  functions. Human studies provided evidence for a possible counterpart of the
+  macaque lateral grasping network, suggesting that in primate evolution the
+  neural mechanisms for controlling hand actions described in the macaque have
+  been retained and exploited for the emergence of human-specific motor and
+  cognitive motor capacities.%
+    }
+    \field{pages}{65\bibrangedash 90}
+    \field{title}{The macaque lateral grasping network: A neural substrate for
+  generating purposeful hand actions}
+    \field{volume}{75}
+    \field{journaltitle}{Neurosci. Biobehav. Rev.}
+    \field{month}{04}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Wang2014-vi}{article}{}
+    \name{author}{8}{}{%
+      {{hash=WC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Caihong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=QW}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Wen},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Tian},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Meng},
+         familyi={M\bibinitperiod},
+         given={Liangliang},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xuejun},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YC}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Chunshui},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{WC+1}
+    \strng{fullhash}{WCQWZJTTLYMLZXYC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    This study aimed to investigate the changes in functional connectivity (FC)
+  within each resting-state network (RSN) and between RSNs in subcortical
+  stroke patients who were well recovered in global motor function. Eleven
+  meaningful RSNs were identified via functional magnetic resonance imaging
+  data from 25 subcortical stroke patients and 22 normal controls using
+  independent component analysis. Compared with normal controls, stroke
+  patients exhibited increased intranetwork FC in the sensorimotor (SMN),
+  visual (VN), auditory (AN), dorsal attention (DAN), and default mode (DMN)
+  networks; they also exhibited decreased intranetwork FC in the frontoparietal
+  network (FPN) and anterior DMN. Stroke patients displayed a shift from no FC
+  in controls to negative internetwork FC between the VN and AN as well as
+  between the VN and SMN. Stroke patients also exhibited weakened positive
+  (anterior and posterior DMN; posterior DMN and right FPN) or negative (AN and
+  right FPN; posterior DMN and dorsal SMN) internetwork FC when compared with
+  normal controls. We suggest that subcortical stroke may induce connectivity
+  changes in multiple functional networks, affecting not only the intranetwork
+  FC within RSNs but also the internetwork FC between these RSNs.%
+    }
+    \field{number}{4}
+    \field{pages}{597\bibrangedash 605}
+    \field{title}{Altered functional organization within and between
+  resting-state networks in chronic subcortical infarction}
+    \field{volume}{34}
+    \field{journaltitle}{J. Cereb. Blood Flow Metab.}
+    \field{month}{04}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Inman2012-tq}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ICS}{%
+         family={Inman},
+         familyi={I\bibinitperiod},
+         given={Cory\bibnamedelima S},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JGA}{%
+         family={James},
+         familyi={J\bibinitperiod},
+         given={G\bibnamedelima Andrew},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hamann},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RJK}{%
+         family={Rajendra},
+         familyi={R\bibinitperiod},
+         given={Justin\bibnamedelima K},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pagnoni},
+         familyi={P\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BAJ}{%
+         family={Butler},
+         familyi={B\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{ICS+1}
+    \strng{fullhash}{ICSJGAHSRJKPGBAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Previous brain imaging work suggests that stroke alters the effective
+  connectivity (the influence neural regions exert upon each other) of motor
+  execution networks. The present study examines the intrinsic effective
+  connectivity of top-down motor control in stroke survivors (n=13) relative to
+  healthy participants (n=12). Stroke survivors exhibited significant deficits
+  in motor function, as assessed by the Fugl-Meyer Motor Assessment. We used
+  structural equation modeling (SEM) of resting-state fMRI data to investigate
+  the relationship between motor deficits and the intrinsic effective
+  connectivity between brain regions involved in motor control and motor
+  execution. An exploratory adaptation of SEM determined the optimal model of
+  motor execution effective connectivity in healthy participants, and
+  confirmatory SEM assessed stroke survivors' fit to that model. We observed
+  alterations in spontaneous resting-state effective connectivity from
+  fronto-parietal guidance systems to the motor network in stroke survivors.
+  More specifically, diminished connectivity was found in connections from the
+  superior parietal cortex to primary motor cortex and supplementary motor
+  cortex. Furthermore, the paths demonstrated large individual variance in
+  stroke survivors but less variance in healthy participants. These findings
+  suggest that characterizing the deficits in resting-state connectivity of
+  top-down processes in stroke survivors may help optimize cognitive and
+  physical rehabilitation therapies by individually targeting specific neural
+  pathway.%
+    }
+    \field{number}{1}
+    \field{pages}{227\bibrangedash 237}
+    \field{title}{Altered resting-state effective connectivity of
+  fronto-parietal motor control systems on the primary motor network following
+  stroke}
+    \field{volume}{59}
+    \field{journaltitle}{Neuroimage}
+    \field{month}{01}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Rosenich2020-ef}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RE}{%
+         family={Rosenich},
+         familyi={R\bibinitperiod},
+         given={Emily},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hordacre},
+         familyi={H\bibinitperiod},
+         given={Brenton},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Paquet},
+         familyi={P\bibinitperiod},
+         given={Catherine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KSA}{%
+         family={Koblar},
+         familyi={K\bibinitperiod},
+         given={Simon\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HSL}{%
+         family={Hillier},
+         familyi={H\bibinitperiod},
+         given={Susan\bibnamedelima L},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{cognition; cognitive reserve; reserve; stroke; stroke outcomes;
+  stroke recovery}
+    \strng{namehash}{RE+1}
+    \strng{fullhash}{REHBPCKSAHSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Stroke is a leading cause of death and disability. It is a complex and
+  largely heterogeneous condition. Prognosis for variations in impairment and
+  recovery following stroke continues to be challenging and inaccurate,
+  highlighting the need to examine the influence of other currently unknown
+  variables to better predict and understand interindividual differences in
+  stroke impairment and recovery. The concept of ``cognitive reserve,'' a
+  feature of brain function said to moderate the relationship between brain
+  pathology and clinical outcomes, might provide a partial explanation. This
+  review discusses the potential significance of cognitive reserve in the
+  context of stroke, with reference to reduced burden of disability poststroke,
+  health promotion, intervention and secondary prevention of cognitive
+  impairment, ease and challenges of translation into clinical practice,
+  prognosis and prediction of recovery, and clinical decisions and trial
+  stratification. Discussions from the review aim to encourage stroke
+  clinicians and researchers to better consider the role of premorbid,
+  lifestyle-related variables, such as cognitive reserve, in facilitating
+  successful neurological outcomes and recovery following stroke.%
+    }
+    \field{number}{3}
+    \field{pages}{187\bibrangedash 199}
+    \field{title}{Cognitive Reserve as an Emerging Concept in Stroke Recovery}
+    \field{volume}{34}
+    \field{journaltitle}{Neurorehabil. Neural Repair}
+    \field{month}{03}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Fisicaro2019-ly}{article}{}
+    \name{author}{7}{}{%
+      {{hash=FF}{%
+         family={Fisicaro},
+         familyi={F\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lanza},
+         familyi={L\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GAA}{%
+         family={Grasso},
+         familyi={G\bibinitperiod},
+         given={Alfio\bibnamedelima Antonio},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pennisi},
+         familyi={P\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bella},
+         familyi={B\bibinitperiod},
+         given={Rita},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PW}{%
+         family={Paulus},
+         familyi={P\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pennisi},
+         familyi={P\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{neuroplasticity; neurorehabilitation; noninvasive brain stimulation;
+  stroke}
+    \strng{namehash}{FF+1}
+    \strng{fullhash}{FFLGGAAPGBRPWPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Acute brain ischemia causes changes in several neural networks and related
+  cortico-subcortical excitability, both in the affected area and in the
+  apparently spared contralateral hemisphere. The modulation of these processes
+  through modern techniques of noninvasive brain stimulation, namely repetitive
+  transcranial magnetic stimulation (rTMS), has been proposed as a viable
+  intervention that could promote post-stroke clinical recovery and functional
+  independence. This review provides a comprehensive summary of the current
+  evidence from the literature on the efficacy of rTMS applied to different
+  clinical and rehabilitative aspects of stroke patients. A total of 32
+  meta-analyses published until July 2019 were selected, focusing on the
+  effects on motor function, manual dexterity, walking and balance, spasticity,
+  dysphagia, aphasia, unilateral neglect, depression, and cognitive function
+  after a stroke. Only conventional rTMS protocols were considered in this
+  review, and meta-analyses focusing on theta burst stimulation only were
+  excluded. Overall, both HF-rTMS and LF-rTMS have been shown to be safe and
+  well-tolerated. In addition, the current literature converges on the positive
+  effect of rTMS in the rehabilitation of all clinical manifestations of
+  stroke, except for spasticity and cognitive impairment, where definitive
+  evidence of efficacy cannot be drawn. However, routine use of a specific
+  paradigm of stimulation cannot be recommended yet due to a significant level
+  of heterogeneity of the studies in terms of protocols to be set and outcome
+  measures that have to be used. Future studies need to preliminarily evaluate
+  the most promising protocols before going on to multicenter studies with
+  large cohorts of patients in order to achieve a definitive translation into
+  daily clinical practice.%
+    }
+    \field{pages}{1756286419878317}
+    \field{title}{Repetitive transcranial magnetic stimulation in stroke
+  rehabilitation: review of the current evidence and pitfalls}
+    \field{volume}{12}
+    \field{journaltitle}{Ther. Adv. Neurol. Disord.}
+    \field{month}{09}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Grefkes2010-jg}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GC}{%
+         family={Grefkes},
+         familyi={G\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NDA}{%
+         family={Nowak},
+         familyi={N\bibinitperiod},
+         given={Dennis\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WLE}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ling\bibnamedelima E},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dafotakis},
+         familyi={D\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ESB}{%
+         family={Eickhoff},
+         familyi={E\bibinitperiod},
+         given={Simon\bibnamedelima B},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=FGR}{%
+         family={Fink},
+         familyi={F\bibinitperiod},
+         given={Gereon\bibnamedelima R},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{GC+1}
+    \strng{fullhash}{GCNDAWLEDMESBFGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Data derived from transcranial magnetic stimulation (TMS) studies suggest
+  that transcallosal inhibition mechanisms between the primary motor cortex of
+  both hemispheres may contribute to the reduced motor performance of stroke
+  patients. We here investigated the potential of modulating pathological
+  interactions between cortical motor areas by means of repetitive TMS using
+  functional magnetic resonance imaging (fMRI) and dynamic causal modeling
+  (DCM). Eleven subacute stroke patients were scanned 1-3 months after symptom
+  onset while performing whole hand fist closure movements. After a baseline
+  scan, patients were stimulated with inhibitory 1-Hz rTMS applied over two
+  different locations: (i) vertex (control stimulation) and (ii) primary motor
+  cortex (M1) of the unaffected (contralesional) hemisphere. Changes in the
+  endogenous and task-dependent effective connectivity were assessed by DCM of
+  a bilateral network comprising M1, lateral premotor cortex, and the
+  supplementary motor area (SMA). The results showed that rTMS applied over
+  contralesional M1 significantly improved the motor performance of the paretic
+  hand. The connectivity analysis revealed that the behavioral improvements
+  were significantly correlated with a reduction of the negative influences
+  originating from contralesional M1 during paretic hand movements.
+  Concurrently, endogenous coupling between ipsilesional SMA and M1 was
+  significantly enhanced only after rTMS applied over contralesional M1.
+  Therefore, rTMS applied over contralesional M1 may be used to transiently
+  remodel the disturbed functional network architecture of the motor system.
+  The connectivity analyses suggest that both a reduction of pathological
+  transcallosal influences (originating from contralesional M1) and a
+  restitution of ipsilesional effective connectivity between SMA and M1
+  underlie improved motor performance.%
+    }
+    \field{number}{1}
+    \field{pages}{233\bibrangedash 242}
+    \field{title}{Modulating cortical connectivity in stroke patients by {rTMS}
+  assessed with {fMRI} and dynamic causal modeling}
+    \field{volume}{50}
+    \field{journaltitle}{Neuroimage}
+    \field{month}{03}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Fox2012-xz}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FMD}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Michael\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=HMA}{%
+         family={Halko},
+         familyi={H\bibinitperiod},
+         given={Mark\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EMC}{%
+         family={Eldaief},
+         familyi={E\bibinitperiod},
+         given={Mark\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PLA}{%
+         family={Pascual-Leone},
+         familyi={P\bibinithyphendelim L\bibinitperiod},
+         given={Alvaro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{FMD+1}
+    \strng{fullhash}{FMDHMAEMCPLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Both resting state functional magnetic resonance imaging (fcMRI) and
+  transcranial magnetic stimulation (TMS) are increasingly popular techniques
+  that can be used to non-invasively measure brain connectivity in human
+  subjects. TMS shows additional promise as a method to manipulate brain
+  connectivity. In this review we discuss how these two complimentary tools can
+  be combined to optimally study brain connectivity and manipulate distributed
+  brain networks. Important clinical applications include using resting state
+  fcMRI to guide target selection for TMS and using TMS to modulate
+  pathological network interactions identified with resting state fcMRI. The
+  combination of TMS and resting state fcMRI has the potential to accelerate
+  the translation of both techniques into the clinical realm and promises a new
+  approach to the diagnosis and treatment of neurological and psychiatric
+  diseases that demonstrate network pathology.%
+    }
+    \field{number}{4}
+    \field{pages}{2232\bibrangedash 2243}
+    \field{title}{Measuring and manipulating brain connectivity with resting
+  state functional connectivity magnetic resonance imaging ({fcMRI}) and
+  transcranial magnetic stimulation ({TMS})}
+    \field{volume}{62}
+    \field{journaltitle}{Neuroimage}
+    \field{month}{10}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Silvanto2008-um}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJ}{%
+         family={Silvanto},
+         familyi={S\bibinitperiod},
+         given={Juha},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PLA}{%
+         family={Pascual-Leone},
+         familyi={P\bibinithyphendelim L\bibinitperiod},
+         given={Alvaro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SJPLA1}
+    \strng{fullhash}{SJPLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Transcranial magnetic stimulation (TMS), a tool that allows noninvasive
+  modulation of cortical neural activity, has become an important tool in
+  cognitive neuroscience and is being increasingly explored in
+  neurotherapeutics. Amongst the factors that are likely to influence its
+  efficacy, the importance of the baseline cortical activation state on the
+  impact of TMS has not received much attention. However, this state-dependency
+  is important as the neural impact of any external stimulus represents an
+  interaction with the ongoing brain activity at the time of stimulation. The
+  effects of any external stimulus are therefore not only determined by the
+  properties of that stimulus but also by the activation state of the brain.
+  Here we review the existing evidence on the state-dependency of TMS and
+  propose how its systematic study can provide unique insights into brain
+  function and significantly enhance the effectiveness of TMS in investigations
+  on the neural basis of perception and cognition. We also describe novel
+  approaches based on this state-dependency which can be used to investigate
+  the properties of distinct neural subpopulations within the stimulated
+  region. Furthermore, we discuss how state-dependency can explain the
+  functional mechanisms through which TMS impairs perception and behavior.%
+    }
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{State-dependency of transcranial magnetic stimulation}
+    \field{volume}{21}
+    \field{journaltitle}{Brain Topogr.}
+    \field{month}{09}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Edwards2020-mr}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EG}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={Grace},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Cont{\`o}},
+         familyi={C\bibinitperiod},
+         given={Federica},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BLK}{%
+         family={Bucci},
+         familyi={B\bibinitperiod},
+         given={Loryn\bibnamedelima K},
+         giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Battelli},
+         familyi={B\bibinitperiod},
+         given={Lorella},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{parietal cortex; priming brain state; sustained attention;
+  transcranial magnetic stimulation; transcranial random noise stimulation}
+    \strng{namehash}{EG+1}
+    \strng{fullhash}{EGCFBLKBL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Sustained attention is a limited resource which declines during daily
+  tasks. Such decay is exacerbated in clinical and aging populations.
+  Inhibition of the intraparietal sulcus (IPS), using low-frequency repetitive
+  transcranial magnetic stimulation (LF-rTMS), can lead to an upregulation of
+  functional communication within the attention network. Attributed to
+  functional compensation for the inhibited node, this boost lasts for tens of
+  minutes poststimulation. Despite the neural change, no behavioral correlate
+  has been found in healthy subjects, a necessary direct evidence of functional
+  compensation. To understand the functional significance of neuromodulatory
+  induced fluctuations on attention, we sought to boost the impact of LF-rTMS
+  to impact behavior. We controlled brain state prior to LF-rTMS using
+  high-frequency transcranial random noise stimulation (HF-tRNS), shown to
+  increase and stabilize neuronal excitability. Using fMRI-guided stimulation
+  protocols combining HF-tRNS and LF-rTMS, we tested the poststimulation impact
+  on sustained attention with multiple object tracking (MOT). While attention
+  deteriorated across time in control conditions, HF-tRNS followed by LF-rTMS
+  doubled sustained attention capacity to 94 min. Multimethod stimulation was
+  more effective when targeting right IPS, supporting specialized attention
+  processing in the right hemisphere. Used in cognitive domains dependent on
+  network-wide neural activity, this tool may cause lasting neural compensation
+  useful for clinical rehabilitation.%
+    }
+    \field{number}{1}
+    \field{pages}{tgaa069}
+    \field{title}{Controlling Brain State Prior to Stimulation of Parietal
+  Cortex Prevents Deterioration of Sustained Attention}
+    \field{volume}{1}
+    \field{journaltitle}{Cereb Cortex Commun}
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Bergmann2018-re}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BTO}{%
+         family={Bergmann},
+         familyi={B\bibinitperiod},
+         given={Til\bibnamedelima O},
+         giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{EEG; real-time; transcrancial magnetic stimulation (TMS);
+  transcranial alternating current stimulation (tACS); transcranial direct
+  current stimulation (tDCS)}
+    \strng{namehash}{BTO1}
+    \strng{fullhash}{BTO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{pages}{2108}
+    \field{title}{Brain {State-Dependent} Brain Stimulation}
+    \field{volume}{9}
+    \field{journaltitle}{Front. Psychol.}
+    \field{month}{11}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Scangos2021-vy}{article}{}
+    \name{author}{13}{}{%
+      {{hash=SKW}{%
+         family={Scangos},
+         familyi={S\bibinitperiod},
+         given={Katherine\bibnamedelima W},
+         giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KAN}{%
+         family={Khambhati},
+         familyi={K\bibinitperiod},
+         given={Ankit\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=DPM}{%
+         family={Daly},
+         familyi={D\bibinitperiod},
+         given={Patrick\bibnamedelima M},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MGS}{%
+         family={Makhoul},
+         familyi={M\bibinitperiod},
+         given={Ghassan\bibnamedelima S},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SLP}{%
+         family={Sugrue},
+         familyi={S\bibinitperiod},
+         given={Leo\bibnamedelima P},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zamanian},
+         familyi={Z\bibinitperiod},
+         given={Hashem},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LTX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Tony\bibnamedelima X},
+         giveni={T\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=RVR}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={Vikram\bibnamedelima R},
+         giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SKK}{%
+         family={Sellers},
+         familyi={S\bibinitperiod},
+         given={Kristin\bibnamedelima K},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=DHE}{%
+         family={Dawes},
+         familyi={D\bibinitperiod},
+         given={Heather\bibnamedelima E},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SPA}{%
+         family={Starr},
+         familyi={S\bibinitperiod},
+         given={Philip\bibnamedelima A},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KAD}{%
+         family={Krystal},
+         familyi={K\bibinitperiod},
+         given={Andrew\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CEF}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Edward\bibnamedelima F},
+         giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SKW+1}
+    \strng{fullhash}{SKWKANDPMMGSSLPZHLTXRVRSKKDHESPAKADCEF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Deep brain stimulation is a promising treatment for neuropsychiatric
+  conditions such as major depression. It could be optimized by identifying
+  neural biomarkers that trigger therapy selectively when symptom severity is
+  elevated. We developed an approach that first used multi-day intracranial
+  electrophysiology and focal electrical stimulation to identify a personalized
+  symptom-specific biomarker and a treatment location where stimulation
+  improved symptoms. We then implanted a chronic deep brain sensing and
+  stimulation device and implemented a biomarker-driven closed-loop therapy in
+  an individual with depression. Closed-loop therapy resulted in a rapid and
+  sustained improvement in depression. Future work is required to determine if
+  the results and approach of this n-of-1 study generalize to a broader
+  population.%
+    }
+    \field{number}{10}
+    \field{pages}{1696\bibrangedash 1700}
+    \field{title}{Closed-loop neuromodulation in an individual with
+  treatment-resistant depression}
+    \field{volume}{27}
+    \field{journaltitle}{Nat. Med.}
+    \field{month}{10}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Hordacre2021-iu}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HB}{%
+         family={Hordacre},
+         familyi={H\bibinitperiod},
+         given={Brenton},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MAB}{%
+         family={McCambridge},
+         familyi={M\bibinitperiod},
+         given={Alana\bibnamedelima B},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=RMC}{%
+         family={Ridding},
+         familyi={R\bibinitperiod},
+         given={Michael\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BLV}{%
+         family={Bradnam},
+         familyi={B\bibinitperiod},
+         given={Lynley\bibnamedelima V},
+         giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{HB+1}
+    \strng{fullhash}{HBMABRMCBLV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    New treatments that can facilitate neural repair and reduce persistent
+  impairments have significant value in promoting recovery following stroke.
+  One technique that has gained interest is transcranial direct current
+  stimulation (tDCS) as early research suggested it could enhance plasticity
+  and enable greater behavioral recovery. However, several studies have now
+  identified substantial intersubject variability in response to tDCS and
+  clinical trials revealed insufficient evidence of treatment effectiveness. A
+  possible explanation for the varied and negative findings is that the
+  physiologic model of stroke recovery that researchers have used to guide the
+  application of tDCS-based treatments in stroke is overly simplistic and does
+  not account for stroke heterogeneity or known determinants that affect the
+  tDCS response. Here, we propose that tDCS could have a more clearly
+  beneficial role in enhancing stroke recovery if greater consideration is
+  given to individualizing treatment. By critically reviewing the proposed
+  mechanisms of tDCS, stroke physiology across the recovery continuum, and
+  known determinants of tDCS response, we propose a new, theoretical,
+  patient-tailored approach to delivering tDCS after stroke. The proposed model
+  includes a step-by-step principled selection strategy for identifying optimal
+  neuromodulation targets and outlines key areas for further investigation.
+  Tailoring tDCS treatment to individual neuroanatomy and physiology is likely
+  our best chance at producing robust and meaningful clinical benefit for
+  people with stroke and would therefore accelerate opportunities for clinical
+  translation.%
+    }
+    \field{number}{4}
+    \field{pages}{170\bibrangedash 180}
+    \field{title}{Can Transcranial Direct Current Stimulation Enhance
+  Poststroke Motor Recovery? Development of a Theoretical {Patient-Tailored}
+  Model}
+    \field{volume}{97}
+    \field{journaltitle}{Neurology}
+    \field{month}{07}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Kobeleva2021-nv}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KX}{%
+         family={Kobeleva},
+         familyi={K\bibinitperiod},
+         given={Xenia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LGA}{%
+         family={L{\'o}pez-Gonz{\'a}lez},
+         familyi={L\bibinithyphendelim G\bibinitperiod},
+         given={Ane},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KML}{%
+         family={Kringelbach},
+         familyi={K\bibinitperiod},
+         given={Morten\bibnamedelima L},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Deco},
+         familyi={D\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{brain dynamics; brain networks; functional connectivity; modeling;
+  spatiotemporal}
+    \strng{namehash}{KX+1}
+    \strng{fullhash}{KXLGAKMLDG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The brain rapidly processes and adapts to new information by dynamically
+  transitioning between whole-brain functional networks. In this whole-brain
+  modeling study we investigate the relevance of spatiotemporal scale in
+  whole-brain functional networks. This is achieved through estimating brain
+  parcellations at different spatial scales (100-900 regions) and time series
+  at different temporal scales (from milliseconds to seconds) generated by a
+  whole-brain model fitted to fMRI data. We quantify the richness of the
+  dynamic repertoire at each spatiotemporal scale by computing the entropy of
+  transitions between whole-brain functional networks. The results show that
+  the optimal relevant spatial scale is around 300 regions and a temporal scale
+  of around 150 ms. Overall, this study provides much needed evidence for the
+  relevant spatiotemporal scales and recommendations for analyses of brain
+  dynamics.%
+    }
+    \field{pages}{715861}
+    \field{title}{Revealing the Relevant Spatiotemporal Scale Underlying
+  {Whole-Brain} Dynamics}
+    \field{volume}{15}
+    \field{journaltitle}{Front. Neurosci.}
+    \field{month}{10}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Zemke2003-vs}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZAC}{%
+         family={Zemke},
+         familyi={Z\bibinitperiod},
+         given={Anna\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HPJ}{%
+         family={Heagerty},
+         familyi={H\bibinitperiod},
+         given={Patrick\bibnamedelima J},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CSC}{%
+         family={Cramer},
+         familyi={C\bibinitperiod},
+         given={Steven\bibnamedelima C},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{ZAC+1}
+    \strng{fullhash}{ZACHPJLCCSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND AND PURPOSE: The present study hypothesized that side of stroke
+  and level of recovery influence motor system organization after stroke.
+  METHODS: Functional MRI was performed on 14 control subjects and 21 patients
+  with chronic stroke during index finger tapping (control subjects, right;
+  patients, recovered side). RESULTS: On functional MRI, stroke patients with
+  right arm involvement showed (1) significantly smaller activation in
+  contralateral motor cortexes compared with control subjects; (2) smaller
+  ipsilateral (nonstroke) premotor and larger contralateral (stroke-side)
+  sensorimotor activation compared with patients with left arm involvement,
+  although electromyogram across groups was similar; and (3) 2.7-fold-larger
+  contralateral sensorimotor cortex activation, ventrally, in those with full
+  recovery compared with those with partial recovery, despite similar tapping
+  force, frequency, range of motion, and electromyogram between groups.
+  Supplementary motor area activation was unrelated to level of recovery.
+  CONCLUSIONS: After stroke that causes mild to moderate initial impairment and
+  mild residual hand weakness, cortical organization varies with side of injury
+  and with final motor status. The findings may have implications for treatment
+  after stroke.%
+    }
+    \field{number}{5}
+    \field{pages}{e23\bibrangedash 8}
+    \field{title}{Motor cortex organization after stroke is related to side of
+  stroke and level of recovery}
+    \field{volume}{34}
+    \field{journaltitle}{Stroke}
+    \field{month}{05}
+    \field{year}{2003}
+  \endentry
+
   \entry{Katan2018-qn}{article}{}
     \name{author}{2}{}{%
       {{hash=KM}{%
@@ -5352,87 +7193,6 @@
     \field{journaltitle}{Semin. Neurol.}
     \field{month}{04}
     \field{year}{2018}
-  \endentry
-
-  \entry{Kelly-Hayes2003-sp}{article}{}
-    \name{author}{6}{}{%
-      {{hash=KHM}{%
-         family={Kelly-Hayes},
-         familyi={K\bibinithyphendelim H\bibinitperiod},
-         given={Margaret},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BA}{%
-         family={Beiser},
-         familyi={B\bibinitperiod},
-         given={Alexa},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=KCS}{%
-         family={Kase},
-         familyi={K\bibinitperiod},
-         given={Carlos\bibnamedelima S},
-         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Scaramucci},
-         familyi={S\bibinitperiod},
-         given={Amy},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DRB}{%
-         family={D'Agostino},
-         familyi={D\bibinitperiod},
-         given={Ralph\bibnamedelima B},
-         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=WPA}{%
-         family={Wolf},
-         familyi={W\bibinitperiod},
-         given={Philip\bibnamedelima A},
-         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \strng{namehash}{KHM+1}
-    \strng{fullhash}{KHMBAKCSSADRBWPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2003}
-    \field{labeldatesource}{}
-    \field{abstract}{%
-    The magnitude of disability among elderly stroke survivors is substantial.
-  There have been few community-based estimates of the contribution gender and
-  older age make to stroke-related disability and outcome. Using the original
-  Framingham Study cohort, we documented gender-specific neurological deficits
-  and disability differences in stroke survivors at six months post-stroke.
-  Logistic regression analyses were performed to estimate odds ratios,
-  comparing men and women, and adjusting for age, and age and stroke subtype.
-  Age and gender-matched controls were then compared to distinguish
-  stroke-related disability from disability associated with general aging.
-  Results showed that almost half (43\%) of all elderly stroke survivors in the
-  cohort had moderate to severe neurological deficits. In the crude analyses,
-  women were more dependent in ADLs (33.9\% vs 15.6\%), less likely to walk
-  unassisted (40.3\% vs 17.8\%), and living in nursing homes (34.9 \% vs
-  13.3\%). After adjusting for age and stroke subtype, it was older age that
-  accounted for the severity of disability. When compared to age and
-  gender-matched controls, stroke cases were significantly more disabled in all
-  domains studied. In this elderly cohort, more women experienced initial
-  strokes and were more disabled at 6 months post-stroke than men. However,
-  older age at stroke onset, not gender or stroke subtype, was associated with
-  greater disability. Health care providers need to understand that strokes
-  occur later in life for women and that because of age, women are at greater
-  risk for disability and institutionalization.%
-    }
-    \field{number}{3}
-    \field{pages}{119\bibrangedash 126}
-    \field{title}{The influence of gender and age on disability following
-  ischemic stroke: the Framingham study}
-    \field{volume}{12}
-    \field{journaltitle}{J. Stroke Cerebrovasc. Dis.}
-    \field{year}{2003}
   \endentry
 
   \entry{Bonkhoff2022-op}{article}{}
@@ -8989,6 +10749,594 @@
     \field{labeldatesource}{}
     \field{title}{The Elements of Statistical Learning}
     \field{year}{2001}
+  \endentry
+
+  \entry{Galea1994-yi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GMP}{%
+         family={Galea},
+         familyi={G\bibinitperiod},
+         given={M\bibnamedelima P},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DSI}{%
+         family={Darian-Smith},
+         familyi={D\bibinithyphendelim S\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{GMPDSI1}
+    \strng{fullhash}{GMPDSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In primates, multiple corticospinal projections from the sensorimotor
+  cortex operate in concert to regulate voluntary action. We examined the soma
+  distributions of all those corticospinal neuron populations projecting to
+  different zones in the cervical and more caudal spinal segments in the
+  macaque that are labeled with retrogradely transported fluorescent tracers;
+  2-4 differentiable dyes were injected into different sites in the cervical
+  spinal cord of each of 11 monkeys. Lamina V of the cerebral cortex, in which
+  all corticospinal neuron somas were located, was unfolded with computer
+  assistance to form a flat surface, and local soma densities were displayed on
+  this plane as contour and 3-D maps. At least nine discrete, somatotopically
+  organized corticospinal projections were identified. Three separate
+  corticospinal projections originated in frontal cortex. The first projected
+  mostly from area 4 (approximately 35\% of the total contralateral neuron
+  population), but also from the adjacent dorsolateral area 6a alpha
+  (approximately 6\% of total). The second large corticospinal projection
+  (approximately 15\% of total) originated in the supplementary motor area and
+  a third small projection (approximately 2.6\% of total) projected from the
+  ``postarcuate'' cortex. Two separate corticospinal neuron populations were
+  identified in areas 24 (approximately 6\% of total) and 23 (approximately 4\%
+  of total) of the cingulate cortex. Thus, nearly 70\% of the contralateral
+  corticospinal projection originated in frontal and cingulate cortex. At the
+  boundary between the primary motor and somatosensory cortex there was a sharp
+  change in the pattern of projections. Only approximately 2.2\% of the
+  contralateral corticospinal projection originated in area 3a, rising to
+  approximately 9\% in areas 3b/1, and approximately 13\% in areas 2/5. The
+  projections from SII and insula totaled 3.4\%. Ipsilateral and contralateral
+  corticospinal projection patterns were similar, but the ipsilateral
+  projection was only approximately 8.1\% of that from the contralateral
+  cortex. Each corticospinal neuron population had terminals in the
+  intermediate zone of all spinal segments; additionally, there were ventral
+  horn projections from the primary motor and cingulate cortex, and dorsal horn
+  projections from the somatosensory cortex. Recognizing a number of separate
+  populations of corticospinal neurons in the frontal, parietal, and insular
+  cortex, each with unique thalamic and cortical inputs, and each of which has
+  continuous access to all spinal motoneuron populations, underlines the
+  importance of cortical and spinal connections linking them and coordinating
+  their action. No coherent model of the cortical control of limb movements
+  that incorporates this functional anatomy yet exists.%
+    }
+    \field{number}{2}
+    \field{pages}{166\bibrangedash 194}
+    \field{title}{Multiple corticospinal neuron populations in the macaque
+  monkey are specified by their unique cortical origins, spinal terminations,
+  and connections}
+    \field{volume}{4}
+    \field{journaltitle}{Cereb. Cortex}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Ball1999-yo}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BT}{%
+         family={Ball},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=SA}{%
+         family={Schreiber},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=FB}{%
+         family={Feige},
+         familyi={F\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=WM}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=LCH}{%
+         family={L{\"u}cking},
+         familyi={L\bibinitperiod},
+         given={C\bibnamedelima H},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KFR}{%
+         family={Kristeva-Feige},
+         familyi={K\bibinithyphendelim F\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BT+1}
+    \strng{fullhash}{BTSAFBWMLCHKFR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In the human motor cortex structural and functional differences separate
+  motor areas related to motor output from areas essentially involved in
+  higher-order motor control. Little is known about the function of these
+  higher-order motor areas during simple voluntary movement. We examined a
+  simple finger flexion movement in six healthy subjects using a novel
+  brain-imaging approach, integrating high-resolution EEG with the individual
+  structural and functional MRI. Electrical source reconstruction was performed
+  in respect to the individual brain morphology from MRI. Highly converging
+  results from EEG and fMRI were obtained for both executive and higher-order
+  motor areas. All subjects showed activation of the primary motor area (MI)
+  and of the frontal medial wall motor areas. Two different types of medial
+  wall activation were observed with both methods: Four of the subjects showed
+  an anterior type of activation, and two of the subjects a posterior type of
+  activation. In the former, activity started in the anterior cingulate motor
+  area (CMA) and subsequently shifted its focus to the intermediate
+  supplementary motor area (SMA). Approximately 120 ms before the movement
+  started, the intermediate SMA showed a drop of source strength, and
+  simultaneously MI showed an increase of source strength. In the posterior
+  type, activation was restricted to the posterior SMA. Further, three of the
+  subjects investigated showed activation in the inferior parietal lobe (IPL)
+  starting during early movement preparation. In all subjects showing
+  activation of higher-order motor areas (anterior CMA, intermediate SMA, IPL)
+  these areas became active before the executive motor areas (MI and posterior
+  SMA). We suggest that the early activation of the anterior CMA and the IPL
+  may be related to attentional functions of these areas. Further, we argue
+  that the intermediate part of the SMA triggers the actual motor act via the
+  release of inhibition of the primary motor area. Our results demonstrate that
+  a noninvasive, multimodal brain imaging technique can reveal individual
+  cortical brain activity with high temporal and spatial resolution,
+  independent of a priori physiological assumptions.%
+    }
+    \field{number}{6}
+    \field{pages}{682\bibrangedash 694}
+    \field{title}{The role of higher-order motor areas in voluntary movement as
+  revealed by high-resolution {EEG} and {fMRI}}
+    \field{volume}{10}
+    \field{journaltitle}{Neuroimage}
+    \field{month}{12}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Riley2011-xo}{article}{}
+    \name{author}{7}{}{%
+      {{hash=RJD}{%
+         family={Riley},
+         familyi={R\bibinitperiod},
+         given={Jeff\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Vu},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DYL}{%
+         family={Der-Yeghiaian},
+         familyi={D\bibinithyphendelim Y\bibinitperiod},
+         given={Lucy},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={See},
+         familyi={S\bibinitperiod},
+         given={Jill},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NJM}{%
+         family={Newton},
+         familyi={N\bibinitperiod},
+         given={Jennifer\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WNS}{%
+         family={Ward},
+         familyi={W\bibinitperiod},
+         given={Nick\bibnamedelima S},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CSC}{%
+         family={Cramer},
+         familyi={C\bibinitperiod},
+         given={Steven\bibnamedelima C},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{RJD+1}
+    \strng{fullhash}{RJDLVDYLSJNJMWNSCSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    BACKGROUND AND PURPOSE: Many therapies are emerging that aim to improve
+  motor function in people with stroke. Identifying key biological substrates
+  needed for treatment gains would help to predict treatment effects and to
+  maximize treatment impact. The current study addressed the hypothesis that
+  behavioral gains from therapy targeting distal upper extremity are predicted
+  by the structural integrity of key motor system white matter tracts. METHODS:
+  Twenty-three subjects with chronic left-sided stroke underwent robotic
+  therapy targeting the distal right upper extremity. MRI was obtained at
+  baseline and used to outline the infarct. For each subject, the degree to
+  which stroke injured each of 4 descending white matter tracts (from the
+  primary motor cortex, supplementary motor area, dorsal premotor cortex, and
+  ventral premotor cortex, respectively) was determined. Correlations between
+  tract-specific injury and behavioral gains from therapy were then examined.
+  RESULTS: Numerous examples were found whereby tract-specific injury predicted
+  treatment gains. The strongest correlations pertained to stroke injury to
+  tracts descending from the primary motor cortex and dorsal premotor cortex.
+  Infarct volume and baseline behavior were weak predictors of treatment gains.
+  CONCLUSIONS: Extent of injury to specific motor tracts predicts behavioral
+  gains from treatment in subjects with chronic stroke. This supports a role
+  for these tracts in mediating treatment effects and reinforces the importance
+  of lesion location in stroke. Tract-specific injury was stronger than infarct
+  volume or baseline clinical status at predicting gains, identifies subjects
+  with sufficient biological substrate to improve from therapy, and so might be
+  useful as an entry criterion in repair-based trials.%
+    }
+    \field{number}{2}
+    \field{pages}{421\bibrangedash 426}
+    \field{title}{Anatomy of stroke injury predicts gains from therapy}
+    \field{volume}{42}
+    \field{journaltitle}{Stroke}
+    \field{month}{02}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Wawrzyniak2022-kl}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WM}{%
+         family={Wawrzyniak},
+         familyi={W\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Stockert},
+         familyi={S\bibinitperiod},
+         given={Anika},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Klingbeil},
+         familyi={K\bibinitperiod},
+         given={Julian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Saur},
+         familyi={S\bibinitperiod},
+         given={Dorothee},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{BCBtoolkit; Corticospinal tract; Disconnection; Dti; Hemiparesis;
+  Stroke; Structural connectivity}
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMSAKJSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Voxelwise disconnection mapping is a novel approach to disclose
+  lesion-symptom relationships for symptoms caused by white matter
+  disconnection. It uses MRI-based fiber tracking in healthy subjects seeded
+  from patient's focal brain lesions. Resulting individual disconnection maps
+  can then be statistically associated with symptoms. Despite increasing use in
+  the recent years, the validity of this approach remains to be investigated.
+  In this study, we validated both, our own implementation and the
+  implementation provided within BCBtoolkit. For technical validation, we used
+  simulated symptoms based on overlap of 70 real stroke lesions with tracts
+  from a white matter atlas. For clinical validation, paresis scores and
+  lesions from 316 patients with stroke were used. We found that voxelwise
+  disconnection mapping is technically valid and outperforms the standard
+  voxel-based lesion-symptom mapping approach for symptoms caused by white
+  matter disconnection. Supporting its clinical validity and utility, we were
+  able to reproduce the known association between corticospinal tract damage
+  and contralateral hemiparesis. In addition, we demonstrate that the validity
+  can be substantially diminished by relatively minor methodological changes.
+  Based on these results, we derive methodological recommendations for the
+  future use of voxelwise disconnection mapping. Our study highlights the
+  importance of validating novel methodological approaches in the rapidly
+  evolving field of neuroimaging.%
+    }
+    \field{pages}{103132}
+    \field{title}{Voxelwise structural disconnection mapping: Methodological
+  validation and recommendations}
+    \field{volume}{35}
+    \field{journaltitle}{Neuroimage Clin}
+    \field{month}{07}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Foulon2018-bj}{article}{}
+    \name{author}{8}{}{%
+      {{hash=FC}{%
+         family={Foulon},
+         familyi={F\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cerliani},
+         familyi={C\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kinkingn{\'e}hun},
+         familyi={K\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rosso},
+         familyi={R\bibinitperiod},
+         given={Charlotte},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=UM}{%
+         family={Urbanski},
+         familyi={U\bibinitperiod},
+         given={Marika},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Volle},
+         familyi={V\bibinitperiod},
+         given={Emmanuelle},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TdSM}{%
+         prefix={Thiebaut\bibnamedelima de},
+         prefixi={T\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Schotten},
+         familyi={S\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCCLKSLRRCUMVESMTd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Background: Patients with brain lesions provide a unique opportunity to
+  understand the functioning of the human mind. However, even when focal, brain
+  lesions have local and remote effects that impact functionally and
+  structurally connected circuits. Similarly, function emerges from the
+  interaction between brain areas rather than their sole activity. For
+  instance, category fluency requires the associations between executive,
+  semantic, and language production functions. Findings: Here, we provide, for
+  the first time, a set of complementary solutions for measuring the impact of
+  a given lesion on the neuronal circuits. Our methods, which were applied to
+  37 patients with a focal frontal brain lesions, revealed a large set of
+  directly and indirectly disconnected brain regions that had significantly
+  impacted category fluency performance. The directly disconnected regions
+  corresponded to areas that are classically considered as functionally engaged
+  in verbal fluency and categorization tasks. These regions were also organized
+  into larger directly and indirectly disconnected functional networks,
+  including the left ventral fronto-parietal network, whose cortical thickness
+  correlated with performance on category fluency. Conclusions: The combination
+  of structural and functional connectivity together with cortical thickness
+  estimates reveal the remote effects of brain lesions, provide for the
+  identification of the affected networks, and strengthen our understanding of
+  their relationship with cognitive and behavioral measures. The methods
+  presented are available and freely accessible in the BCBtoolkit as
+  supplementary software [1].%
+    }
+    \field{number}{3}
+    \field{pages}{1\bibrangedash 17}
+    \field{title}{Advanced lesion symptom mapping analyses and implementation
+  as {BCBtoolkit}}
+    \field{volume}{7}
+    \field{journaltitle}{Gigascience}
+    \field{month}{03}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Kapur1996-xq}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KN}{%
+         family={Kapur},
+         familyi={K\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{KN1}
+    \strng{fullhash}{KN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The aim in this review article is to document research findings that have
+  shown paradoxical effects of nervous system changes, whereby direct or
+  indirect neural damage may result in facilitation of behavioural functions.
+  Such findings have often been ignored or undervalued in the brain-behaviour
+  research literature. A further aim is to consider possible mechanisms and
+  theoretical insights related to this facilitation. Analyses of relevant
+  studies show that two major types of paradoxical functional facilitation
+  (PFF) effects may be distinguished. (i) Situations where damage to intact
+  brain tissue brings to normal or near normal a previously subnormal or
+  abnormal level of functioning. I refer to improved levels of functioning in
+  such contexts as restorative PFF effects. One of the best documented examples
+  of such PFF effects is the 'Sprague effect', whereby collicular lesions may
+  bring about an improvement in visual functioning following an initial
+  occipital lesion. (ii) Situations where a subject with nervous system
+  pathology or sensory loss performs better than normal control subjects on a
+  particular task. I refer to improved levels of performance in these contexts
+  as enhancing PFF effects. Restorative and enhancing PFF effects have been
+  found in a range of domains, including memory, sensory and perceptual
+  functions, and language functioning. A potential contribution of PFF effects
+  is that they highlight two important neural mechanisms, i.e. inhibition and
+  compensatory plasticity. Two broad classes of theoretical insights related to
+  PFF effects are therefore discussed: (i) inhibitory mechanisms, which form
+  part of an interactive view of brain function where competitive
+  opponent-processing is a significant feature; (ii) 'compensatory
+  augmentation', which occurs as a specific manifestation of CNS plasticity.
+  Both of these mechanisms are considered in relation to paradoxical increases
+  in CBF and anatomical annexation effects that are seen in neurological
+  patients and in subjects with sensory loss. Paradoxical functional
+  facilitation paradigms represent a powerful methodological tool for
+  confirming or refuting hypotheses in brain-behaviour research. The
+  counter-intuitive nature of PFF findings provides a particularly persuasive
+  set of evidence in support of neural, conceptual or computational models of
+  brain function that specifically predict paradoxical facilitation of
+  cognitive functioning.%
+    }
+    \field{pages}{1775\bibrangedash 1790}
+    \field{title}{Paradoxical functional facilitation in brain-behaviour
+  research. A critical review}
+    \field{volume}{119 ( Pt 5)}
+    \field{journaltitle}{Brain}
+    \field{month}{10}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Shahid2017-gx}{article}{}
+    \name{author}{9}{}{%
+      {{hash=SH}{%
+         family={Shahid},
+         familyi={S\bibinitperiod},
+         given={Hinna},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sebastian},
+         familyi={S\bibinitperiod},
+         given={Rajani},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=STT}{%
+         family={Schnur},
+         familyi={S\bibinitperiod},
+         given={Tatiana\bibnamedelima T},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hanayik},
+         familyi={H\bibinitperiod},
+         given={Taylor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TDC}{%
+         family={Tippett},
+         familyi={T\bibinitperiod},
+         given={Donna\bibnamedelima C},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fridriksson},
+         familyi={F\bibinitperiod},
+         given={Julius},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rorden},
+         familyi={R\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HAE}{%
+         family={Hillis},
+         familyi={H\bibinitperiod},
+         given={Argye\bibnamedelima E},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{aphasia; brain mapping; ischemic stroke; language comprehension;
+  lesion studies}
+    \strng{namehash}{SH+1}
+    \strng{fullhash}{SHSRSTTHTWATDCFJRCHAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Lesion-symptom mapping is an important method of identifying networks of
+  brain regions critical for functions. However, results might be influenced
+  substantially by the imaging modality and timing of assessment. We tested the
+  hypothesis that brain regions found to be associated with acute language
+  deficits depend on (1) timing of behavioral measurement, (2) imaging
+  sequences utilized to define the ``lesion'' (structural abnormality only or
+  structural plus perfusion abnormality), and (3) power of the study. We
+  studied 191 individuals with acute left hemisphere stroke with MRI and
+  language testing to identify areas critical for spoken word comprehension. We
+  use the data from this study to examine the potential impact of these three
+  variables on lesion-symptom mapping. We found that only the combination of
+  structural and perfusion imaging within 48 h of onset identified areas where
+  more abnormal voxels was associated with more severe acute deficits, after
+  controlling for lesion volume and multiple comparisons. The critical area
+  identified with this methodology was the left posterior superior temporal
+  gyrus, consistent with other methods that have identified an important role
+  of this area in spoken word comprehension. Results have implications for
+  interpretation of other lesion-symptom mapping studies, as well as for
+  understanding areas critical for auditory word comprehension in the healthy
+  brain. We propose that lesion-symptom mapping at the acute stage of stroke
+  addresses a different sort of question about brain-behavior relationships
+  than lesion-symptom mapping at the chronic stage, but that timing of
+  behavioral measurement and imaging modalities should be considered in either
+  case. Hum Brain Mapp 38:2990-3000, 2017. \copyright{} 2017 Wiley Periodicals,
+  Inc.%
+    }
+    \field{number}{6}
+    \field{pages}{2990\bibrangedash 3000}
+    \field{title}{Important considerations in lesion-symptom mapping:
+  Illustrations from studies of word comprehension}
+    \field{volume}{38}
+    \field{journaltitle}{Hum. Brain Mapp.}
+    \field{month}{06}
+    \field{year}{2017}
   \endentry
 \enddatalist
 \endinput

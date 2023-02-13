@@ -28,16 +28,38 @@
 \BOOKMARK [0][-]{chapter.2}{Frontoparietal network activation is associated with motor recovery in ischemic stroke patients*}{}% 28
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 29
 \BOOKMARK [1][-]{section.2.2}{Methods}{chapter.2}% 30
-\BOOKMARK [1][-]{section.2.3}{Results}{chapter.2}% 31
-\BOOKMARK [1][-]{section.2.4}{Discussion}{chapter.2}% 32
-\BOOKMARK [1][-]{section.2.5}{Conclusions}{chapter.2}% 33
-\BOOKMARK [0][-]{chapter.3}{Systematic comparison of imaging biomarkers of chronic stroke motor outcome in the ENIGMA Stroke Recovery Working Group dataset}{}% 34
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.2}{Methods}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.2.1}{Sample demographics}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.2}{General overview}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.3}{Description of models and their inputs}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.4}{Results}{section.3.2}% 40
-\BOOKMARK [1][-]{section.3.3}{Discussion}{chapter.3}% 41
-\BOOKMARK [0][-]{appendix.A}{Supplementary material for Chapter 1}{}% 42
-\BOOKMARK [0][-]{appendix.B}{Supplementary material for Chapter 2}{}% 43
+\BOOKMARK [2][-]{subsection.2.2.1}{Data description}{section.2.2}% 31
+\BOOKMARK [2][-]{subsection.2.2.2}{Structural data processing}{section.2.2}% 32
+\BOOKMARK [2][-]{subsection.2.2.3}{Functional data processing}{section.2.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.4}{Dynamic brain states and their metrics}{section.2.2}% 34
+\BOOKMARK [2][-]{subsection.2.2.5}{Assessment of corticospinal tract integrity}{section.2.2}% 35
+\BOOKMARK [2][-]{subsection.2.2.6}{Relating FPN+ state metrics to chronic motor outcomes}{section.2.2}% 36
+\BOOKMARK [2][-]{subsection.2.2.7}{Effect of proportional recovery on observed relationships}{section.2.2}% 37
+\BOOKMARK [2][-]{subsection.2.2.8}{Comparison of fractional occupancy and functional connectivity}{section.2.2}% 38
+\BOOKMARK [2][-]{subsection.2.2.9}{Statistics and reproducibility}{section.2.2}% 39
+\BOOKMARK [2][-]{subsection.2.2.10}{Code availability}{section.2.2}% 40
+\BOOKMARK [1][-]{section.2.3}{Results}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.3.1}{Participant characteristics}{section.2.3}% 42
+\BOOKMARK [2][-]{subsection.2.3.2}{Clustering reveals an optimum of 4 brain states}{section.2.3}% 43
+\BOOKMARK [2][-]{subsection.2.3.3}{Stroke-control differences in brain state dynamics}{section.2.3}% 44
+\BOOKMARK [2][-]{subsection.2.3.4}{Frontoparietal activation relates to motor recovery in individuals with dominant-hand CST damage}{section.2.3}% 45
+\BOOKMARK [2][-]{subsection.2.3.5}{Fractional occupancy differences are related to functional connectivity differences}{section.2.3}% 46
+\BOOKMARK [1][-]{section.2.4}{Discussion}{chapter.2}% 47
+\BOOKMARK [1][-]{section.2.5}{Conclusions}{chapter.2}% 48
+\BOOKMARK [0][-]{chapter.3}{Systematic comparison of imaging biomarkers of chronic stroke motor outcome in the ENIGMA Stroke Recovery Working Group dataset}{}% 49
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 50
+\BOOKMARK [1][-]{section.3.2}{Methods}{chapter.3}% 51
+\BOOKMARK [2][-]{subsection.3.2.1}{Sample demographics}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.2}{General overview}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.3}{Description of models and their inputs}{section.3.2}% 54
+\BOOKMARK [1][-]{section.3.3}{Results}{chapter.3}% 55
+\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.4.1}{M1-CST-LL vs. SMATT-LL: higher-order motor areas are relevant for motor outcome prediction}{section.3.4}% 57
+\BOOKMARK [2][-]{subsection.3.4.2}{Lesion-induced structural connectivity for prediction}{section.3.4}% 58
+\BOOKMARK [2][-]{subsection.3.4.3}{Features selected in ChaCo models}{section.3.4}% 59
+\BOOKMARK [2][-]{subsection.3.4.4}{Use of acute data in training}{section.3.4}% 60
+\BOOKMARK [2][-]{subsection.3.4.5}{Ensemble models}{section.3.4}% 61
+\BOOKMARK [2][-]{subsection.3.4.6}{Limitations}{section.3.4}% 62
+\BOOKMARK [0][-]{appendix.A}{Supplementary material for Chapter 1}{}% 63
+\BOOKMARK [0][-]{appendix.B}{Supplementary material for Chapter 2}{}% 64
+\BOOKMARK [0][-]{appendix.C}{Supplementary material for Chapter 3}{}% 65

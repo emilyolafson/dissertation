@@ -71,7 +71,7 @@
 \renewcommand{\floatpagefraction}{0.75}
 
 
-\title {Understanding and predicting motor recovery after stroke: a multimodal connectomic approach}
+\title {Understanding and predicting motor recovery after stroke using structural and functional magnetic resonance imaging}
 \author {Emily Olafson}
 \conferraldate {May}{2023}
 \degreefield {Ph.D.}
@@ -85,27 +85,30 @@
 
 \begin{abstract}
 
+Stroke is a leading cause of long-term disability worldwide.  Motor impairments are the most common deficit after stroke, and up to 50 percent of stroke survivors will have lasting hemiparesis. Understanding neural mechanisms associated with motor recovery,  as well as generating accurate predictions of long-term motor outcomes, are both critical for developing therapies. In this dissertation, I identify functional correlates of motor recovery in pontine stroke patients, and evaluate several imaging biomarkers in their ability to predict chronic motor outcomes in unseen data.
 
-Your abstract goes here. Make sure it sits inside the brackets. If not,
-your biosketch page may not be roman numeral iii, as required by the
-graduate school.
-The abstract should state the problem, describe the methods and procedures used, and give the main results or conclusions of the research.
-The abstract must not exceed 350 words in length (generally about one-and-one-half correctly spaced pages; the abstract may not be more than two pages).
+
+First, we quantified functional reorganization between several intervals ranging from 1 week to 6 months following stroke, and demonstrated that the areas that undergo functional reorganization most frequently are in cerebellar/subcortical networks. Brain regions with more structural and functional connectome disruption due to the stroke also had more remapping over time. Finally, we show that functional reorganization is correlated with the extent of motor recovery in the early to late subacute phases, and furthermore, individuals with greater baseline motor impairment demonstrate more extensive early subacute functional reorganization and this reorganization correlates with better motor recovery at 6 months.  
+
+
+Next, we apply a brain dynamics analysis approach to study longitudinal brain activity patterns in individuals with ischemic pontine stroke. We first found 4 commonly occurring brain states largely characterized by high amplitude activations in the visual, frontoparietal, default mode, and motor networks. Stroke subjects spent less time in the frontoparietal state compared to controls. For individuals with dominant-hand corticospinal tract damage, more time spent in the frontoparietal state from 1 week to 3-6 months post-stroke was associated with better motor recovery over the same time period, an association which was independent of baseline impairment. Furthermore, the amount of time spent in brain states was linked empirically to functional connectivity.
+
+Finally, we compared imaging biomarkers of chronic motor outcome in a large, multi-site stroke imaging dataset. We found that individually, models using structural disconnection best predicted chronic motor scores in new subjects. Lesion load reflecting damage to primary and higher-order motor pyramidal tracts better predicted chronic motor outcomes compared to standard measures of corticospinal tract lesion load and structural lesion-behavior maps. Finally, ensemble models combining predictions from multiple imaging biomarkers as well as basic demographic information (age, sex, time since stroke) had the best overall prediction accuracy.
+
+
 \end{abstract}
 
 \begin{biosketch}
 Emily was born in Northhampton, United Kingdom in 1997, and grew up in Toronto, Canada.  In highschool, her interest in biology was nurtured  by an exceptional biology teacher.  In her first year at McGill University in Montreal, she was excited by the interdisciplinary nature of the Neuroscience major program, and ultimately joined the Honors stream where she would be able to pursue a full-year undergraduate thesis. 
 In her second year, she worked in the lab of Dr. Artur Kania where she was able to apply cutting-edge technologies like CRISPR-Cas9 to modify the genome of chick embryos and analyze changes in spinal cord formation. 
 
- Wanting to explore computational neuroscience, she reached out to Mallar Chakravarty and joined his lab at the Douglas Mental Health University Institute processing T1w scans from individuals with autism spectrum disorder through MAGeT-Brain, a subcortical segmentation algorithm.  Her interest in human neuroimaging skyrocketed after she took a master's course in neuroimaging taught by Mallar. This course taught her how to critically engage with literature,  how to articulate complex ideas, and ultimately pushed her to apply to graduate school.
+ Wanting to explore computational neuroscience, she reached out to Mallar Chakravarty and joined his lab at the Douglas Mental Health University Institute processing T1w scans from individuals with autism spectrum disorder through MAGeT-Brain, a subcortical segmentation pipeline.  Her interest in human neuroimaging skyrocketed after she took a course in neuroimaging taught by Mallar. This course taught her how to critically engage with literature,  how to articulate complex ideas, and ultimately pushed her to apply to graduate school.
 
-She applied to neuroscience programs across the US and ultimately ended up at Weill Cornell Graduate School in New York City.  She rotated with Amy Kuceyeski, exploring the relationship between structural and functional connectivity after stroke, and with Sudhin Shah,  investigating neural correlates of consciousness in a minimally conscious patient. Although COVID prevented her from rotating with other labs, she had already decided on joining Amy's lab, and moved to Ithaca in August 2020. 
+She applied to neuroscience programs across the US and ultimately ended up at Weill Cornell Graduate School in New York City.  She rotated with Dr. Amy Kuceyeski, exploring the relationship between structural and functional connectivity after stroke, and with Dr. Sudhin Shah,  investigating neural correlates of consciousness in a minimally conscious patient. Although COVID prevented her from rotating with other labs, she had already decided on joining the Computational Connectomics lab, and moved to Ithaca in August 2020. 
 
-In Amy Kuceyeski's lab,  she did a variety of things.
+Under the guidance of Dr. Amy Kuceyeski, she developed an expertise in computational neuroimaging and image processing, graph theoretical modelling, predictive modelling, and lesion-behavior mapping.Throughout her graduate career, she presented her research at various international conferences including Organization for Human Brain Mapping and the International Stroke Conference.
 
-She taught 2 semesters in the Cornell Prison Education Program: first at Five Points Correctional Facility, and then at Cayuga Correctional Facility. She generated material for the course "Neurochemistry of Human Behavior" and taught incarcerated people about synaptic transmission, long term potentiation,  and mechanisms of disease. 
-
-She did an internship at Biogen in their clinical imaging group.
+Her primary research, presented in this dissertation, focused on uncovering functional correlates of brain network reorganization after stroke and predicting long-term motor outcomes. 
 
 \end{biosketch}
 
@@ -115,17 +118,17 @@ She did an internship at Biogen in their clinical imaging group.
 \end{dedication}
 
 \begin{acknowledgements}
-Thank you to Amy Kuceyeski, my mentor at Weill. Aside from your  scientific brilliance, your compassionate and trusting leadership was invaluable to me throughout my thesis, but especially during the pandemic.  You consciously create an environment in which people can  thrive. You rock. I am deeply appreciative of my thesis committee: Dr. Conor Liston, Dr. Nicholas Schiff, and Dr. Aaron Boes, for their support and expertise, both academically and professionally.
+Thank you to Amy Kuceyeski, my mentor at Weill. Aside from your scientific brilliance, your compassionate and trusting leadership was invaluable to me throughout my thesis, but especially during the pandemic.  You consciously create an environment in which people can  thrive. I am deeply appreciative of my thesis committee: Dr. Conor Liston, Dr. Nicholas Schiff, and Dr. Aaron Boes, for their support and expertise, both academically and professionally.
 
 I would also like to thank the people who made Ithaca feel like home:  Parker Singleton, Ceren Tozlu, Keith Jamison, Zijin Gu, Ben, and Liam.
 
-Thank you to mentors along the way: Mallar Chakravarty, Elvisha Dhamala, Gabriel Devenyi, Saashi Bedford, Raihaan Patel,  Elisa Guma, Artur Kania,  Daniel Morales, Sylvie Lahaie, Alyssa Dai,  Jonathan DuBois,  and Cindy Law.
+Thank you to mentors along the way: Dr. Mallar Chakravarty, Dr. Elvisha Dhamala, Dr. Gabriel Devenyi, Saashi Bedford, Dr. Raihaan Patel,  Dr. Elisa Guma, Dr. Artur Kania,  Dr. Daniel Morales, Sylvie Lahaie, Alyssa Dai,  Dr.Jonathan DuBois,  and Cindy Law.
 
 To others who have made difficult experiences easier: Clive Liew, Mert Sabuncu, Randi Silver, Rebekah Ciribassi, thank you.
 
 Thank you to my world-class friends who remind me that people are fundamentally good: Emma, Miriam, Mikey, Zoe, Nilasha, Jonah, CEC, Jasmine, Max, Board Games Club, and my Neuro entire cohort.
 
-To the students and staff of the Cornell Prison Education Program: teaching at Five Points and Cayuga was the best thing I've ever done. From the bottom of my heart, thank you for the opportunity.
+To the students and staff of the Cornell Prison Education Program: teaching at Five Points and Cayuga was a life-changing experience. From the bottom of my heart, thank you for the opportunity.
 
 To my parents, thank you for the sacrifices you’ve made to
 give me a stellar education. Thank you to my twin brother Matt, for being a lifelong best friend.
@@ -147,11 +150,13 @@ Finally, one last thank you is reserved for my partner, Isaac,  for answering al
 
 %\subfile{../chapter1/introduction}
 \section{Introduction}
-Motor deficits are among the most common and disruptive symptoms of ischemic stroke. Spontaneous recovery of motor function occurs for most patients (\cite{Duncan2000-uj}), and largely depends on the ability of brain networks to functionally reorganize and compensate for lost function (\cite{Grefkes2008-bt, Rehme2013-ap}). As demonstrated by animal models, the functionality of damaged motor regions may be remapped to surviving tissue around the lesion (\cite{Winship2009-af}). However, brain areas distant to the lesion that have similar function and/or connectivity as the damaged area have also been shown to compensate for lost function (\cite{Winship2009-af, Adam2020-jk, Murata2015-ss, Brown2009-jn}).
-	
-	In humans, functional reorganization has been studied with functional magnetic resonance imaging (fMRI). Task fMRI studies have demonstrated that cortical reorganization related to motor recovery can be characterized by task-based activation of surviving ipsilesional cortex, contralesional areas, and even regions not classically activated by motor tasks in healthy subjects (\cite{Ward2003-zd}). Recently, resting-state fMRI has emerged as a means to study connectivity changes after stroke in subjects who are severely impaired and cannot perform motor tasks. Resting-state fMRI has been used to identify recovery-related changes in functional connectivity between specific brain regions, reflecting network-level changes (\cite{Park2011-kx}). However, few studies to date have attempted to capture longitudinal network-level reorganization after stroke using resting-state fMRI. 
-	
-	Prior studies investigating neural correlates of motor recovery have also focused almost exclusively on supratentorial strokes that impact the internal capsule and surrounding areas.  Infratentorial pontine strokes may impact the corticospinal tract directly or the connections between motor cortex and the cerebellum (\cite{Lu2011-ow}). These strokes  account for roughly 7 percent of all ischemic strokes (\cite{Saia2009-ik}), and may have different mechanisms of recovery-related reorganization from those of more well-studied supratentorial strokes.
+Motor deficits are among the most common and disruptive symptoms of ischemic stroke (\cite{Kelly-Hayes2003-sp}). Spontaneous recovery of motor function occurs for most patients (\cite{Duncan2000-uj}), and largely depends on the ability of brain networks to functionally reorganize and compensate for lost function (\cite{Grefkes2008-bt, Rehme2013-ap}). As demonstrated in rodent models, the functionality of damaged motor regions may be remapped to surviving tissue around the lesion (\cite{Winship2009-af,Brown2009-jn}).  In addition to perilesional remapping, human and non-human primate studies have shown that brain areas distant to the lesion that have similar function to the damaged area may be able to compensate for lost function, especially homologous regions in the contralesional hemisphere (\cite{Murata2015-ss, Ward2003-zd, Cramer1997-ko,Cao1998-iq}).  
+
+In humans, post-stroke functional reorganization has been studied with functional magnetic resonance imaging (fMRI), a non-invasive method to capture the changes in blood oxygen levels that occur in response to neural activity in the brain. In human stroke research, the BOLD (blood oxygen-level dependent) signal is used as a proxy for changes in neural activity that occur after the stroke. Task activation fMRI studies that measure BOLD signal during a motor task have demonstrated that cortical reorganization can be characterized by task-based activation of surviving ipsilesional cortex, contralesional areas, and even regions not classically activated by motor tasks in healthy subjects (\cite{Ward2003-zd,Park2011-kx}). However, task fMRI can only be administered in subjects who are severely impaired and cannot perform motor tasks, limiting our understanding of motor recovery from severe stroke. Additionally,  BOLD activation-based studies of functional reorganization obscure the brain's functional network properties, which may provide insight into mechanisms of brain reorganization (\cite{Griffis2019-cy}).
+ 
+Recently, resting-state fMRI has emerged as a means to study brain network changes after stroke that can incorporate subjects at all levels of impairment. The brain's functional network can be measured using functional connectivity,  of the temporal correlations between the BOLD signals of different brain regions.  As we come to understand post-stroke deficits in terms how a lesion disrupts large-scale functional networks in the brain (\cite{Carrera2014-ah, Griffis2019-cy}, shifting our viewpoint of studying adaptive reorganization processes to the network level may further our understanding of motor recovery after stroke.  Prior studies have individually examined either remapping processes or network changes after stroke; in this chapter, I present a novel framework for studying functional reorganization in terms of network-level remapping. 
+
+	Prior studies investigating neural correlates of motor recovery have focused predominantly on supratentorial strokes that impact the internal capsule and surrounding areas (\cite{Lekic2011-pt}). Infratentorial pontine strokes may impact the corticospinal tract directly or may disrupt the connections between motor cortex and the cerebellum (\cite{Lu2011-ow}). Recent evidence suggests that the cerebellum may play a key role in motor recovery: increased synaptic formations in deep cerebellar nuclei after primary motor cortex stroke have been observed in nonhuman primates (\cite{Yamamoto2019-ru}), as have changes in functional connectivity in the contralesional cerebellum after supratentorial stroke in humans (\cite{Wang2010-or,Liu2019-mj}). The cerebellum may play a more central role in the reorganization process after infratentorial strokes that can be better understood by studying this sub-population.
 	
     Remote brain areas anatomically connected to the lesion undergo structural and functional changes through a process known as diaschisis (\cite{Carrera2014-ah}). Functional remapping of areas structurally disconnected by the lesion may be an important component of the recovery process that has not been deeply explored. Recent studies have also demonstrated that functional connectivity (FC) changes occur following structural connectivity disruption after stroke (\cite{Lu2011-ow, Griffis2020-hx}). We hypothesize that functional reorganization may also occur in areas whose FC is reduced due to the stroke. In this study, we propose a novel measure to capture adaptive functional network reorganization after pontine stroke, outlined below, and relate it to patterns of regional stroke-related structural connectome disruption and measures of upper-arm motor recovery. 
 
@@ -520,23 +525,24 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 	\begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{chapter2/Figure1.png}
-	\caption{Clustering of time series data and quantification of dynamic state metrics. \textbf{a}. Time series data from all subjects were concatenated together along the time dimension. K-means clustering produced 4 distinct brain activation states defined by different locations in regional activation space (image adapted from \cite{Cornblath2020-nc}). Each TR is assigned to one of four brain states based on k-means partitions. \textbf{b}. Fractional occupancy, dwell time, appearance rate, and transition probabilities are calculated separately for each subject and for each state.  }
+	\caption{Overview of methodology of clustering time series data and quantifying of dynamic state metrics. }
+	\caption*{\textbf{a}. Time series data from all subjects were concatenated together along the time dimension. K-means clustering produced 4 distinct brain activation states defined by different locations in regional activation space (image adapted from \cite{Cornblath2020-nc}). Each TR is assigned to one of four brain states based on k-means partitions. \textbf{b}. Fractional occupancy, dwell time, appearance rate, and transition probabilities are calculated separately for each subject and for each state.  }
 	\label{Figure2_1}
     \end{figure}
     
 \section{Methods}
-	\subsection*{Data description}
+	\subsection{Data description}
 	 The data consist of 23 first-episode stroke patients (34-74 years old; mean age 57 years; 8 female) with isolated pontine infarcts and 24 healthy sex-matched controls (33-65 years old; mean age 52 years; 10 female). A subset of the data (11 stroke subjects and 11 healthy control subjects) used here has been previously described in \cite{Lu2011-ow}; the current study includes an additional 12 stroke subjects and 13 control subjects. Of the twenty-three stroke subjects, fourteen had right brainstem infarcts and nine had left brainstem infarcts (Supplementary Figure 1a, 2, 3). Written informed consent was obtained from all participants. Patients were scanned between two and five times over a period of 6 months. Specifically, MRIs were obtained at 7, 14, 30, 90 and 180 days after stroke onset on a 3T TimTrio Siemens using a 12-channel phase-array head coil. Fugl-Meyer assessments were performed twice for each subject at each session and averaged (Supplementary Figure 1b). The Fugl-Meyer test includes 33 tasks that assesses motor function, balance, sensation, and joint function of the upper limbs (\cite{Fugl-Meyer1975-nh}). Each task was rated on a scale of 0 to 2 (0 indicates the subject was unable to perform the task, 1 indicates the subject could partially perform the task, and 2 indicates the subject was able to perform the task). The total sum of the 33 scores was then normalized to a score between 0 and 100, where 100 represents the best possible performance across all 33 tasks. Anatomical images were acquired using a sagittal MP-RAGE three-dimensional T1-weighed sequence (TR, 1600ms; TE 2.15ms; flip angle, 9°, 1.0 mm isotropic voxels, FOV 256 x 256). Each MRI session involved between two and four runs of task-free fMRI at 6 minutes each. Subjects were instructed to stay awake with their eyes open; no other task instruction was provided. Images were acquired using the gradient-echo echo-planar pulse sequence (TR, 3000ms; TE, 30ms; flip angle, 90°, 3 mm isotropic voxels). Anatomical MRI, lesion masks and fMRI data were processed as described below and in (\cite{Olafson2021-qt}).
 	 
  
     	 
-	\subsection*{Anatomical MRI processing}
+	\subsection{Structural data processing}
 	Preprocessing of the longitudinal anatomical MRIs included affine registration of each subject’s T1 scans to the baseline T1 scan, collapsing co-registered files to an average T1 and creation of a skull-stripped brain mask followed by manual editing and binarization of the hand-edited mask. The brain mask was then transformed back to each of the follow-up T1s in native space using the inverse registration acquired from the first step. This was followed by bias field correction of all the T1 scans, transformation of native-space bias field-corrected data back to baseline space, and the creation of an average bias field-corrected scan for each subject. Stroke lesion masks were hand-drawn on these transformed T1 scans by ADB and JEB. Structural normalization was performed with the ANTs toolbox (\cite{Avants2011-bl}).
 	
-	\subsection*{Functional MRI processing}
+	\subsection{Functional data processing}
 	Preprocessing of the longitudinal functional MRIs was performed using the CONN toolbox (\cite{Whitfield-Gabrieli2012-ox}), including functional realignment of volumes to the baseline volume, slice timing correction for alternating acquisition, segmentation and normalization, and smoothing with a 4 mm FWHM kernel. This was followed by a denoising protocol (CompCor) (\cite{Behzadi2007-zt}) which regressed out the cerebrospinal fluid and white matter signal, as well as 24 realignment parameters (added first-order derivatives and quadratic effects). Temporal band-pass filtering (0.008 - 0.09 Hz), despiking and global signal removal regression were also performed. The first four frames of each BOLD run were removed. Frame censoring was applied to scans with a framewise displacement threshold of 0.5 mm along with its preceding scan (\cite{Power2012-zm}). Regional time series were acquired by parcellating the scans into 268 non-overlapping brain regions using a functional atlas derived from healthy controls (\cite{Shen2013-zn}) and averaging the time course of all voxels within a given region. Voxels identified as lesioned were excluded from regional time series calculations. The first 200 volumes from each subject's fMRI were used for subsequent analyses to ensure equal contribution of each scan to the brain state clustering (see below for details). Finally, each of 268 regions was assigned to one of 8 functional networks, identified by (\cite{Finn2015-er}) using spectral clustering in healthy subjects (Supplementary Figure 4) named as follows: medial frontal network, frontoparietal network, default mode network, subcortical/cerebellum network, motor network, visual I network, visual II network, and the visual association network. These networks reflect collections of brain regions whose temporal signals are homogeneous at rest (i.e., the activity of regions within each network is similar over time) in a healthy population, and are referred to as canonical networks due to their repeated observation in resting-state data.
 	
-	\subsection*{Dynamic brain states and their metrics}
+	\subsection{Dynamic brain states and their metrics}
 	 Following Cornblath et al. (2020), all subjects’ regional fMRI time series were concatenated, producing an n x p matrix where n = 47 subjects * 200 TRs * 2-5 sessions and p = 268 brain regions). This matrix was z-scored along columns such that each brain region had a mean of 0 and a standard deviation of 1. K-means clustering was then applied to identify clusters of brain activation patterns, or states (Figure \ref{Figure1}a). Pearson correlation was used as the cluster distance metric and clustering was repeated 50 times with different random initializations before choosing the solution with the best separation of the data (minimum sum of point-to-centroid distances, summed over all k clusters). To determine the optimal number of clusters and evaluate the quality of clustering, we performed several analyses (Supplementary Figure 5). First, we plotted the variance explained by clustering (between-cluster variance divided by the sum of between-cluster and within-cluster variance) for k = 2 to 12 and identified the curve's elbow at k = 4 as a potential optimal number of clusters. We also plotted the distortion curve, which is the average distance from each point to its centroid and again determined via elbow criteria an optimal cluster number of 4. We then plotted silhouette coefficients for k = 4 to assess if there was evidence of misassignment of any of the points. To further assess the stability of clustering and ensure our partitions were reliable at k = 4, we repeated the above clustering process 50 times and compared the adjusted mutual information (AMI) between each of the 50 results. The partition which shared the greatest total AMI with all other partitions was selected as the final cluster assignment. The centroids of each state (cluster) were calculated by taking the mean of all TRs assigned to that state in regional activation space (\cite{Cornblath2020-nc}). Following Cornblath et al., dominant networks in each state were determined by calculating the cosine similarity between each of 8  networks and each centroid. High and low amplitude network-level activations were assessed separately by taking the cosine similarity of the positive and negative parts of the centroid (and zeroing out values with the opposite sign), respectively. 
 	 
 	 We performed several analyses to assess the robustness of our results under different conditions. First, we repeated the entire clustering process using two other brain atlases of varying resolutions: the group average FreeSurfer Desikan-Killany atlas with additional cerebellum and subcortical regions (86 regions) (\cite{Desikan2006-vf}) and the CC400 atlas (400 regions) (\cite{Craddock2012-kl}). Finally, we performed the clustering after combining stroke and control data together because we were interested in determining differences in shared activation states across both groups. However, it may be possible that stroke and control subjects occupy distinct states that can only be observed by clustering stroke and control subjects separately. Therefore, we repeated the clustering on the stroke and control subject data separately to determine if there were any differences in the resulting states compared to those obtained with the combined data.
@@ -546,10 +552,10 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 
 	 FO, DT, AR and TPs were calculated separately for each of the 5 sessions (1 week, 2 weeks, 1 month, 3 months, and 6 months post baseline or stroke) and the average FO/DT/AR/TPs for each subject was obtained by taking the mean across their longitudinal sessions. State dynamics metrics were compared between groups using unpaired two-tailed t-tests and corrected for multiple comparisons using Benjamini-Hochberg (BH) and false discovery rate (FDR) of 0.05 (\cite{Benjamini1995-bb}). 
 
-	 \subsection*{Assessment of corticospinal tract integrity}
+	 \subsection{Assessment of corticospinal tract integrity}
 	 The probabilistic Tang brainstem atlas (\cite{Tang2018-ac}) was used to define left and right binary CST masks in 2mm MNI space by voxel-wise thresholding at 50$\%$. The Dice overlap between the left and right CST masks and the binarized lesion mask was calculated for each subject and lesions were visualized to verify intersection with the CST (Supplementary Figure 2 and 3). In one subject (SUB13), Dice overlap with CSTs were low; however, upon visualization the lesion appeared to impact CST ventral to the atlas, i.e. in the spinal cord. This was confirmed by assessing the lesion's overlap with a spinal cord atlas (Supplementary Figure 12) using the Spinal Cord Toolbox (\cite{De_Leener2017-ev}). In total, 21/23 subjects had CST damage and 10/23 subjects had damage to their dominant-hand CST, but only 9/23 had motor assessment data at the 3- and/or 6-month time points. Of the 9 subjects with dominant CST damage and motor scores, 7/23 were right-handed and either had left CST damage superior to decussation or right spinal cord CST damage inferior to decussation, 1/23 was left-handed with bilateral damage, and 1/23 was left-handed with right CST damage (Supplementary Table 1).
 	 
-	 \subsection*{Relating $FPN^+$ state metrics to chronic motor  outcomes}
+	 \subsection{Relating $FPN^+$ state metrics to chronic motor  outcomes}
      We were interested in determining whether \begin{Large}$FPN^+$\end{Large} state metrics related to longer-term (chronic) motor performance outcomes specifically in subjects with dominant hemisphere CST damage. To assess the interaction effect of hand dominance on the relationship between the frontoparietal state parameters (FO and DT) over time and Fugl-Meyer (FM) scores over time, two linear models were constructed:
 
      \begin{center}
@@ -584,7 +590,7 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 \end{Large}
 	and \begin{Large}$CST_D$\end{Large} is a binary variable indicating whether the subject's dominant-hand CST had non-zero Dice overlap with the lesion.  \begin{Large}$FM_{baseline}$\end{Large} was set to the earliest $FM$ score available for each subject, which was the FM score at 1 week post-stroke for most of the subjects. For two subjects (SUB22 and SUB23), 1 week FM scores were not available; the baseline FM scores for these subjects was estimated by their oldest FM score (2 weeks and 1 month, respectively).  \begin{Large}$FM_{chronic}$\end{Large} was set to the most recent chronic FM score (i.e. at 3 or 6 months after stroke, whichever is later). Only one subject (SUB6) had a FM score at 3-months post-stroke but not 6-months post stroke. Two subjects (SUB12 and SUB20) were excluded from the model entirely as they did not have any FM scores or imaging data beyond 1 month and 2 weeks, respectively. The models were constructed using only the \begin{Large}$FPN^+$\end{Large} metrics that were found to have significant differences between stroke and controls at the 3 and 6 month time points. P-values obtained for each predictor across all models were corrected for multiple comparisons using BH-FDR and a threshold of 0.05.
 	
-	\subsection*{Effect of proportional recovery on observed relationships}
+	\subsection{Effect of proportional recovery on observed relationships}
     We were interested in determining whether relationships observed in the above model were driven by the correlation (if any) between DT/FO in $FPN^+$ and baseline FM scores in subjects with dominant-hand CST damage. Because most subjects obtained proportional recovery or greater, i.e. their final impairment was $\ge$ 70$\%$ of their initial impairment (\cite{Kundert2019-ou}), their 1-week FM scores were strongly correlated with 3- and 6-month FM scores (a phenomenon called the ceiling effect, see \cite{Hope2019-da}). Therefore, it is possible that  relationships between  \begin{Large}$\Delta FM$\end{Large}  and  \begin{Large}$\Delta FO/DT^{FPN^+}$\end{Large}  observed in the linear model could be driven by an underlying relationship between baseline FM scores and  \begin{large}$\Delta FO/DT^{FPN^+}$\end{large} . 
     
     To explore this possibility, for those  \begin{Large}$FPN^+$\end{Large}  metrics whose change had a significant correlation with baseline FM (which were chronic \begin{Large}$\Delta DT^{FPN^+}$\end{Large}  and  \begin{Large}$\Delta FO^{FPN^+}$\end{Large}), we performed permutation testing to obtain the null distribution of correlations between  \begin{Large}$\Delta FM$\end{Large}  and  \begin{Large}$\Delta FO/DT^{FPN^+}$\end{Large} , assuming patients obtain only proportional recovery (PR). 
@@ -597,27 +603,25 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
     \end{Large}
     The p-value for the correlation between the observed \begin{Large}$\Delta FM$\end{Large} and \begin{Large}$\Delta FO/DT^{FPN^+}$\end{Large} and was then calculated by calculating the proportion of times the null correlation exceeded the true correlation (Supplementary Figure 14c,d). If that p-value is significant, then we can be more confident that \begin{Large}$\Delta FO/DT^{FPN^+}$\end{Large} is correlated with the change in FM above and beyond baseline FM and the expected proportional recovery.
     
-    \subsection*{Comparison of fractional occupancy and functional connectivity}
+    \subsection{Comparison of fractional occupancy and functional connectivity}
     Finally, we wanted to understand how differences in state dynamics between controls and stroke subjects could translate to differences in FC between the two groups. We hypothesize that individuals with more TRs (higher FO) in a brain state with high co-activation of two networks will result in larger positive FC between those networks, while more TRs (higher FO) in a brain state with large activations in opposite directions (contra-activation) of two networks will result in a more negative FC between those networks (Supplementary Figure 15). We tested this hypothesis for our brain state of interest,  \begin{Large}$FPN^+$ \end{Large}, in the following way. First, we identified the pairs of networks that were highly co-activated/contra-activated during  \begin{Large}$FPN^+$ \end{Large}, which was defined as having an absolute value cosine similarity with the centroid of  \begin{Large}$FPN^+$ \end{Large} of greater than 0.2 (chosen heuristically as the threshold separating networks active vs. not active during a given state). We only analyzed the networks with larger magnitude co-activations/contra-activations since the networks with activity closer to zero in the  \begin{Large}$FPN^+$ \end{Large} state are not likely to be influenced by changes in FO of this state. We first calculated the functional connectivity as the Pearson's correlation between each pair of 268 regions and performed a Fisher's r-to-z transformation of the FC weights. We then averaged the FC values between regions belonging to each pair of networks to produce a network-level FC (i.e., the average FC within each of 8 predefined networks, including the frontoparietal network). We correlated each subject's FO in the  \begin{Large}$FPN^+$ \end{Large} state with the FC between each pair of networks determined to be highly co-activated/contra-activated in the  \begin{Large}$FPN^+$ \end{Large} state.
     In an analysis inspired by \cite{Baker2014-zt}, we further demonstrated that temporal fluctuations in  \begin{Large}$FO^{FPN^+}$ \end{Large} over segments of the scan are related to sliding window FC in nodes of the frontoparietal network. We first identified regions with high z-score BOLD signal in the  \begin{Large}$FPN^+$ \end{Large} centroid (greater than 0.4), and, for those regions, calculated their sliding-window FC and  \begin{Large}$FO^{FPN^+}$ \end{Large} using the same window and overlap (window size = 45 seconds, overlap = 3 seconds). We then correlated these two values over the entire fMRI scan for each individual. To ensure any observed relationship was not driven by global BOLD fluctuations, we recalculated this correlation using 100 randomly selected regions' dynamic FC as a null comparison.
     
-    \subsection*{Statistics and reproducibility}
+    \subsection{Statistics and reproducibility}
     We calculated statistics comparing brain dynamic parameters between stroke and control groups. Where stated, comparisons were corrected for multiple comparisons to reduce type I error. The clustering was repeated 50 separate times to ensure the the final solution was not in large disagreement with other possible solutions. We replicated the main analyses with k=5 brain states and found a general agreement between the results obtained with k=4. Code for the analyses in this manuscript have been made publicly available. 
     
-	\subsection*{Data availability}
-	 Data is not publicly available due to privacy issues regarding clinical data. Raw data to generate Figures 3 and 6e can be found in the Supplementary Data. All other data can be made available upon request to the corresponding authors on the condition that a formal data sharing agreement is made. 
-
-	\subsection*{Code availability}
+	\subsection{Code availability}
 	 The code to replicate this analysis is available on GitHub: 
 	 
 	 https://github.com/emilyolafson/dynamic-brainstates and Zenodo (\cite{Olafson2022-ul}).
 	 
 \section{Results}
 
- \subsection*{Participant characteristics}
+ \subsection{Participant characteristics}
     Differences in the age- and sex- composition of the stroke and control group were compared with a two-tailed unpaired t-test and Fisher's exact test, respectively (Table 1). 
        \begin{center}
-       \captionof{table}{Demographic and clinical characteristics of sample. *Differences between groups. For age: unpaired two-tail t-test; t-statistic (p-value), for sex: Fisher's exact test: odds ratio (p-value). Motor scores:  FM1 = Fugl-Meyer score at 1-week post stroke, FM2 = Fugl-Meyer score at 2 weeks post stroke, FM3 = Fugl-Meyer score at 1 month post stroke, FM4 = Fugl-Meyer score at 3 months post stroke, FM5 = Fugl-Meyer score at 6 months post stroke. Displayed as: mean (standard deviation).}
+       \captionof{table}{Demographic and clinical characteristics of sample. }
+       \caption*{*Differences between groups. For age: unpaired two-tail t-test; t-statistic (p-value), for sex: Fisher's exact test: odds ratio (p-value). Motor scores:  FM1 = Fugl-Meyer score at 1-week post stroke, FM2 = Fugl-Meyer score at 2 weeks post stroke, FM3 = Fugl-Meyer score at 1 month post stroke, FM4 = Fugl-Meyer score at 3 months post stroke, FM5 = Fugl-Meyer score at 6 months post stroke. Displayed as: mean (standard deviation).}
     \begin{tabular}{ | m{1.7cm} | m{1.7cm}| m{2cm} |m{1cm} |m{1cm} | m{0.7cm} | m{0.7cm} | m{0.7cm} | m{0.7cm} | m{0.7cm} | } 
    
       \hline
@@ -632,7 +636,7 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
     \end{tabular}
     \end{center}
 
-    \subsection*{Clustering reveals an optimum of 4 brain states}
+    \subsection{Clustering reveals an optimum of 4 brain states}
     
 	 We first clustered the data into k discrete clusters using the k-means algorithm (Figure \ref{Figure2_2}). To identify the optimal number of clusters (k), we observed the change in variance explained with increasing k (Supplementary Figure 5a); the difference in variance explained between k = 4 and k = 5 was $<$ 2 $\%$. The elbow of the curves were between 4-6 clusters across the cluster quality metrics (Supplementary Figure 5c).
 	 We chose k = 4 for parsimony, and replicate k = 5 in the supplemental information section (Figure \ref{2_SupplementaryFigure11}). Silhouette values for k = 4 revealed good cluster assignment with very few TRs assigned erroneously (i.e. having negative Silhouette values) (Supplementary Figure 5b). In general, we found that the mutual information shared between partitions was quite high (0.88-1), suggesting consistent clustering across independent initializations of k-means (Supplementary Figure 5d). The four brain states found with the 268-region Shen atlas are replicated with 86 and 400 region atlases (Figure \ref{2_SupplementaryFigure7}). Finally, the states identified by clustering stroke and control groups separately are similar to the states identified by clustering all individuals together (Figure \ref{2_SupplementaryFigure6}). Therefore, we report the full clustering results in the main text and include the various replications in the Supplemental Information.
@@ -640,7 +644,7 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
     The four brain states consist of distinct activation levels across the various canonical resting-state networks (Figure \ref{Figure2_2} a, b). State 1 was characterized by high amplitude activation of regions in the frontoparietal network and low amplitude activations in the visual I network (\begin{Large}$FPN^+$\end{Large}), state 2 by low amplitude activation in the frontoparietal network and high amplitude in the visual I network (\begin{Large}$FPN^-$\end{Large}) (equal magnitude activations), state 3 by high amplitude activation of the somatomotor network and low amplitude activation in the default mode network (\begin{Large}$MOTOR^+$\end{Large}), while state 4 was characterized by low amplitude activation of the motor network as well as high amplitude activation of the default mode network (\begin{Large}$MOTOR^-$\end{Large}) . The correlations between the 268-region centroids of the \begin{Large}$FPN^+$\end{Large} and \begin{Large}$FPN^-$\end{Large} states and the \begin{Large}$MOTOR^+$\end{Large} and \begin{Large}$MOTOR^-$\end{Large} states were strong and negative, suggesting that brain states are likely hierarchically organized into 2 meta-states that are each composed of two sub-states containing opposing activation patterns (Figure \ref{Figure2_2}c), a finding which has been previously reported in other work using this technique (\cite{Singleton2022-jq}).
     
 \begin{figure}[h!]
-    \centering       \caption{Four brain activity states. }
+    \centering       \caption{Visualization of the centroids of 4 brain activity states. }
   \caption*{ \textbf{a.} Centroids of each state calculated as the mean of the normalized regional activation over all TRs assigned to that state. \textbf{b.} Radial plots displaying cosine similarity between each cluster and each canonical network; red indicates cosine similarity of the high amplitude activations, blue indicates cosine similarity of the low amplitude activations. Labels for each state were derived from analyzing the magnitude and type of overlap of each centroid with the 8 canonical networks. \textbf{c.} Region-level correlation of each pair of brain state centroids. DMN = default mode network, FPN = frontoparietal network, MED FRONT = medial frontal network, VIS III = visual association network, VIS II = visual network 2, VIS I = visual network 1, MOTOR = motor network, SUB = subcortical/cerebellum network}
       \label{Figure2_2}
 \end{figure}
@@ -671,7 +675,7 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 \null
 \vfill
 
-    \subsection*{Stroke-control differences in brain state dynamics}
+    \subsection{Stroke-control differences in brain state dynamics}
 
     Fractional occupancy (FO), dwell time (DT) and appearance rate (AR) of each state were calculated for each subject (Figure \ref{Figure2_1}a,b). Because the control subjects were younger on average than the stroke subjects, we assessed the correlation between age and brain state dynamic parameters in both groups (Figure \ref{2_SupplementaryFigure9}) and determined that there was no relationship between age and any parameter for any state for stroke or control subjects. The average FO, DT, and AR across all available time points (1 week, 2 weeks, 1 month, 3 months and 6 months) for each of the four states were compared between stroke and control subjects via unpaired two-tail t-tests (Figure \ref{Figure2_3}, see Figure \ref{2_SupplementaryFigure8} for full session-specific results for each state, and see Figure  \ref{2_SupplementaryFigure10} for the general pattern of brain dynamics observed in stroke and control subjects). Significantly lower fractional occupancy (FO) of $FPN^+$ in stroke subjects was observed at every session from 1 week to 6 months post-stroke (session 1 t-statistic: -2.18, 95$\%$ CI = [-0.0587,-0.0019], session 2 t-statistic: -3.36, 95$\%$ CI = [-0.0458,-0.014], session 3 t-statistic: -2.24, 95$\%$ CI = [-0.0435, -0.0023], session 4 t-statistic: -2.14, 95$\%$ CI = [-0.0516,-0.0016], session 5 t-statistic: -2.0725, 95$\%$ CI = [-0.0553,-0.0007], p(FDR) for all 5 tests $<$ 0.05) (Figure \ref{Figure2_3}a). Differences in dwell times (DT) of $FPN^+$ observed only in the chronic stage of stroke (6 months post-stroke) (p(FDR) = 0.0315, corrected over 5 tests) (Figure \ref{Figure2_3}c). Stroke subjects had significantly lower time-averaged FO in $FPN^+$ compared to control subjects (t-statistic: -3.7334,  95$\%$ CI = [-0.0425,-0.0127], p(FDR) = 0.0021), which was possibly driven more by the significantly lower dwell times in $FPN^+$ observed in stroke subjects (p(FDR) = 0.0105) (Figure \ref{Figure2_3}b,d). The frontoparietal network used in this atlas contains nodes in the dorsolateral prefrontal cortex, posterior parietal cortex, as well as nodes in the posterior inferior temporal lobe and the inferior cerebellum.  No differences in appearance rate of $FPN^+$ were observed over the sessions (Figure 3e, f).
 
@@ -784,7 +788,7 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 
 
 
-    \subsection*{Frontoparietal activation relates to motor recovery in individuals with dominant-hand CST damage}
+    \subsection{Frontoparietal activation relates to motor recovery in individuals with dominant-hand CST damage}
     
     We observed a significant interaction effect between changes in \begin{Large}$FPN^+$\end{Large} parameters and dominant-hand CST damage on changes in Fugl-Meyer scores (\begin{Large}$CST_D *\Delta FO^{FPN^+}_{chronic}$\end{Large}:  p(FDR) = 0.0091, \begin{Large}$CST_D *\Delta FO^{FPN^+}_{chronic}$\end{Large}: p(FDR) = 0.0090), as well as a significant association between changes in \begin{Large}$FPN^+$\end{Large} parameters and changes in Fugl-Meyer scores for subjects with dominant-hand CST damage (i.e., marginal effects) (\begin{Large}$\Delta DT^{FPN^+}_{chronic}$\end{Large}: p(FDR) = 0.0091,  \begin{Large}$\Delta FO^{FPN^+}_{chronic}$\end{Large}: p(FDR) = 0.0098), such that increases in (or smaller decreases in) dwell times in these subjects were associated with greater motor improvements (Figure 5). We confirmed the accuracy of our models by verifying that the residuals were normally distributed (Supplementary Figure 13). Some individuals with dominant-hand CST damage show decreases in $FPN^+$ recruitment over time, but smaller decreases in \begin{Large}$DT^{FPN^+}$\end{Large} and \begin{Large}$FO^{FPN^+}$\end{Large} are associated with better recovery. Including age and sex in the models does not alter the results (\begin{Large}$CST_D *\Delta FO^{FPN^+}_{chronic}$\end{Large}:  p(FDR) = 0.0166 , \begin{Large}$CST_D *\Delta FO^{FPN^+}_{chronic}$\end{Large}: p(FDR) = 0.0301, marginal \begin{Large}$\Delta FO^{FPN^+}_{chronic}$\end{Large}: p(FDR) = 0.016, \begin{Large}$\Delta DT^{FPN^+}_{chronic}$\end{Large}: p(FDR) = 0.016). The marginal effect for the dwell time analysis was replicated in k=5 (Figure \ref{2_SupplementaryFigure11}) but not the interaction effect, nor either effect for fractional occupancy. 
     
@@ -792,12 +796,13 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 
 \begin{figure}[htp]
  	\includegraphics[width=1\linewidth]{chapter2/Figure5.png}
-	\caption{Results from linear models with N=21 for each model. Colors indicate the marginal effects plots of change in state metrics within the regression model. Marginal effects plots of the change in Fugl-Meyer scores versus the change in fractional occupancy (FO) (\textbf{a}) and dwell time (DT) (\textbf{b}) of $FPN^+$ from baseline to chronic time points. Shaded bars indicate 95 percent confidence intervals. }
+	\caption{Linear models assessing relationship between motor recovery and change in \begin{large}$\ FO^{FPN^+}$\end{large}, and \begin{large}$\ DT^{FPN^+}$\end{large}.}
+	\caption*{ Colors indicate the marginal effects plots of change in state metrics within the regression model. Marginal effects plots of the change in Fugl-Meyer scores versus the change in fractional occupancy (FO) (\textbf{a}) and dwell time (DT) (\textbf{b}) of  \begin{large}$FPN^+$ \end{large} from baseline to chronic time points. Shaded bars indicate 95 percent confidence intervals. }
 	\label{Figure2_5}
     \end{figure}
     
 
-    \subsection*{Fractional occupancy differences are related to functional connectivity differences}
+    \subsection{Fractional occupancy differences are related to functional connectivity differences}
     Four network pairs had a high magnitude contra-activation (large amplitude activity in opposite directions) in the \begin{Large}$FPN^+$\end{Large} state: visual I (VIS I) and frontoparietal (FPN), subcortical/cerebellum (SUB) and visual I (VIS I), motor (MOTOR) and subcortical/cerebellum (SUB), and motor (MOTOR) and frontoparietal (FPN). Two pairs of networks had high magnitude co-activation (large amplitude activity in the same direction) in the \begin{Large}$FPN^+$\end{Large} state: SUB and FPN, and MOTOR and VIS I (Figure \ref{Figure2_6}a). For each individual, we correlated \begin{Large}$FO^{FPN^+}$\end{Large} with the FC between each pair of co-activated and contra-activated networks, expecting two trends. First, for the highly contra-activated network pairs, we expected a negative correlation between \begin{Large}$FO^{FPN^+}$\end{Large} and FC, as more time spent in \begin{Large}$FPN^+$\end{Large} would make the correlation between those networks more negative. Second, for the highly co-activated network pairs, we expected a positive correlation between \begin{Large}$FO^{FPN^+}$\end{Large} and FC as more time spent in this state would make the correlation between those networks more positive. We did indeed observe the expected relationships for all pairs of networks (Figure \ref{Figure2_6}b), where the strongest relationships between FC and \begin{Large}$FO$\end{Large} were observed for those network pairs that had the greatest recruitment in \begin{Large}$FPN^+$,\end{Large} as measured by cosine similarity with the \begin{Large}$FPN^+$\end{Large} centroid (VIS I and FPN). Further, we see that the correlation between \begin{Large}$FO^{FPN^+}$\end{Large} and FC is preserved across and within the groups and is not driven by across-group differences (Simpson's paradox).
     Finally, dynamic fluctuations in  \begin{Large}$FO^{FPN^+}$ \end{Large} track changes in dynamic FC within frontoparietal areas (Figure \ref{Figure2_6}c, d, e), where the average correlation across subjects between sliding-window FC and  \begin{Large}$FO^{FPN^+}$ \end{Large} is 0.29 (p = 0, assessed by permutation).
 
@@ -857,7 +862,7 @@ Motor deficits are among the most common and disruptive symptoms of ischemic str
 		\ContinuedFloat
 		\captionsetup{labelformat=adja-page}
     \centering
-    \includegraphics[width=1\textwidth]{chapter2/Figure6e.png}
+    \includegraphics[width=0.6\textwidth]{chapter2/Figure6e.png}
     \caption[]{}
 \end{figure}
 \null
@@ -914,15 +919,15 @@ Our primary objective was to determine the relative performance of different bio
 \section{Methods}
 
 \subsection{Sample demographics}
-A subset of cross‐sectional data from the Enhancing Neuroimaging Genomics through Meta Analysis (ENIGMA) Stroke Recovery Working Group database (available as of 10 Sept. 2021) was used in the study. Details of the ENIGMA Stroke Recovery procedures and methods are available in (\cite{Liew2020-ps}). The data originated from 22 research studies (sites) (Table \ref{table:Demographics}). Informed consent was obtained from all subjects, and data were collected in compliance with each institution’s local ethical review boards and in accordance with the Declaration of Helsinki.
+A subset of cross‐sectional data from the Enhancing Neuroimaging Genomics through Meta Analysis (ENIGMA) Stroke Recovery Working Group database (available as of 10 Sept. 2021) was used in the study. Details of the ENIGMA Stroke Recovery procedures and methods are available in (\cite{Liew2020-ps}). The data originated from 22 research studies (sites) (Table \ref{Demographics}). Informed consent was obtained from all subjects, and data were collected in compliance with each institution’s local ethical review boards and in accordance with the Declaration of Helsinki.
 
-ENIGMA Stroke Recovery participants with the following data were included: (1) high‐resolution (1‐mm isotropic) T1‐weighted brain MRI (T1w) acquired with a 3T MRI scanner; (2) information about time since stroke at time of imaging (3) age, (4), sex, and (5) measurem of motor function from one of the following assessments: Fugl Meyer Assessment of Upper Extremities (FMA‐UE), a performance-based measure of paretic upper extremity impairment (\cite{Gladstone2002-fw}); the Action Research Arm test (ARAT) which tests arm function through assessment of the timing and difficulty of motor task completion (\cite{Yozbatiran2008-xv}); the Barthel index, which measures the extent to which a person can function independently and has mobility in their activities of daily living (\cite{Sulter1999-rr}); National Institutes of Health Stroke Score (NIHSS), a broad measure of stroke severity that includes assessment of non-motor and motor functions (\cite{Lyden2017-za}). Motor scores were normalized to the range [0, 1] by dividing by the raw score by the maximum possible score on the assessment. For a majority of the chronic stroke subjects (76$\%$), motor deficits are normalized FMA‐UE scores, whereas  normalized FMA‐UE scores were available for only $12\%$ of the acute stroke subjects (for full breakdown of type of test used for each site in the dataset, see Supplementary Table \ref{motor_scores}). behavioural data were collected within approximately 72 hours of the MRI. Subjects were considered in the chronic phase of stroke if their time since stroke at the time of assessment was greater than 180 days, and considered in the acute phase if their time since stroke at the time of assessment was less than 180 days (\cite{Bernhardt2017-av}). Subjects with cortical and subcortical lesions were included in the study; lesions were not flipped (see Supplementary Figure \ref{lesiondist} for lesion distribution in MNI space). 
+ENIGMA Stroke Recovery participants with the following data were included: (1) high‐resolution (1‐mm isotropic) T1‐weighted brain MRI (T1w) acquired with a 3T MRI scanner; (2) information about time since stroke at time of imaging (3) age, (4), sex, and (5) measurem of motor function from one of the following assessments: Fugl Meyer Assessment of Upper Extremities (FMA‐UE), a performance-based measure of paretic upper extremity impairment (\cite{Gladstone2002-fw}); the Action Research Arm test (ARAT) which tests arm function through assessment of the timing and difficulty of motor task completion (\cite{Yozbatiran2008-xv}); the Barthel index, which measures the extent to which a person can function independently and has mobility in their activities of daily living (\cite{Sulter1999-rr}); National Institutes of Health Stroke Score (NIHSS), a broad measure of stroke severity that includes assessment of non-motor and motor functions (\cite{Lyden2017-za}). Motor scores were normalized to the range [0, 1] by dividing by the raw score by the maximum possible score on the assessment. For a majority of the chronic stroke subjects (76$\%$), motor deficits are normalized FMA‐UE scores, whereas  normalized FMA‐UE scores were available for only $12\%$ of the acute stroke subjects (for full breakdown of type of test used for each site in the dataset, see Table \ref{motor_scores}). behavioural data were collected within approximately 72 hours of the MRI. Subjects were considered in the chronic phase of stroke if their time since stroke at the time of assessment was greater than 180 days, and considered in the acute phase if their time since stroke at the time of assessment was less than 180 days (\cite{Bernhardt2017-av}). Subjects with cortical and subcortical lesions were included in the study; lesions were not flipped (see Figure \ref{3_SupplementaryFigure1} for lesion distribution in MNI space). 
 
 \newpage
 
 \singlespacing
 \begin{longtable}{c|c|c|c|c|c}
-\caption[]{Demographic information of the acute subjects in the ENIGMA dataset, broken down by chronicity (acute/chronic) and by site within each chronicity group. Total sample size (N), number of females (F) and males (M), and information about age (years), normalized motor scores, time since stroke at the time of assessment (months), and lesion volume ($cm^3$). IQR, interquartile range\label{long}}\\
+\caption[]{Demographic information of the acute subjects in the ENIGMA dataset, broken down by chronicity (acute/chronic) and by site within each chronicity group. Total sample size (N), number of females (F) and males (M), and information about age (years), normalized motor scores, time since stroke at the time of assessment (months), and lesion volume ($cm^3$). IQR, interquartile range\label{Demographics}}\\
 
 Site ID & Total N.  & Median age & Median   & Median   & Median  \\
 & (F/M) & in years & motor score&  time since  & lesion vol,  \\
@@ -999,32 +1004,34 @@ The lesion load of the corticospinal tract originating from the primary motor co
 \begin{equation}
     \textit{Lesion load} = \frac{\textit{Number of lesioned voxels intersecting with  tract}}{\textit{Number of voxels in tract}}
 \end{equation}
-Left and right hemisphere M1-CST segmentations in MNI space were obtained from the high-resolution sensorimotor area tract template (SMATT) (\cite{Archer2018-ti}). M1-CST-LL had a heavy-tailed distribution (Supplementary Figure \ref{lesion_load_dist}A).
+Left and right hemisphere M1-CST segmentations in MNI space were obtained from the high-resolution sensorimotor area tract template (SMATT) (\cite{Archer2018-ti}). M1-CST-LL had a heavy-tailed distribution (Figure \ref{3_SupplementaryFigure2}A).
 Linear regression was used to model the relationship between ipsilesional M1-CST-LL and chronic motor scores. The weights from best-performing model in the inner loop were used to predict motor scores for new subjects in the test folds. 
 
 \subsubsection{Sensorimotor tract lesion load (SMATT-LL) models}
-Sensorimotor tract segmentations were obtained from the sensorimotor area tract template (SMATT) (\cite{Archer2018-ti}), a set of 12 tracts derived from probabilistic tractography seeded in the left and right primary motor cortex (M1), dorsal and ventral premotor cortex (PMd and PMv, respectively), supplementary motor area (SMA), pre-supplementary motor area (pre-SMA), and primary somatosensory cortex (S1) of healthy controls (Figure \ref{smatt_and_chaco}A). Lesion load was calculated as above, for all 12 tracts, i.e., separately for left and right hemispheres, referred to as L/R SMATT-LL, and for the 6 ipsilesional tracts, referred to as Ipsilesional SMATT-LL. L/R SMATT-LL was calculated in order to assess whether preserving hemispheric information improved predictions. For subjects with brainstem, cerebellar, and/or bilateral cerebral strokes (N=30 chronic, N=43 acute), ipsilesional lesion load was calculated as the average lesion load of the left and right hemisphere tracts. Lesion loads also had a heavy-tailed distribution (Supplementary Figure \ref{lesion_load_dist}B,C). 
+Sensorimotor tract segmentations were obtained from the sensorimotor area tract template (SMATT) (\cite{Archer2018-ti}), a set of 12 tracts derived from probabilistic tractography seeded in the left and right primary motor cortex (M1), dorsal and ventral premotor cortex (PMd and PMv, respectively), supplementary motor area (SMA), pre-supplementary motor area (pre-SMA), and primary somatosensory cortex (S1) of healthy controls (Figure \ref{smatt}). Lesion load was calculated as above, for all 12 tracts, i.e., separately for left and right hemispheres, referred to as L/R SMATT-LL, and for the 6 ipsilesional tracts, referred to as Ipsilesional SMATT-LL. L/R SMATT-LL was calculated in order to assess whether preserving hemispheric information improved predictions. For subjects with brainstem, cerebellar, and/or bilateral cerebral strokes (N=30 chronic, N=43 acute), ipsilesional lesion load was calculated as the average lesion load of the left and right hemisphere tracts. Lesion loads also had a heavy-tailed distribution (Figure \ref{3_SupplementaryFigure2}B). 
 
 \begin{figure}\includegraphics[width=1\linewidth]{chapter3/SMATT.png}
    
-    \caption{Sensorimotor tract template atlas (SMATT), displaying only right hemisphere tracts relative to an MNI template. Includes supplementary motor area (SMA), dorsal premotor cortex (PMd), ventral premotor cortex (PMv), pre-supplementary motor area (pre-SMA), primary sensory cortex (S1),  and primary motor cortex (M1). Pre-SMA is the most anterior tract, S1 is the most posterior tract.}
+    \caption{Sensorimotor tract template atlas (SMATT) visualized on a template brain.}
+    \caption*{Displaying only right hemisphere tracts relative to an MNI template. Includes supplementary motor area (SMA), dorsal premotor cortex (PMd), ventral premotor cortex (PMv), pre-supplementary motor area (pre-SMA), primary sensory cortex (S1),  and primary motor cortex (M1). Pre-SMA is the most anterior tract, S1 is the most posterior tract.}
     \label{smatt}
 \end{figure}
 
 \begin{figure}\includegraphics[width=1\linewidth]{chapter3/Multi-panelML_white_regional.png}
-  \caption{Overview of the Network Modification tool. Binary lesion masks in MNI space representing the presence of a stroke lesion (turquoise) in a given voxel are provided by the user. Each lesion mask is embedded into 420 unrelated healthy structural connectomes (separately for each healthy subject) and the regional or pairwise change in connectivity (ChaCo) scores are calculated and averaged across healthy subjects (parcellation shown here is the Shen 268-region atlas). }
+  \caption{Overview of the Network Modification tool. }
+  \caption*{Binary lesion masks in MNI space representing the presence of a stroke lesion (turquoise) in a given voxel are provided by the user. Each lesion mask is embedded into 420 unrelated healthy structural connectomes (separately for each healthy subject) and the regional or pairwise change in connectivity (ChaCo) scores are calculated and averaged across healthy subjects (parcellation shown here is the Shen 268-region atlas). }
 \label{chaco}
 \end{figure}
 
-Ridge regression models were used to predict chronic motor deficits from ipsilesional SMATT-LL (6 features) and from L/R-SMATT-LL (12 features). Ridge regression was used to account for multicollinearity of lesion load values between tracts (Supplementary Figure \ref{smatt_pairwise_correlations}, \ref{smatt_pairwise_correlations_bi}). Lesion load values were normalized (after train/test split) by subtracting the mean across subjects and dividing by the l2-norm prior to model fitting. In the inner loop, the degree of regularization on regression coefficients ($\lambda$) was determined via. grid-search, searching over 30 values ranging [$10^-2$ to $10^2$]. The training data was fit with the selected $\lambda$ and this model was used to predict motor scores for new subjects in the test folds.
+Ridge regression models were used to predict chronic motor deficits from ipsilesional SMATT-LL (6 features) and from L/R-SMATT-LL (12 features). Ridge regression was used to account for multicollinearity of lesion load values between tracts (Figure \ref{3_SupplementaryFigure3}). Lesion load values were normalized (after train/test split) by subtracting the mean across subjects and dividing by the l2-norm prior to model fitting. In the inner loop, the degree of regularization on regression coefficients ($\lambda$) was determined via. grid-search, searching over 30 values ranging $10^-2$ to $10^2$. The training data was fit with the selected $\lambda$ and this model was used to predict motor scores for new subjects in the test folds.
 
 \subsubsection{Structural lesion-network mapping (sLNM) models}
-Structural lesion network maps were obtained from \cite{Bowren2022-rs}. Specifically, \cite{Bowren2022-rs} produced maps of white matter (WM) voxels in which damage predicted with Fugl-Meyer scores using sparse canonical corrleations analysis (\cite{Pustina2018-xv}). Then, tractography was seeded from those peak WM voxels to identify the structural networks associated with peak areas, which produced structural lesion network maps (sLNMs). Principal components analysis of sLNMs was performed, which produced 3 principal components that correspond to 5 sLNM maps (PC1, and positive/negative weights of PC2 and PC3 split). Lesion load on each sLNM map was calculated for each subject as the sum of the voxel intensities from the principal component map that also appeared within the boundaries of a lesion mask (Supplementary Figure \ref{slnm_distribution}). Ridge regression models were used to predict chronic motor deficits from sLNM lesion loads (5 features). As above, lesion load values were normalized (after train/test split) by subtracting the mean across subjects and dividing by the l2-norm prior to model fitting. In the inner loop, the degree of regularization on regression coefficients ($\lambda$) was determined via. grid-search, searching over 30 values ranging [$10^-2$ to $10^2$]. The training data was fit with the selected $\lambda$ and this model was used to predict motor scores for new subjects in the test folds. 
+Structural lesion network maps were obtained from \cite{Bowren2022-rs}. Specifically, \cite{Bowren2022-rs} produced maps of white matter (WM) voxels in which damage predicted with Fugl-Meyer scores using sparse canonical corrleations analysis (\cite{Pustina2018-xv}). Then, tractography was seeded from those peak WM voxels to identify the structural networks associated with peak areas, which produced structural lesion network maps (sLNMs). Principal components analysis of sLNMs was performed, which produced 3 principal components that correspond to 5 sLNM maps (PC1, and positive/negative weights of PC2 and PC3 split). Lesion load on each sLNM map was calculated for each subject as the sum of the voxel intensities from the principal component map that also appeared within the boundaries of a lesion mask (Figure \ref{3_SupplementaryFigure4}). Ridge regression models were used to predict chronic motor deficits from sLNM lesion loads (5 features). As above, lesion load values were normalized (after train/test split) by subtracting the mean across subjects and dividing by the l2-norm prior to model fitting. In the inner loop, the degree of regularization on regression coefficients ($\lambda$) was determined via. grid-search, searching over 30 values ranging $10^-2$ to $10^2$. The training data was fit with the selected $\lambda$ and this model was used to predict motor scores for new subjects in the test folds. 
 
 \subsubsection{Regional change in connectivity (ChaCo) models}
-Lesion masks in $1mm^3$ MNI v6 space were processed with the Network Modification Tool (NeMo Tool) v2 pipeline (\cite{Kuceyeski2013-nk}) (https://github.com/kjamison/nemo for more detailed information). Given a lesion mask, the NeMo tool produces outputs that reflect the impact of the lesion on white matter tracts on the brain using healthy structural connectomes as a reference. The NeMo tool embeds a lesion mask into healthy structural connectomes, identifies all white matter streamlines that intersect with the lesion, and determines the brain regions at the endpoints of those streamlines (Figure \ref{smatt_and_chaco}B). Regional change in connectivity (ChaCo) scores, or the ratio of the number of disrupted streamlines divided by the total number of streamlines terminating in each region, were calculated for all gray matter regions (see Supplementary Figure \ref{mean_std_chaco}A,B for distribution of mean and standard deviation of ChaCo scores). The NeMo tool uses structural connectivity from 420 unrelated subjects from the Human Connectome Project Young Adult database. For each stroke lesion, the NeMo tool calcualtes regional ChaCo scores for all HCP subjects separately and then produces final regional ChaCo scores by taking the mean across HCP subjects. Structural connectivity in HCP subjects was obtained using deterministic tractography (SD stream) with dynamic seeding, with additional SIFT2 weighting for each of 5 million streamlines (\cite{Smith2015-eb}). Regional ChaCo scores from two different altases were compared: the 86-region Desikan-Killiany Atlas (68 cortical regions $\Plus$ 18 subcortical regions, excluding brainstem) from FreeSurfer ("fs86" for short), which contains coarse anatomically parcellated regions (\cite{Desikan2006-vf,Fischl2002-lb}), and the 268-region Shen atlas ("shen268" for short), which contains more fine-grained functionally parcellated cortical and subcortical regions (\cite{Shen2013-zn}).
+Lesion masks in $1mm^3$ MNI v6 space were processed with the Network Modification Tool (NeMo Tool) v2 pipeline (\cite{Kuceyeski2013-nk}) (https://github.com/kjamison/nemo for more detailed information). Given a lesion mask, the NeMo tool produces outputs that reflect the impact of the lesion on white matter tracts on the brain using healthy structural connectomes as a reference. The NeMo tool embeds a lesion mask into healthy structural connectomes, identifies all white matter streamlines that intersect with the lesion, and determines the brain regions at the endpoints of those streamlines (Figure \ref{chaco}). Regional change in connectivity (ChaCo) scores, or the ratio of the number of disrupted streamlines divided by the total number of streamlines terminating in each region, were calculated for all gray matter regions (see Figure \ref{3_SupplementaryFigure5}, \ref{3_SupplementaryFigure6}, for distribution of mean and standard deviation of ChaCo scores). The NeMo tool uses structural connectivity from 420 unrelated subjects from the Human Connectome Project Young Adult database. For each stroke lesion, the NeMo tool calcualtes regional ChaCo scores for all HCP subjects separately and then produces final regional ChaCo scores by taking the mean across HCP subjects. Structural connectivity in HCP subjects was obtained using deterministic tractography (SD stream) with dynamic seeding, with additional SIFT2 weighting for each of 5 million streamlines (\cite{Smith2015-eb}). Regional ChaCo scores from two different altases were compared: the 86-region Desikan-Killiany Atlas (68 cortical regions $\Plus$ 18 subcortical regions, excluding brainstem) from FreeSurfer ("fs86" for short), which contains coarse anatomically parcellated regions (\cite{Desikan2006-vf,Fischl2002-lb}), and the 268-region Shen atlas ("shen268" for short), which contains more fine-grained functionally parcellated cortical and subcortical regions (\cite{Shen2013-zn}).
 
-First, the performance of ridge regression models was assessed, as described above, with regional ChaCo scores as inputs (86 features for the fs86 atlas, 268 features for the shen268 atlas). Second, a filter-based feature selection step was added to ridge regression models to obtain a subset of features that were the most useful for prediction (\cite{Guyon2003-kj, Hall1999-qr, Pudjihartono2022-zg}). We mixed hyperparameter tuning and feature selection in the same step, considering the number of features as a hyperparameter itself. Features were ranked by their their association with the outcome variable (p-value from univariate correlation) . In the inner loop, both the amount of regularization on regression coefficients ($\lambda$) and the number of features to retain in the feature selection step ($\kappa$) were selected via. grid search. The $\lambda$ value was chosen by searching over 30 values ranging [$10^-2$ to $10^2$], and the $\kappa$ value was chosen by searching 30 values ranging from 5 to the maximum number of features possible (for fs86: 86, for shen268: 268) in base-2 steps. 
+First, the performance of ridge regression models was assessed, as described above, with regional ChaCo scores as inputs (86 features for the fs86 atlas, 268 features for the shen268 atlas). Second, a filter-based feature selection step was added to ridge regression models to obtain a subset of features that were the most useful for prediction (\cite{Guyon2003-kj, Hall1999-qr, Pudjihartono2022-zg}). We mixed hyperparameter tuning and feature selection in the same step, considering the number of features as a hyperparameter itself. Features were ranked by their their association with the outcome variable (p-value from univariate correlation) . In the inner loop, both the amount of regularization on regression coefficients ($\lambda$) and the number of features to retain in the feature selection step ($\kappa$) were selected via. grid search. The $\lambda$ value was chosen by searching over 30 values ranging $10^-2$ to $10^2$, and the $\kappa$ value was chosen by searching 30 values ranging from 5 to the maximum number of features possible (for fs86: 86, for shen268: 268) in base-2 steps. 
 
 \subsubsection{Ensemble models}
 
@@ -1041,40 +1048,106 @@ The stability of the beta coefficients for the best-performing models was assess
 \subsubsection{Code availability}
 All analysis scripts that generated the results of the present study are readily accessible and open for reuse (https://github.com/emilyolafson/lesion$\_$predictions). The script can be easily modified to predict any outcome score from ChaCo scores/lesion load data.
 
-\subsection{Results}
+\section{Results}
 
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=1\linewidth]{chapter3/Figure1.png}
-\caption{Summary of model performance metrics across all models tested and feature weights (regression coefficients) for best-performing models.  \textbf{A.} and \textbf{B.} Distribution of model performance (mean Pearson correlation/$R^2$ across 5 outer folds for 100 permutations of the data).  Boxplots are colored abritrarily for clarity and are plotted in similarly-colored pairs to indicate performance using the full training data ("Acute $\Plus$  chronic") versus only chronic data ("Chronic only"). The boxes extend from the lower to upper quartile values of the data, with a line at the median. Whiskers represent the range of the data from [Q1-1.5*IQR, Q3+1.5*IQR].
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+    \centering       \caption{Summary of model performance metrics across all models tested and feature weights (regression coefficients) for best-performing models. }
+  \caption*{ \textbf{A.} and \textbf{B.} Distribution of model performance (mean Pearson correlation/$R^2$ across 5 outer folds for 100 permutations of the data).  Boxplots are colored abritrarily for clarity and are plotted in similarly-colored pairs to indicate performance using the full training data ("Acute $\Plus$  chronic") versus only chronic data ("Chronic only"). The boxes extend from the lower to upper quartile values of the data, with a line at the median. Whiskers represent the range of the data from [Q1-1.5*IQR, Q3+1.5*IQR].
 \textbf{C.} and \textbf{D.} Mean feature weights for the top 2 best-performing models (ChaCo (fs86) without feature selection, ChaCo (shen268) with feature selection, respectively). For fs86-ChaCo (left), displaying mean regression coefficients across 100 permutations. For ChaCo (shen268) (right), displaying median regression coefficients of regions that were selected in at least 95$\%$ of outer folds (i.e., for regions that were included in the model in at least 475/500 outer folds, means beta coefficients were calculated across 5 outer folds, and the median value across 100 permutations is plotted). }
-\label{Figure3_1}
+      \label{Figure3_1}
 \end{figure}
 
-The relative out-of-sample performances of the models can be found in Figure \ref{analysis1}A,B. In general, M1 CST-LL, SMATT-LL, and sLNM-LL performed worse on average than ChaCo models, with Left/Right SMATT-LL models performing the best among them (correlation = 0.446, $R^2$ = 0.188) and M1 CST-LL models performing the worst (correlation = 0.395, $R^2$ = 0.133, n.d. between chronic and mixed training data). 
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/Figure1A.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/Figure1B.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/Figure1C.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/Figure1D.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
 
-Regional ChaCo scores from the 268-region Shen atlas best predicted chronic motor scores in unseen subjects. In particular, the best performance with this model was obtained using acute and chronic data for training as well as a feature selection step to identify a subset of relevant features (correlation = 0.467, $R^2$ = 0.210). Beta coefficients for selected features were consistent in direction and magnitude across permutations (Supplementary Figure \ref{shen_beta_coeffs})). The performance of this model was on par with a model using regional ChaCo scores from the 86-region FreeSurfer atlas, that also used acute and chronic data for training (correlation = 0.458, $R^2$ = 0.204, n.d. between models). Beta coefficients for all regions were consistent in direction and magnitude across permutations (Supplementary Figure  \ref{shen_beta_coeffs})).  Thus, the effect of feature selection in ChaCo models depended on the atlas: for the 86-region FreeSurfer atlas, feature selection reduced model performance, whereas for 268-region Shen atlas, model selection improved it. 
 
-Model weights for the best-performing ChaCo models are shown in (Figure \ref{analysis1}C, D), reflecting median beta coefficients for regions selected in least 475/500 outer folds of the 268-region ChaCo models. There were several spatial similarities in the pattern of feature weights for the 86-region ChaCo model and 268-region ChaCo model with feature selection. For both atlases, negative model weights are assigned to superior portions of left and right motor areas, as well as in subcortical structures like the putamen, pallidum, and thalamus, whereas positive weights are assigned to frontal and parietal areas. In then 268-region ChaCo models, more regions in the right hemisphere are consistently included in the model than the left hemisphere. 
+The relative out-of-sample performances of the models can be found in Figure \ref{Figure3_1}A,B. In general, M1 CST-LL, SMATT-LL, and sLNM-LL performed worse on average than ChaCo models, with Left/Right SMATT-LL models performing the best among them (correlation = 0.446, $R^2$ = 0.188) and M1 CST-LL models performing the worst (correlation = 0.395, $R^2$ = 0.133, n.d. between chronic and mixed training data). 
+
+Regional ChaCo scores from the 268-region Shen atlas best predicted chronic motor scores in unseen subjects. In particular, the best performance with this model was obtained using acute and chronic data for training as well as a feature selection step to identify a subset of relevant features (correlation = 0.467, $R^2$ = 0.210). Beta coefficients for selected features were consistent in direction and magnitude across permutations (Figure \ref{3_SupplementaryFigure10}). The performance of this model was on par with a model using regional ChaCo scores from the 86-region FreeSurfer atlas, that also used acute and chronic data for training (correlation = 0.458, $R^2$ = 0.204, n.d. between models). Beta coefficients for all regions were consistent in direction and magnitude across permutations (Figure  \ref{3_SupplementaryFigure11}). Thus, the effect of feature selection in ChaCo models depended on the atlas: for the 86-region FreeSurfer atlas, feature selection reduced model performance, whereas for 268-region Shen atlas, model selection improved it. 
+
+Model weights for the best-performing ChaCo models are shown in (Figure \ref{Figure3_1}C, D), reflecting median beta coefficients for regions selected in least 475/500 outer folds of the 268-region ChaCo models. There were several spatial similarities in the pattern of feature weights for the 86-region ChaCo model and 268-region ChaCo model with feature selection. For both atlases, negative model weights are assigned to superior portions of left and right motor areas, as well as in subcortical structures like the putamen, pallidum, and thalamus, whereas positive weights are assigned to frontal and parietal areas. In then 268-region ChaCo models, more regions in the right hemisphere are consistently included in the model than the left hemisphere. 
 
 
 
-For ChaCo models using the shen 268-region atlas with feature selection, on average 110 features were selected (Supplementary Figure \ref{lambda_kappa}). A hierarchically-clustered heatmap of the correlation matrix of the selected features (Supplementary Figure \ref{heatmap_shen_negweights}) shows that many of the selected features are clustered (i.e., high correlation in ChaCo scores across subjects), and are frequently damaged together. Additionally, ChaCo scores of regions with positive and negative regression weights were positively correlated across subjects, despite these features having opposite relationships to motor deficits (Supplementary Figure \ref{heatmap_shen_pos_vs_negative}). For ChaCo models using the FreeSurfer 86-region atlas with feature selection, in the majority of cross-validation folds, all 86 regions were selected in the model. 
+For ChaCo models using the shen 268-region atlas with feature selection, on average 110 features were selected (Figure \ref{3_SupplementaryFigure9}B), whereas models using the FreeSurfer 86-region atlas most often selected all 86 features (Figure \ref{3_SupplementaryFigure9}A).  A hierarchically-clustered heatmap of the correlation matrix of the selected features (Figure \ref{3_SupplementaryFigure7}) shows that many of the selected features are clustered (i.e., high correlation in ChaCo scores across subjects), and are frequently damaged together. Additionally, ChaCo scores of regions with positive and negative regression weights were positively correlated across subjects, despite these features having opposite relationships to motor deficits (Figure \ref{3_SupplementaryFigure8}). For ChaCo models using the FreeSurfer 86-region atlas with feature selection, in the majority of cross-validation folds, all 86 regions were selected in the model. 
 
 Including additional acute subjects in the training data improved model performance for Left/right SMATT-LL model and for ChaCo models. However, performance remained the same or was reduced for M1-CST-LL models, ipsilesional SMATT-LL models and sLNM models.
 
-Generally, ensemble models performed marginally better than individual models. In particular, including demographic information increased or did not change prediction accuracy for all models tested, and combining ChaCo models with lesion load models improved performance. (L/R SMATT-LL + ChaCo (shen268) w/ feat. select $R^2 = 0.233$) above either alone (L/R SMATT-LL $R^2=0.188$, ChaCo (shen268) w/ feat. select, $R^2=0.210$)
-
-Model weights for the best-performing models of each type are publicly available on GitHub. 
+Generally, ensemble models performed marginally better than individual models. In particular, including demographic information increased or did not change prediction accuracy for all models tested, and combining ChaCo models with lesion load models improved performance. (L/R SMATT-LL + ChaCo (shen268) w/ feat. select $R^2 = 0.233$) above either alone (L/R SMATT-LL $R^2=0.188$, ChaCo (shen268) w/ feat. select, $R^2=0.210$).\\
 
 
-\newpage 
-\newpage
+\null
+\vfill
+
+
+
+\begin{table}[htp]
+\caption{Test performance of all models evaluated.}
+\caption*{ Displaying median $R^2$ and median correlation of average hold-out performances (i.e. average across 5 outer folds) across 100 permutations. Demog. = demographics, Ipsi. = Ipsilesional, SMATT LL = sensorimotor tract template lesion load, L/R SMATT LL = left and right sensorimotor tract template lesion load, M1 CST LL = M1 corticospinal tract lesion load, ChaCo = Change in Connectivity, fs86 = FreeSurfer 86-region atlas, feat. select. = feature selection}
+\label{performances_all}
+
+\end{table}
+\null
+\vfill
 
 \begin{table}[h]
 \centering
 \label{table:5}
+\begin{scriptsize}
 \begin{tabular}{lrrll}
 \toprule
  &  & \multicolumn{2}{c}{Median performance} \\
@@ -1128,41 +1201,95 @@ Ensemble type & Model name & Correlation & $R^2$  \\
  & L/R SMATT-LL + ChaCo (shen268) (feat. select.) + demog. & 0.499 & 0.237 \\
  & sLNM-LL + ChaCo (fs86subj) (feat. select.) + demog. & 0.479 & 0.218 \\
  & sLNM-LL + ChaCo (shen268) (feat. select.) + demog. & 0.492 & 0.230 \\
- 
+
 \bottomrule
 \end{tabular}
-\caption{Test performance of all models evaluated, displaying median $R^2$ and median correlation of average hold-out performances (i.e. average across 5 outer folds) across 100 permutations. Demog. = demographics, Ipsi. = Ipsilesional, SMATT LL = sensorimotor tract template lesion load, L/R SMATT LL = left and right sensorimotor tract template lesion load, M1 CST LL = M1 corticospinal tract lesion load, ChaCo = Change in Connectivity, fs86 = FreeSurfer 86-region atlas, feat. select. = feature selection}
-\label{results_table_acutechronic}
+\end{scriptsize}
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+		    \caption[]{}
 
 \end{table}
 
 
 
+\null
+\vfill
+\clearpage
+\null
+\vfill
 
 
 
 \begin{figure}[htp]
 \centering
 \includegraphics[width=1\linewidth]{chapter3/Figure2.png}
-\caption{Significant differences in model performance for prediction of normalized motor scores. Difference in explained variance between pairs of models using different lesion metrics and different training data. Model differences were calculated by averaging the difference in explained variance for each of the 100 train/test splits. Significance of differences in explained variance were evaluated using exact tests for differences. $***$ denotes corrected $p < 0.001$, $**$ denotes corrected $p < 0.01$, $*$ denotes corrected $p < 0.05$ after Bonferroni correction. A positive difference value indicates that the model on the y-axis (vertical) has a greater explained variance than the model on the x-axis (horizontal).
+\caption{Significant differences in model performance for prediction of normalized motor scores. }
+\caption*{Difference in explained variance between pairs of models using different lesion metrics and different training data. Model differences were calculated by averaging the difference in explained variance for each of the 100 train/test splits. Significance of differences in explained variance were evaluated using exact tests for differences. $***$ denotes corrected $p < 0.001$, $**$ denotes corrected $p < 0.01$, $*$ denotes corrected $p < 0.05$ after Bonferroni correction. A positive difference value indicates that the model on the y-axis (vertical) has a greater explained variance than the model on the x-axis (horizontal).
  }
 \label{Figure3_2}
 \end{figure}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=1\linewidth]{chapter3/Figure3.png}
-\caption{Ensemble model results. coefficients and model performance using Group KFold cross-validation (test/validate on independent imaging site). \textbf{A.} and \textbf{B.} display regression coefficients for regional ChaCo scores (FreeSurfer 86-region atlas, and Shen268-region atlas, respectively). Average feature weights for regions that were selected in at least half of the models (i.e., were included in the model in at least 250/500 outer folds). \textbf{C.} Sensorimotor area tract template feature importance for analysis 2. Includes primary motor cortex (M1), dorsal premotor cortex (PMd), ventral premotor cortex (PMv), supplementary motor area (SMA), pre-supplementary motor area (pre-SMA), primary sensory cortex (S1).}
-\label{Figure3_3}
+
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+    \centering       \caption{Ensemble model results using acute and chronic data for training. }
+  \caption*{\textbf{A} and \textbf{B} showing the distribution of model performance (mean Pearson correlation/$R^2$ across 5 outer folds for 100 permutations of the data). Boxplots are colored abritrarily for clarity. The boxes extend from the lower to upper quartile values of the data, with a line at the median. Whiskers represent the range of the data from [Q1-1.5*IQR, Q3+1.5*IQR]. \textbf{C} Significant differences in model performance for prediction of normalized motor scores. Difference in explained variance between pairs of models using different lesion metrics and different training data. Model differences were calculated by averaging the difference in explained variance for each of the 100 train/test splits. Significance of differences in explained variance were evaluated using exact tests for differences. $***$ denotes corrected $p < 0.001$, $**$ denotes corrected $p < 0.01$, $*$ denotes corrected $p < 0.05$ after Bonferroni correction. A positive difference value indicates that the model on the y-axis (vertical) has a greater explained variance than the model on the x-axis (horizontal). Demog. = demographics, Ipsi. = Ipsilesional, SMATT LL = sensorimotor tract template lesion load, L/R SMATT LL = left and right sensorimotor tract template lesion load, M1 CST LL = M1 corticospinal tract lesion load, ChaCo = Change in Connectivity, fs86 = FreeSurfer 86-region atlas, feat. select. = feature selection }
+      \label{Figure3_3}
 \end{figure}
+
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=0.5\textwidth]{chapter3/Figure3A.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=0.5\textwidth]{chapter3/Figure3B.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/Figure3C.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+
 
 \section{Discussion}
 In this study, we assessed the relative predictive performance of several lesion metrics on the same large imaging dataset. We found that modelling lesion damage using regional ChaCo scores and using correlation-based feature selection best predicted chronic motor scores. Models using features derived from multivariate voxelwise lesion-behaviour modelling performed worse than more basic models using damage to parcellations of the descending corticospinal tract. Finally, we saw that combining several lesion metrics using ensemble modelling improved prediction performance, and that using acute stroke data to train models for prediction of chronic scores improved prediction performance. 
 
-\subsubsection{M1-CST-LL vs. SMATT-LL: higher-order motor areas are relevant for motor outcome prediction}
+\subsection{M1-CST-LL vs. SMATT-LL: higher-order motor areas are relevant for motor outcome prediction}
 This study supports previous results showing that M1-CST-LL alone does not capture enough variance to predict chronic motor outcomes in wide range of lesion topographies (\cite{Rondina2017-ij, Park2016-te, Ito2022-em}), although few studies have directly compared the out-of-sample performance of M1-CST-LL against more complex metrics like those assessed in this paper. Corticospinal projection tracts consist of fibers originating not just from M1, but from higher order motor areas in the frontal and parietal lobes (\cite{Galea1994-yi}) that have been implicated in motor planning and execution (\cite{Ball1999-yo}). Damage to descending fibers from these areas has been associated with motor deficits after stroke (\cite{Ito2022-em, Riley2011-xo}) and may explain additional variance in chronic motor outcome that is not captured by damage to M1 alone. Furthermore, preserving hemispheric information (i.e. in L/R SMATT-LL models) improved prediction performance above ipsilesional SMATT-LL, suggesting that there may be differential associations between motor tract damage and motor outcomes in each hemisphere. M1-CST-LL is currently the only structural neuroimaging biomarker recommended for clinical trials (\cite{Boyd2017-gs}); this study supports the notion that further development of non-M1-CST biomarkers is justified and that taking into account damage to multiple motor regions is important for understanding variation in motor outcome.
 
-\subsubsection{Lesion-induced structural connectivity for prediction}
+\subsection{Lesion-induced structural connectivity for prediction}
 
 Models using ChaCo scores performed best of all models tested, specifically when feature selection was employed. ChaCo scores can can capture white matter and gray matter damage in one measurement (\cite{Kuceyeski2013-nk}), which may enable them to capture relevant associations between gray matter damage and motor deficits (\cite{Park2016-te,Rondina2016-ds}) that are not captured with lesion load metrics of tract damage. 
 
@@ -1170,22 +1297,22 @@ Another strength of models using ChaCo scores can be understood, in part, by con
 
 Although this is one of few studies to use regional structural disconnectivity measures to predict stroke outcomes (see also \cite{Tozlu2020-qa, Kuceyeski2016-vj}), it finds its conceptual home among voxelwise structural disconnection-behavior mapping approaches (\cite{Salvalaggio2020-pe, Wawrzyniak2022-kl, Foulon2018-bj, Sperber2022-oj}). Structural disconnection-behaviour mapping has been recently employed to identify white matter correlates of behaviour (\cite{Wawrzyniak2022-kl, Foulon2018-bj}), and to predict 2-week motor scores from lesion-induced structural disconnection (\cite{Salvalaggio2020-pe}). In the latter, most conceptually similar to this study, tractography is seeded from voxels in lesion and a map representing the probability of disconnection from the lesion is generated. Features for ridge regression models are generated via. principal components analysis (PCA) on the voxelwise structural disconnectivity maps. This is a reasonable dimensionality reduction step that has been applied in voxelwise lesion-symptom mapping (\cite{Ivanova2021-nh}), but is a fundamentally different approach to representing structural disconnection information than the Network Modification tool, which identifies the degree of disconnection for each brain separately. As demonstrated in this paper, regions that are frequently damaged together (and whose tracts may be loaded onto the same principal component in the PCA approach) may have opposite relationships to motor scores, so dimensionality reduction steps based on shared variance that do not consider relationships between structural disconnections and outcome variables (i.e. sCCA) may compress relevant individual signals into a single features, reducing the predictive performance of a model. 
 
-\subsubsection{Features selected in ChaCo models}
+\subsection{Features selected in ChaCo models}
 
 In this paper, we are explicitly not attempting to do inference on the set of features that were selected by the model; however, further investigation into the features chosen along with their weights can provide some clarity into the model's performance. Correlation-based feature selection is known to choose redundant features (\cite{Guyon2003-kj})). Indeed, damage to many selected regions is highly correlated, suggesting that information from these regions is somewhat redundant. Does this mean that our model is suboptimal, and that fewer features are actually necessary for good predictions? No; in the context of lesion-deficit modelling, damage to adjacent regions can be highly correlated because they are supplied by the same vascular territory, and a stroke in that artery will cause damage to both areas (\cite{Mah2014-cb, Sperber2020-kp}). One may therefore expect that many regions share the same lesion-deficit association due to shared vasculature, and that damage to several areas, regardless of their causal relationship to hemiparesis, may be useful for predicting deficits. 
 
 That feature selection identified such clusters of correlated damage is expected performance of the model based on the non-random distribution lesions and their relationship to deficits. Curiously, however, many regions whose white matter tracts are frequently damaged together (i.e. correlation in ChaCo scores across subjects $>$0.8) have opposite weights in the final regression model. Bona fide negative associations between damage and motor ability (or, identically, positive associations between damage and a deficit) are generally uncommon in lesion-deficit inference, though some cases of genuine facilitation have been documented (\cite{Kapur1996-xq, Sperber2020-kp}). These so-called paradoxical associations may arise when two regions are systematically not damaged together; if, for instance, individuals with posterior cerebral artery (PCA) stroke rarely have motor deficits, then damage to regions supplied by the PCA may be positively or only weakly associated with motor deficits (\cite{Sperber2020-kp}). We may therefore ask, in this study, why two regions whose white matter tracts \textit{are} systematically damaged together have opposite relationships to motor deficits? Likely, the large sample size and increased statistical power obtained by modelling structural disconnections instead of voxelwise damage enabled the model to identify differential lesion-deficit associations in areas that are frequently damaged together. That is, if region A and B are generally systematically damaged together but only A is related to hemiparesis, then without counter examples where only A or only B is damaged, it is impossible for the model to differentiate the two in terms of their association with a deficit. However, in a large sample, there may be enough counter-examples where only B is damaged and a subject does not have a deficit, or when only A is damaged and a subject does have a deficit, that the model assigns opposite weights to these areas. 
 
 
-\subsubsection{Use of acute data in training}
+\subsection{Use of acute data in training}
 Inclusion of the acute data improved predictions. Although in this paper we did not attempt to disentangle the effect of greater training size from relevance of the signal in the acute data, we can say that the acute data was, at the very least, not harmful for predictions of chronic motor scores. In particular, feature selection seemed to only improve performance when acute data was included in the training set. There is some helpful signal in this population, if the statistical relationships between lesion and deficits changed over the course of the stroke then this information may not be useful. Likely, unmeasured factors like structure and functional reorganization and lifestyle weaken the underlying relationship between lesion location and motor deficit as time between the stroke and the assessment increases (\cite{Shahid2017-gx}). 
 
 We may also conclude that because of this shared variance and decreased signal-to-noise ratio in the chronic subjects, predictive performance in acute subjects may be thought of as an upper limit of performance achieveable on chronic data. 
 
-\subsubsection{Ensemble models}
+\subsection{Ensemble models}
 Finally, we saw that averaging predictions from multiple models improves performance above either model alone. This suggests that the information within each is not redundant, and that using multiple different lesion metrics may compensate for weaknesses of different feature representations. In this study, SMATT-LL models have the ability to distinguish between damage to several adjacent descending corticospinal tracts, but are unable to measure lesion-deficit associations outside this area, or in the gray matter. On the other hand, ChaCo models can detect associations across the entire brain and in the gray matter but may not have sufficient resolution between different branches of the corticospinal tract to capture relevant variance there. Beyond predictions of chronic motor scores, prediction models may be improved by testing and possibly combining various feature representations to obtain and optimal model (\cite{Kasties2021-rm}).
 
-\subsubsection{Limitations}
+\subsection{Limitations}
 There are several limitations of this study. Without baseline motor scores, we cannot evaluate the relative predictive power of lesion damage versus baseline behavioural information, which may share variance (\cite{Feng2015-du, Bowren2022-rs}). Since this information would likely be accessible for future clinical trials or prediction contexts, it is important to determine to what degree lesion information provides explanatory power above baseline motor scores, though previous studies have shown that prediction models with behavioural predictors and imaging biomarkers explain more variance in motor outcomes than the models with behavioural predictors alone (\cite{Kim2017-xe, Feng2015-du}). Second, the inclusion of metrics that are not specific to motor deficits (i.e. NIHSS) may have reduced sensitivity of models. Third,
 
 This study compares only one type of lesion-behavior mapping technique 
@@ -2046,6 +2173,8 @@ This study compares only one type of lesion-behavior mapping technique
 
 
 \begin{table}[h]
+\caption{Description of lesion location relative to dominant hemisphere corticospinal tract.}
+\caption*{*Overlap with L and R CST tracts. Breakdown of subjects according to lesion side, handedness, and dominant-hemisphere CST damage. Blue subjects indicate those that were included in the linear model as having "Dominant CST damage" assessing the effect of CST damage on FPN+ recruitment in recovery. Note that SUB12 has damage to their dominant CST but does not have motor scores for the chronic period, and was not included in the model. L;left, R; right, B; both; CST, corticospinal tract}
 \begin{tabular}{ |c| c| c| c| }
 
 \hline
@@ -2074,11 +2203,8 @@ SUB19  &	Right Pons &	R	 & Non-dominant CST \\
 SUB20 &	Right Pons &	R &	Non-dominant CST \\
 SUB21 &	Right Pons &	R &	Non-dominant CST \\
 SUB22 &	Left Pons &	R &	Dominant CST \\
-SUB23 &	Right Pons &	R &	Non-dominant CST \\
-\hline
+SUB23 &	Right Pons &	R &	Non-dominant CST\\
 \end{tabular}
-\caption{
-* Overlap with L and R CST tracts. Breakdown of subjects according to lesion side, handedness, and dominant-hemisphere CST damage. Blue subjects indicate those that were included in the linear model as having "Dominant CST damage" assessing the effect of CST damage on FPN+ recruitment in recovery. Note that SUB12 has damage to their dominant CST but does not have motor scores for the chronic period, and was not included in the model. L;left, R; right, B; both}
 \end{table}
 
 \null
@@ -2711,6 +2837,280 @@ SUB23 &	Right Pons &	R &	Non-dominant CST \\
 \vfill
 \clearpage
 
+
+\chapter{Supplementary material for Chapter 3}
+\label{chap:6}
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig1.png}
+       \caption{Lesion distribution for the ENIGMA cohort (all subjects N=789)}
+      \label{3_SupplementaryFigure1}
+\end{figure}
+
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+    \centering       \caption{Sensorimotor tract template (SMATT) lesion load distribution (including M1-CST-LL).}
+  \caption*{Ipsilesional sensorimotor tract template (SMATT) lesion load distribution.; Left and right hemisphere sensorimotor tract template (SMATT) lesion load distribution.}
+      \label{3_SupplementaryFigure2}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/SupplementaryFig2b.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/SupplementaryFig2c1.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/SupplementaryFig2c2.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig3a.png}
+       \caption{Correlations between lesion load calculated for each ipsilesional tract in the sensorimotor area tract template atlas.}
+      \label{3_SupplementaryFigure3}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig4.png}
+       \caption{Correlations between lesion load calculated for each structural lesion network-derived principal component map}
+      \label{3_SupplementaryFigure4}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig5.png}
+       \caption{Mean regional change in connectivity (ChaCo) scores across acute and chronic subjects used in predictive models. }
+       \caption*{Mean of ChaCo scores parcellated with (\textbf{A}) the FreeSurfer 86-region atlas (min. = 0.005, max. = 0.120) and with (\textbf{B}) the Shen 268-region atlas (min. = 0.0025, max. = 0.146), normalized to the maximum value across regions (red = higher mean ChaCo score across subjects)}
+      \label{3_SupplementaryFigure5}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig6.png}
+       \caption{Standard deviation of regional change in connectivity (ChaCo) scores across acute and chronic subjects used in predictive models. }
+       \caption*{Standard deviation of ChaCo scores parcellated with (\textbf{A}) the FreeSurfer 86-region atlas   (min. = 0.024, max. = 0.26) and with (\textbf{B}) the Shen 268-region atlas (min. = 0.014, max. = 0.29), normalized to the maximum value across regions (red = higher standard deviation of ChaCo score across subjects)}
+      \label{3_SupplementaryFigure6}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig7.png}
+       \caption{Hierarchically-clustered heatmap of the correlation matrix of the selected features (ChaCo scores) with negative weights chosen in at least 95 percent of outer folds by correlation-based feature selection in ridge regression using the shen 268-region atlas. }
+       \caption*{Heatmap (top left) displays values corresponding to correlation between features across subjects. Regions are labeled in the following format: "Hemisphere, lobe: Yeo Network".}
+      \label{3_SupplementaryFigure7}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig8.png}
+       \caption{Hierarchically-clustered heatmap of the correlation matrix of all selected features, split by negative and positive regression weights. }
+       \caption*{Vertical (right) axis: regions with negative weights, horizontal (bottom) axis: regions with positive weights.  Regions are labeled in the following format: "Hemisphere, lobe: Yeo Network".}
+      \label{3_SupplementaryFigure8}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+    \centering       \caption{Distribution of number of features selected in ChaCo models (fs86, shen268) vs. amount of regularization.}
+  \caption*{Number of features selected vs. lambda (amount of regularization) for model using ChaCo scores with the FreeSurfer 86-region atlas, acute and chronic subjects together in the training dataset, predicting noromed motor scores. Distribution is showing all training folds (i.e. 500 training folds, 5 folds x 100 permutations);  Number of features selected vs. lambda (amount of regularization) for model using ChaCo scores with the Shen 268-region atlas, acute and chronic subjects together in the training dataset, predicting normed motor scores.Distribution is showing all outer folds (i.e. 500 outer folds, 5 folds x 100 permutations)}
+      \label{3_SupplementaryFigure9}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/SupplementaryFig9a.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+\begin{figure}[h!]
+		\ContinuedFloat
+		\captionsetup{labelformat=adja-page}
+    \centering
+    \includegraphics[width=1\textwidth]{chapter3/SupplementaryFig9b.png}
+    \caption[]{}
+\end{figure}
+\null
+\vfill
+\clearpage
+\null
+\vfill
+
+
+\begin{table}[h]
+\centering
+\caption{Number of subjects with data for each type of assessment, broken down by chronicity (acute/chronic) and site. }
+\caption*{FMA UE = Fugl Meyer Assessment of Upper Extremity [0-66], Barthel = Barthel Index [0-100], NIHSS (National Institutes of Health Stroke Score) [0-42], ARAT = Action Research Arm Test [0-57]}
+\label{motor_scores}
+\begin{tabular}{lrlllllll}
+\toprule
+ & Total N. & FMA-UE  & Barthel & NIHSS  & ARAT \\
+ & & &  &  \\
+ \textbf{Acute}  & & & & & \\
+r005 & 1 & 1 & 0 & 0 & 0 \\
+r009 & 50 & 0 & 0 & 50 & 0 \\
+r025 & 9 & 9 & 0 & 0 & 0 \\
+r028 & 1 & 1 & 0 & 0 & 0 \\
+r031 & 36 & 36 & 0 & 0 & 0 \\
+r038 & 72 & 0 & 72 & 0 & 0 \\
+r040 & 57 & 0 & 57 & 0 & 0 \\
+r047 & 2 & 2 & 0 & 0 & 0 \\
+r049 & 21 & 0 & 0 & 21 & 0 \\
+r050 & 14 & 0 & 0 & 14 & 0 \\
+r053 & 52 & 0 & 0 & 52 & 0 \\
+r054 & 12 & 12 & 0 & 0 & 0 \\
+
+& & & & & \\
+ \textbf{Chronic}  & & & & & \\
+r001 & 39 & 39 & 0 & 0 & 0 \\
+r002 & 12 & 12 & 0 & 0 & 0 \\
+r003 & 15 & 15 & 0 & 0 & 0 \\
+r004 & 19 & 19 & 0 & 0 & 0 \\
+r005 & 27 & 27 & 0 & 0 & 0 \\
+r009 & 60 & 0 & 0 & 60 & 0 \\
+r025 & 16 & 16 & 0 & 0 & 0 \\
+r027 & 28 & 28 & 0 & 0 & 0 \\
+r028 & 21 & 21 & 0 & 0 & 0 \\
+r031 & 1 & 1 & 0 & 0 & 0 \\
+r034 & 15 & 15 & 0 & 0 & 0 \\
+r035 & 15 & 15 & 0 & 0 & 0 \\
+r038 & 18 & 0 & 18 & 0 & 0 \\
+r040 & 14 & 0 & 14 & 0 & 0 \\
+r042 & 22 & 22 & 0 & 0 & 0 \\
+r044 & 4 & 4 & 0 & 0 & 0 \\
+r045 & 4 & 4 & 0 & 0 & 0 \\
+r046 & 11 & 11 & 0 & 0 & 0 \\
+r047 & 44 & 44 & 0 & 0 & 0 \\
+r048 & 43 & 43 & 0 & 0 & 0 \\
+r052 & 32 & 32 & 0 & 0 & 0 \\
+r053 & 2 & 0 & 0 & 2 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig10.png}
+       \caption{Distribution of mean (average over 5 folds) beta coefficients for features that were selected in at least 475/500 outer folds for Shen268-ChaCo models.}
+       \caption*{ Regions are listed on the x-axis and beta values on the y-axis.}
+      \label{3_SupplementaryFigure9}
+\end{figure}
+
+\null
+\vfill
+\clearpage
+\null
+\vfill
+
+
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig11.png}
+       \caption{ Distribution of mean (average over 5 folds) beta coefficients for all regions in fs86-ChaCo models.}
+       \caption*{Regions are listed on the x-axis and beta values on the y-axis.}
+      \label{3_SupplementaryFigure10}
+\end{figure}
+
+\null
+\vfill
+\clearpage
+\null
+\vfill
+
+\begin{figure}[h!]
+
+    \centering
+    \includegraphics[width=\textwidth]{chapter3/SupplementaryFig12.png}
+       \caption{ Histogram of voxelwise lesion damage and regional (ChaCo scores) lesion damage. }
+       \caption*{Left:  Distribution of voxelwise lesion damage within a whole-brain mask. Most voxels are damaged in zero subjects. Right: Distribution of ChaCo scores across all subjects. No regions are disconnected in zero subjects.}
+      \label{3_SupplementaryFigure12}
+\end{figure}
+
+\null
+\vfill
+\clearpage
+
 % Loads from References.bib file in the same directory and creates references page
 \printbibliography
 \end{document}
+i

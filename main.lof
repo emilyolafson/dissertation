@@ -2,108 +2,134 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Overview of individuals' stroke lesions, resulting structural disconnection and Fugl-Meyer score trajectories. \relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Overview of individuals' stroke lesions, resulting structural disconnection and Fugl-Meyer score trajectories. \relax }}{6}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Overview of the graph matching procedure.\relax }}{10}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Overview of the graph matching procedure.\relax }}{11}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Visualization of node-level remapping frequencies and group-level structural connectivity disruptions due to the lesion.\relax }}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Visualization of node-level remapping frequencies and group-level structural connectivity disruptions due to the lesion.\relax }}{20}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Relationships between FC disruption, SC disruption, and remapping over the 1 week - 2 week time interval post-stroke. \relax }}{26}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Relationships between FC disruption, SC disruption, and remapping over the 1 week - 2 week time interval post-stroke. \relax }}{27}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Relationship between subject-level remapping, baseline motor impairment, eventual motor recovery. \relax }}{32}{figure.caption.19}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Clustering of time series data and quantification of dynamic state metrics. \textbf {a}. Time series data from all subjects were concatenated together along the time dimension. K-means clustering produced 4 distinct brain activation states defined by different locations in regional activation space (image adapted from \cite {Cornblath2020-nc}). Each TR is assigned to one of four brain states based on k-means partitions. \textbf {b}. Fractional occupancy, dwell time, appearance rate, and transition probabilities are calculated separately for each subject and for each state. \relax }}{46}{figure.caption.23}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Four brain activity states. \relax }}{61}{figure.caption.37}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Group differences in brain state dynamics for $FPN^+$. \relax }}{66}{figure.caption.41}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Differences in transition probabilities between stroke and control groups. \relax }}{71}{figure.caption.45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Results from linear models with N=21 for each model. Colors indicate the marginal effects plots of change in state metrics within the regression model. Marginal effects plots of the change in Fugl-Meyer scores versus the change in fractional occupancy (FO) (\textbf {a}) and dwell time (DT) (\textbf {b}) of $FPN^+$ from baseline to chronic time points. Shaded bars indicate 95 percent confidence intervals. \relax }}{76}{figure.caption.50}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Assessing the relationship between fractional occupancy of \begin {Large} $FPN^+$ \end {Large} and functional connectivity within the frontoparietal network.\relax }}{79}{figure.caption.52}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Relationship between subject-level remapping, baseline motor impairment, eventual motor recovery. \relax }}{33}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sensorimotor tract template atlas (SMATT), displaying only right hemisphere tracts relative to an MNI template. Includes supplementary motor area (SMA), dorsal premotor cortex (PMd), ventral premotor cortex (PMv), pre-supplementary motor area (pre-SMA), primary sensory cortex (S1), and primary motor cortex (M1). Pre-SMA is the most anterior tract, S1 is the most posterior tract.\relax }}{103}{figure.caption.61}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Overview of methodology of clustering time series data and quantifying of dynamic state metrics. \relax }}{47}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Overview of the Network Modification tool. Binary lesion masks in MNI space representing the presence of a stroke lesion (turquoise) in a given voxel are provided by the user. Each lesion mask is embedded into 420 unrelated healthy structural connectomes (separately for each healthy subject) and the regional or pairwise change in connectivity (ChaCo) scores are calculated and averaged across healthy subjects (parcellation shown here is the Shen 268-region atlas). \relax }}{104}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Visualization of the centroids of 4 brain activity states. \relax }}{61}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Summary of model performance metrics across all models tested and feature weights (regression coefficients) for best-performing models. \textbf {A.} and \textbf {B.} Distribution of model performance (mean Pearson correlation/$R^2$ across 5 outer folds for 100 permutations of the data). Boxplots are colored abritrarily for clarity and are plotted in similarly-colored pairs to indicate performance using the full training data ("Acute $\texttt {+}$ chronic") versus only chronic data ("Chronic only"). The boxes extend from the lower to upper quartile values of the data, with a line at the median. Whiskers represent the range of the data from [Q1-1.5*IQR, Q3+1.5*IQR]. \textbf {C.} and \textbf {D.} Mean feature weights for the top 2 best-performing models (ChaCo (fs86) without feature selection, ChaCo (shen268) with feature selection, respectively). For fs86-ChaCo (left), displaying mean regression coefficients across 100 permutations. For ChaCo (shen268) (right), displaying median regression coefficients of regions that were selected in at least 95$\%$ of outer folds (i.e., for regions that were included in the model in at least 475/500 outer folds, means beta coefficients were calculated across 5 outer folds, and the median value across 100 permutations is plotted). \relax }}{109}{figure.caption.69}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Group differences in brain state dynamics for $FPN^+$. \relax }}{66}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Significant differences in model performance for prediction of normalized motor scores. Difference in explained variance between pairs of models using different lesion metrics and different training data. Model differences were calculated by averaging the difference in explained variance for each of the 100 train/test splits. Significance of differences in explained variance were evaluated using exact tests for differences. $***$ denotes corrected $p < 0.001$, $**$ denotes corrected $p < 0.01$, $*$ denotes corrected $p < 0.05$ after Bonferroni correction. A positive difference value indicates that the model on the y-axis (vertical) has a greater explained variance than the model on the x-axis (horizontal). \relax }}{113}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Differences in transition probabilities between stroke and control groups. \relax }}{71}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Ensemble model results. coefficients and model performance using Group KFold cross-validation (test/validate on independent imaging site). \textbf {A.} and \textbf {B.} display regression coefficients for regional ChaCo scores (FreeSurfer 86-region atlas, and Shen268-region atlas, respectively). Average feature weights for regions that were selected in at least half of the models (i.e., were included in the model in at least 250/500 outer folds). \textbf {C.} Sensorimotor area tract template feature importance for analysis 2. Includes primary motor cortex (M1), dorsal premotor cortex (PMd), ventral premotor cortex (PMv), supplementary motor area (SMA), pre-supplementary motor area (pre-SMA), primary sensory cortex (S1).\relax }}{114}{figure.caption.72}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Linear models assessing relationship between motor recovery and change in \begin {large}$\ FO^{FPN^+}$\end {large}, and \begin {large}$\ DT^{FPN^+}$\end {large}.\relax }}{76}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Functional network visualizations.\relax }}{123}{figure.caption.79}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Results of optimization procedure to choose the best regularization parameter, lambda ($\lambda $).\relax }}{124}{figure.caption.80}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Functional connectivity (node strength) differences between stroke and control subjects. \relax }}{125}{figure.caption.81}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Correlation between scan length (number of TRs after motion scrubbing) and remapping.\relax }}{128}{figure.caption.84}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Relationship between disconnection frequency and remapping frequency. \relax }}{133}{figure.caption.89}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Number of remaps in\relax }}{136}{figure.caption.92}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Remapping preferentially occurs in nodes with greater structural connectivity disruption.\relax }}{137}{figure.caption.93}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Group median log-transformed ChaCo scores\relax }}{140}{figure.caption.96}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Correlations between node remapping frequency and t-statistic of node strength.\relax }}{141}{figure.caption.97}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 2 week - 1 month time interval post-stroke. \relax }}{150}{figure.caption.106}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 1 month - 3 month time interval post-stroke. \relax }}{155}{figure.caption.111}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 3 month - 6 month time interval post-stroke. \relax }}{160}{figure.caption.116}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Node-level remapping frequencies, calculated using FC matrices derived from Pearson correlation with threshold of 1 control subject to determine significant remaps\relax }}{165}{figure.caption.121}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Relationship between ChaCo scores and remapping calculated using FC matrices derived from Pearson correlations with a threshold of 1 control subject\relax }}{170}{figure.caption.126}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Relationship between motor recovery and amount of remapping, calculated using FC matrices derived from Pearson correlations, with threshold of 1 control subject \relax }}{173}{figure.caption.129}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Node-level remapping frequencies, with remapping calculated using a cutoff of 1 control subject to define significant remaps \relax }}{177}{figure.caption.133}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.17}{\ignorespaces Relationship between ChaCo scores and remapping calculated using a cutoff of 1 control subject\relax }}{182}{figure.caption.138}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.18}{\ignorespaces Relationship between motor recovery and amount of remapping, with remapping calculated using a cutoff of 1 control subject to define significant remaps\relax }}{185}{figure.caption.141}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.19}{\ignorespaces Average overlap between each gray matter regions and lesions\relax }}{189}{figure.caption.145}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.20}{\ignorespaces Correlation between framewise displacement between scans and number of remaps.\relax }}{190}{figure.caption.146}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Assessing the relationship between fractional occupancy of \begin {Large} $FPN^+$ \end {Large} and functional connectivity within the frontoparietal network.\relax }}{79}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Lesion and motor scores for pontine stroke subjects. \relax }}{192}{figure.caption.148}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sensorimotor tract template atlas (SMATT) visualized on a template brain.\relax }}{103}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Right hemisphere lesion location relative to brainstem corticospinal tracts. \relax }}{195}{figure.caption.151}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Overview of the Network Modification tool. \relax }}{104}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Left hemisphere lesion location relative to brainstem corticospinal tracts. \relax }}{196}{figure.caption.152}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Summary of model performance metrics across all models tested and feature weights (regression coefficients) for best-performing models. \relax }}{109}{figure.caption.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Centroids derived from clustering stroke and control subjects separately. \relax }}{197}{figure.caption.153}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Significant differences in model performance for prediction of normalized motor scores. \relax }}{118}{figure.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Centroids derived from clustering fMRI data parcellated using different atlases\relax }}{200}{figure.caption.156}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Ensemble model results using acute and chronic data for training. \relax }}{119}{figure.caption.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Full session-specific group differences in brain dynamics parameters.\relax }}{203}{figure.caption.159}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Correlation between brain state parameters and age in control and stroke subjects. \relax }}{208}{figure.caption.164}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Functional network visualizations.\relax }}{131}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Visualization of dwell times and fractional occupancies of stroke and control subjects.\relax }}{213}{figure.caption.169}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Results of optimization procedure to choose the best regularization parameter, lambda ($\lambda $).\relax }}{132}{figure.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Main results from chapter 2 replicated with k = 5 clusters.\relax }}{216}{figure.caption.172}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Functional connectivity (node strength) differences between stroke and control subjects. \relax }}{133}{figure.caption.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Lesion for subject S13 alongside CST defined in a spinal cord atlas. \relax }}{226}{figure.caption.182}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Correlation between scan length (number of TRs after motion scrubbing) and remapping.\relax }}{136}{figure.caption.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Assessment of linear model normality assumption.\relax }}{229}{figure.caption.185}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Relationship between disconnection frequency and remapping frequency. \relax }}{141}{figure.caption.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Assessing the relationship between change in FPN+ state parameters and Fugl-Meyer scores in subjects with dominant hemisphere CST damage\relax }}{234}{figure.caption.190}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Number of remaps in\relax }}{144}{figure.caption.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Theoretical framework for linking fractional occupancy of brain states to functional connectivity between brain regions.\relax }}{239}{figure.caption.195}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Remapping preferentially occurs in nodes with greater structural connectivity disruption.\relax }}{145}{figure.caption.79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Group median log-transformed ChaCo scores\relax }}{148}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Correlations between node remapping frequency and t-statistic of node strength.\relax }}{149}{figure.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 2 week - 1 month time interval post-stroke. \relax }}{158}{figure.caption.92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 1 month - 3 month time interval post-stroke. \relax }}{163}{figure.caption.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Relationships between FC disruption (t-statistic of node strength), SC disruption (ChaCo scores), and remapping over the 3 month - 6 month time interval post-stroke. \relax }}{168}{figure.caption.102}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Node-level remapping frequencies, calculated using FC matrices derived from Pearson correlation with threshold of 1 control subject to determine significant remaps\relax }}{173}{figure.caption.107}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Relationship between ChaCo scores and remapping calculated using FC matrices derived from Pearson correlations with a threshold of 1 control subject\relax }}{178}{figure.caption.112}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Relationship between motor recovery and amount of remapping, calculated using FC matrices derived from Pearson correlations, with threshold of 1 control subject \relax }}{181}{figure.caption.115}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Node-level remapping frequencies, with remapping calculated using a cutoff of 1 control subject to define significant remaps \relax }}{185}{figure.caption.119}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Relationship between ChaCo scores and remapping calculated using a cutoff of 1 control subject\relax }}{190}{figure.caption.124}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Relationship between motor recovery and amount of remapping, with remapping calculated using a cutoff of 1 control subject to define significant remaps\relax }}{193}{figure.caption.127}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Average overlap between each gray matter regions and lesions\relax }}{197}{figure.caption.131}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Correlation between framewise displacement between scans and number of remaps.\relax }}{198}{figure.caption.132}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Lesion and motor scores for pontine stroke subjects. \relax }}{200}{figure.caption.134}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Right hemisphere lesion location relative to brainstem corticospinal tracts. \relax }}{203}{figure.caption.137}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Left hemisphere lesion location relative to brainstem corticospinal tracts. \relax }}{204}{figure.caption.138}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Centroids derived from clustering stroke and control subjects separately. \relax }}{205}{figure.caption.139}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Centroids derived from clustering fMRI data parcellated using different atlases\relax }}{208}{figure.caption.142}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Full session-specific group differences in brain dynamics parameters.\relax }}{211}{figure.caption.145}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Correlation between brain state parameters and age in control and stroke subjects. \relax }}{216}{figure.caption.150}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Visualization of dwell times and fractional occupancies of stroke and control subjects.\relax }}{221}{figure.caption.155}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Main results from chapter 2 replicated with k = 5 clusters.\relax }}{224}{figure.caption.158}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Lesion for subject S13 alongside CST defined in a spinal cord atlas. \relax }}{234}{figure.caption.168}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Assessment of linear model normality assumption.\relax }}{237}{figure.caption.171}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Assessing the relationship between change in FPN+ state parameters and Fugl-Meyer scores in subjects with dominant hemisphere CST damage\relax }}{242}{figure.caption.176}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Theoretical framework for linking fractional occupancy of brain states to functional connectivity between brain regions.\relax }}{247}{figure.caption.181}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Lesion distribution for the ENIGMA cohort (all subjects N=789)\relax }}{251}{figure.caption.185}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Sensorimotor tract template (SMATT) lesion load distribution (including M1-CST-LL).\relax }}{252}{figure.caption.186}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Correlations between lesion load calculated for each ipsilesional tract in the sensorimotor area tract template atlas.\relax }}{256}{figure.caption.190}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Correlations between lesion load calculated for each structural lesion network-derived principal component map\relax }}{257}{figure.caption.191}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Mean regional change in connectivity (ChaCo) scores across acute and chronic subjects used in predictive models. \relax }}{258}{figure.caption.192}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Standard deviation of regional change in connectivity (ChaCo) scores across acute and chronic subjects used in predictive models. \relax }}{259}{figure.caption.193}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Hierarchically-clustered heatmap of the correlation matrix of the selected features (ChaCo scores) with negative weights chosen in at least 95 percent of outer folds by correlation-based feature selection in ridge regression using the shen 268-region atlas. \relax }}{260}{figure.caption.194}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Hierarchically-clustered heatmap of the correlation matrix of all selected features, split by negative and positive regression weights. \relax }}{261}{figure.caption.195}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Distribution of number of features selected in ChaCo models (fs86, shen268) vs. amount of regularization.\relax }}{262}{figure.caption.196}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Distribution of mean (average over 5 folds) beta coefficients for features that were selected in at least 475/500 outer folds for Shen268-ChaCo models.\relax }}{265}{figure.caption.200}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Distribution of mean (average over 5 folds) beta coefficients for all regions in fs86-ChaCo models.\relax }}{267}{figure.caption.201}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.12}{\ignorespaces Histogram of voxelwise lesion damage and regional (ChaCo scores) lesion damage. \relax }}{268}{figure.caption.202}%

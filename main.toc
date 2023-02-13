@@ -8,59 +8,89 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Table of Contents}{vii}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{List of Tables}{viii}{chapter*.3}%
+\contentsline {section}{List of Tables}{ix}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{List of Figures}{ix}{chapter*.4}%
+\contentsline {section}{List of Figures}{x}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Functional connectome reorganization relates to post-stroke motor recovery and structural and functional disconnection*}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Methods}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Methods}{5}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Data description}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}Data description}{5}{subsection.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Structural data processing}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Structural data processing}{7}{subsection.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Functional data processing}{6}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.3}Functional data processing}{7}{subsection.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Functional connectivity calculation}{7}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.4}Functional connectivity calculation}{8}{subsection.1.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Estimated structural disconnection}{9}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.5}Estimated structural disconnection}{10}{subsection.1.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Estimated functional disconnection}{12}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.6}Estimated functional disconnection}{13}{subsection.1.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.7}Graph matching}{12}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.7}Graph matching}{13}{subsection.1.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.8}Quantification of functional reorganization}{13}{subsection.1.2.8}%
+\contentsline {subsection}{\numberline {1.2.8}Quantification of functional reorganization}{14}{subsection.1.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.9}Statistical analyses}{15}{subsection.1.2.9}%
+\contentsline {subsection}{\numberline {1.2.9}Statistical analyses}{16}{subsection.1.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.10}Code availability}{17}{subsection.1.2.10}%
+\contentsline {subsection}{\numberline {1.2.10}Code availability}{18}{subsection.1.2.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Results}{17}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Results}{18}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Functional reorganization is primarily observed in the brainstem and cerebellum}{17}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Functional reorganization is primarily observed in the brainstem and cerebellum}{18}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Regions with greater structural and functional disconnection have more functional reorganization over time}{24}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Regions with greater structural and functional disconnection have more functional reorganization over time}{25}{subsection.1.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Functional reorganization is related to impairment and recovery}{31}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.3}Functional reorganization is related to impairment and recovery}{32}{subsection.1.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Robustness of results}{36}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.4}Robustness of results}{37}{subsection.1.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Discussion}{36}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Discussion}{37}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Limitations}{41}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.1}Limitations}{42}{subsection.1.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Conclusion}{42}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Conclusion}{43}{section.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Frontoparietal network activation is associated with motor recovery in ischemic stroke patients*}{43}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Frontoparietal network activation is associated with motor recovery in ischemic stroke patients*}{44}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{43}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Introduction}{44}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Methods}{47}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Methods}{48}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Results}{58}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.1}Data description}{48}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Structural data processing}{49}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Functional data processing}{49}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Dynamic brain states and their metrics}{51}{subsection.2.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.5}Assessment of corticospinal tract integrity}{53}{subsection.2.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.6}Relating $FPN^+$ state metrics to chronic motor outcomes}{53}{subsection.2.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.7}Effect of proportional recovery on observed relationships}{55}{subsection.2.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.8}Comparison of fractional occupancy and functional connectivity}{57}{subsection.2.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.9}Statistics and reproducibility}{58}{subsection.2.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.10}Code availability}{59}{subsection.2.2.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Results}{59}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Participant characteristics}{59}{subsection.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Clustering reveals an optimum of 4 brain states}{60}{subsection.2.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Stroke-control differences in brain state dynamics}{64}{subsection.2.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Frontoparietal activation relates to motor recovery in individuals with dominant-hand CST damage}{75}{subsection.2.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Fractional occupancy differences are related to functional connectivity differences}{77}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Discussion}{85}{section.2.4}%
 \defcounter {refsection}{0}\relax 
@@ -76,44 +106,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}General overview}{100}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Machine learning framework}{101}{section*.57}%
+\contentsline {subsubsection}{Machine learning framework}{101}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Model performance}{101}{section*.58}%
+\contentsline {subsubsection}{Model performance}{101}{section*.42}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Description of models and their inputs}{102}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Primary motor cortex CST lesion load (M1-CST-LL) models}{102}{section*.59}%
+\contentsline {subsubsection}{Primary motor cortex CST lesion load (M1-CST-LL) models}{102}{section*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensorimotor tract lesion load (SMATT-LL) models}{102}{section*.60}%
+\contentsline {subsubsection}{Sensorimotor tract lesion load (SMATT-LL) models}{102}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Structural lesion-network mapping (sLNM) models}{104}{section*.63}%
+\contentsline {subsubsection}{Structural lesion-network mapping (sLNM) models}{104}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Regional change in connectivity (ChaCo) models}{105}{section*.64}%
+\contentsline {subsubsection}{Regional change in connectivity (ChaCo) models}{105}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ensemble models}{107}{section*.65}%
+\contentsline {subsubsection}{Ensemble models}{107}{section*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Model comparisons}{107}{section*.66}%
+\contentsline {subsubsection}{Model comparisons}{107}{section*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Consistency of feature weights}{108}{section*.67}%
+\contentsline {subsubsection}{Consistency of feature weights}{108}{section*.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Code availability}{108}{section*.68}%
+\contentsline {subsubsection}{Code availability}{108}{section*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Results}{110}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Results}{108}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Discussion}{114}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Discussion}{123}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{M1-CST-LL vs. SMATT-LL: higher-order motor areas are relevant for motor outcome prediction}{115}{section*.73}%
+\contentsline {subsection}{\numberline {3.4.1}M1-CST-LL vs. SMATT-LL: higher-order motor areas are relevant for motor outcome prediction}{123}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lesion-induced structural connectivity for prediction}{115}{section*.74}%
+\contentsline {subsection}{\numberline {3.4.2}Lesion-induced structural connectivity for prediction}{124}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Features selected in ChaCo models}{118}{section*.75}%
+\contentsline {subsection}{\numberline {3.4.3}Features selected in ChaCo models}{126}{subsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Use of acute data in training}{119}{section*.76}%
+\contentsline {subsection}{\numberline {3.4.4}Use of acute data in training}{128}{subsection.3.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ensemble models}{120}{section*.77}%
+\contentsline {subsection}{\numberline {3.4.5}Ensemble models}{129}{subsection.3.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Limitations}{121}{section*.78}%
+\contentsline {subsection}{\numberline {3.4.6}Limitations}{129}{subsection.3.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Supplementary material for Chapter 1}{123}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Supplementary material for Chapter 1}{131}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Supplementary material for Chapter 2}{191}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Supplementary material for Chapter 2}{199}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Supplementary material for Chapter 3}{251}{appendix.C}%
